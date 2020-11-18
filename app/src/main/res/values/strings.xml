@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">coursawy</string>
+    <string-array name="faculties">
+        <item>Science</item>
+        <item>Engineering</item>
+        <item>Law</item>
+        <item>Nursing</item>
+        <item>Medicine</item>
+        <item>Education</item>
+        <item>Pharmacy</item>
+    </string-array>
+    <string-array name="grades">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+    </string-array>
+</resources>

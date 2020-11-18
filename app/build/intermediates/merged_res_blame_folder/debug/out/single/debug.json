@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_person_pin_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_person_pin_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_date_range_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_date_range_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_person_pin_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_person_pin_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_color_spinner_layout.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\color_spinner_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_path1.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\path1.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_arrow_back_ios_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_arrow_back_ios_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_arrow_back_ios_24.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_person_pin_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_person_pin_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_shadow_signup.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\shadow_signup.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backbutton.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\backbutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_date_range_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_date_range_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backstudentordoctor.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\backstudentordoctor.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_person_pin_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_person_pin_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_date_range_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_date_range_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_arrow_back_ios_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_arrow_back_ios_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_corsawy.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\corsawy.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_teacher_icon.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\teacher_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_line.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\line.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_person_pin_24.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_person_pin_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_date_range_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_date_range_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_backk.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\backk.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_date_range_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_date_range_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_person_pin_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_person_pin_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_date_range_24.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_date_range_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_arrow_back_ios_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_arrow_back_ios_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cancel.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signin_or_signup.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_signin_or_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_date_range_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_date_range_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_continue_signup2.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_continue_signup2.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_blue.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\blue.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_arrow_back_ios_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_arrow_back_ios_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_student_or_doctor.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_student_or_doctor.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_path2.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\path2.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_person_pin_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_person_pin_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_signup.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\shape_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bcak_splacsh.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\bcak_splacsh.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_arrow_back_ios_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_arrow_back_ios_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon_feather.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\icon_feather.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_arrow_back_ios_24.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_arrow_back_ios_24.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_student_icon.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\student_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    }
+]

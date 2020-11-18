@@ -1,0 +1,15 @@
+com/example/coursawy/StudentOrDoctorActivity.java
+ com.example.coursawy.StudentOrDoctorActivity
+com/example/coursawy/SplashActivity.java
+ com.example.coursawy.SplashActivity
+ com.example.coursawy.SplashActivity$1
+com/example/coursawy/SigninOrSignupActivity.java
+ com.example.coursawy.SigninOrSignupActivity
+com/example/coursawy/ContinueSignupActivity2.java
+ com.example.coursawy.ContinueSignupActivity2
+ com.example.coursawy.ContinueSignupActivity2$1
+ com.example.coursawy.ContinueSignupActivity2$2
+com/example/coursawy/MainActivity.java
+ com.example.coursawy.MainActivity
+com/example/coursawy/BuildConfig.java
+ com.example.coursawy.BuildConfig
