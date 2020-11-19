@@ -23,12 +23,17 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ee6d58-e4af-4cb6-a051-fadc46608a18" name="Default Changelist" comment="Mo'men update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f1ee6d58-e4af-4cb6-a051-fadc46608a18" name="Default Changelist" comment="Mo'men update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605805683352</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mo'men update">
+      <created>1605807023509</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605807023509</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +198,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
