@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="16"
+        android:minSdkVersion="22"
         android:targetSdkVersion="30" />
 
     <application
@@ -15,23 +15,24 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
+        android:supportsRtl="false"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.coursawy.ContinueSignupActivity2" >
-        </activity>
-        <activity android:name="com.example.coursawy.SigninOrSignupActivity" >
+        <activity
+            android:name="com.example.coursawy.SignActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.coursawy.ContinueSignupActivity2" />
+        <activity android:name="com.example.coursawy.SigninOrSignupActivity" >
+        </activity>
         <activity android:name="com.example.coursawy.StudentOrDoctorActivity" />
-        <activity android:name="com.example.coursawy.SplashActivity" >
-        </activity>
-        <activity android:name="com.example.coursawy.MainActivity" >
-        </activity>
+        <activity android:name="com.example.coursawy.SplashActivity" />
+        <activity android:name="com.example.coursawy.MainActivity" />
     </application>
 
 </manifest>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@android:color/white" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/background" />
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="77dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/back_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/blue_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/radio_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rb_sign_in"
+                        android:layout_width="90sp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/radio_bg"
+                        android:button="@android:color/transparent"
+                        android:checked="true"
+
+                        android:gravity="center"
+                        android:padding="7dp"
+                        android:text="Sign in"
+                        android:textColor="@drawable/text_color"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb_sign_up"
+                        android:layout_width="90sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/radio_bg"
+                        android:button="@android:color/transparent"
+                        android:gravity="center"
+                        android:padding="7dp"
+                        android:textColor="@drawable/text_color"
+                        android:text="Sign up"
+                        android:textSize="20sp" />
+                </RadioGroup>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/facebook" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/google_plus" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                >
+
+                <LinearLayout
+                    android:id="@+id/sign_in_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/signs_bg"
+                    android:gravity="center|right"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/text_input_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:textColorHint="#CDFFFFFF"
+                        app:errorEnabled="true">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/email_et"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/ic_baseline_email_24"
+                            android:drawableLeft="@drawable/ic_baseline_email_24"
+                            android:hint="Email"
+                            android:imeOptions="actionNext"
+                            android:inputType="textEmailAddress"
+                            android:minWidth="350dp"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#CDFFFFFF"
+
+                            android:textCursorDrawable="@null"
+                            app:backgroundTint="@android:color/white" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/text_input_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:textColorHint="#CDFFFFFF"
+                        app:errorEnabled="true"
+                        app:passwordToggleEnabled="true"
+                        app:passwordToggleTint="#B2FFFFFF">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/password_et"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/ic_baseline_lock_24"
+                            android:drawableLeft="@drawable/ic_baseline_lock_24"
+                            android:hint="Password"
+                            android:imeOptions="actionNext"
+                            android:inputType="textPassword"
+                            android:minWidth="350dp"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#CDFFFFFF"
+
+                            android:textCursorDrawable="@null"
+                            app:backgroundTint="@android:color/white" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/forgot_password"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sign_up_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/signs_bg"
+                    android:gravity="center|right"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/text_input_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:textColorHint="#CDFFFFFF"
+                        app:errorEnabled="true">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/name_et"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/ic_baseline_person_24"
+                            android:drawableLeft="@drawable/ic_baseline_person_24"
+                            android:hint="Name"
+                            android:imeOptions="actionNext"
+                            android:inputType="textPersonName"
+                            android:minWidth="350dp"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#CDFFFFFF"
+
+                            android:textCursorDrawable="@null"
+                            app:backgroundTint="@android:color/white" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/text_input_email2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:textColorHint="#CDFFFFFF"
+                        app:errorEnabled="true">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/email_et2"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/ic_baseline_email_24"
+                            android:drawableLeft="@drawable/ic_baseline_email_24"
+                            android:hint="Email"
+                            android:imeOptions="actionNext"
+                            android:inputType="textEmailAddress"
+                            android:minWidth="350dp"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#CDFFFFFF"
+
+                            android:textCursorDrawable="@null"
+                            app:backgroundTint="@android:color/white" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/text_input_password2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:textColorHint="#CDFFFFFF"
+                        app:errorEnabled="true"
+                        app:passwordToggleEnabled="true"
+                        app:passwordToggleTint="#B2FFFFFF">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/password_et2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/ic_baseline_lock_24"
+                            android:drawableLeft="@drawable/ic_baseline_lock_24"
+                            android:hint="Password"
+                            android:imeOptions="actionNext"
+                            android:inputType="textPassword"
+                            android:minWidth="350dp"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#CDFFFFFF"
+
+                            android:textCursorDrawable="@null"
+                            app:backgroundTint="@android:color/white" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/text_input_conf_password2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:textColorHint="#CDFFFFFF"
+                        app:errorEnabled="true"
+                        app:passwordToggleEnabled="true"
+                        app:passwordToggleTint="#B2FFFFFF">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/password_conf_et2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/ic_baseline_lock_24"
+                            android:drawableLeft="@drawable/ic_baseline_lock_24"
+                            android:hint="Confirm Password"
+                            android:imeOptions="actionNext"
+                            android:inputType="textPassword"
+                            android:minWidth="350dp"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#CDFFFFFF"
+
+                            android:textCursorDrawable="@null"
+                            app:backgroundTint="@android:color/white" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/sign_submit_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="77dp"
+                    android:layout_marginEnd="67dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/button_submit"
+                    android:gravity="center"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:text="Sign in"
+                    android:textAllCaps="false"
+                    android:textColor="#1561AC"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

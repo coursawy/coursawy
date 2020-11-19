@@ -1,3 +1,7 @@
+com/example/coursawy/SignActivity.java
+ com.example.coursawy.SignActivity
+ com.example.coursawy.SignActivity$1
+ com.example.coursawy.SignActivity$2
 com/example/coursawy/StudentOrDoctorActivity.java
  com.example.coursawy.StudentOrDoctorActivity
 com/example/coursawy/SplashActivity.java
