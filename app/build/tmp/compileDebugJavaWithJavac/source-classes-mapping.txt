@@ -2,17 +2,18 @@ com/example/coursawy/SignActivity.java
  com.example.coursawy.SignActivity
  com.example.coursawy.SignActivity$1
  com.example.coursawy.SignActivity$2
+ com.example.coursawy.SignActivity$3
 com/example/coursawy/StudentOrDoctorActivity.java
  com.example.coursawy.StudentOrDoctorActivity
 com/example/coursawy/SplashActivity.java
  com.example.coursawy.SplashActivity
  com.example.coursawy.SplashActivity$1
+com/example/coursawy/ContinueSignupActivity.java
+ com.example.coursawy.ContinueSignupActivity
+ com.example.coursawy.ContinueSignupActivity$1
+ com.example.coursawy.ContinueSignupActivity$2
 com/example/coursawy/SigninOrSignupActivity.java
  com.example.coursawy.SigninOrSignupActivity
-com/example/coursawy/ContinueSignupActivity2.java
- com.example.coursawy.ContinueSignupActivity2
- com.example.coursawy.ContinueSignupActivity2$1
- com.example.coursawy.ContinueSignupActivity2$2
 com/example/coursawy/MainActivity.java
  com.example.coursawy.MainActivity
 com/example/coursawy/BuildConfig.java
