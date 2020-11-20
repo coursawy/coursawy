@@ -33,7 +33,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ee6d58-e4af-4cb6-a051-fadc46608a18" name="Default Changelist" comment="Mo'men Update" />
+    <list default="true" id="f1ee6d58-e4af-4cb6-a051-fadc46608a18" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +62,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1kQuj7HkNMdSyh5kewWwBI7e5GO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -206,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605887666122</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Mo'men Update">
+      <created>1605887859266</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605887859266</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Mostafa Update">
+      <created>1605888002708</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605888002708</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,7 +253,8 @@
     <MESSAGE value="Mo'men update" />
     <MESSAGE value="Mostafa update" />
     <MESSAGE value="Mo'men Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mo'men Update" />
+    <MESSAGE value="Mostafa Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mostafa Update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="286" y="158" key="#PSD" timestamp="1605797818719">
@@ -266,10 +282,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="494" y="232" key="AndroidCreateXmlResourceDialog/0.0.1536.824@0.0.1536.824" timestamp="1605798597772" />
-    <state x="352" y="0" key="CommitChangelistDialog2" timestamp="1605887405779">
+    <state x="352" y="0" key="CommitChangelistDialog2" timestamp="1605887988699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="352" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605887405779" />
+    <state x="352" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605887988699" />
     <state x="521" y="135" key="FileChooserDialogImpl" timestamp="1605803582226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -299,6 +315,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="155" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1605812934147" />
+    <state x="147" y="64" key="MergeDialog" timestamp="1605887801958">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="64" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1605887801958" />
+    <state x="407" y="173" key="MultipleFileMergeDialog" timestamp="1605887821997">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="407" y="173" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1605887821997" />
     <state x="207" y="10" key="SettingsEditor" timestamp="1605795233026">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -312,9 +336,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1605812835644" />
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605887229141">
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605888049606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1605887229141" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1605888049606" />
   </component>
 </project>
