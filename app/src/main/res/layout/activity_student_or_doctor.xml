@@ -53,6 +53,7 @@
         android:orientation="horizontal"
         android:weightSum="100">
         <TextView
+            android:id="@+id/doctor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="50"
@@ -63,12 +64,14 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:drawableLeft="@drawable/teacher_icon"
-            tools:ignore="RtlCompat" />
+            tools:ignore="RtlCompat"
+            android:onClick="onClick"/>
         <ImageView
             android:layout_width="30dp"
             android:layout_height="wrap_content"
             android:background="@drawable/line"/>
         <TextView
+            android:id="@+id/student"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="50"
@@ -79,6 +82,7 @@
             android:gravity="center"
             android:drawableLeft="@drawable/student_icon"
             tools:ignore="RtlCompat"
+            android:onClick="onClick"
              />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

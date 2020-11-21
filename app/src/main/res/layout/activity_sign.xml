@@ -38,7 +38,8 @@
             android:layout_marginStart="17dp"
             android:layout_marginLeft="17dp"
             android:layout_marginTop="10dp"
-            android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            android:onClick="onClick"/>
 
         <ImageView
             android:layout_width="wrap_content"
@@ -134,7 +135,7 @@
                         app:errorEnabled="true">
 
                         <com.google.android.material.textfield.TextInputEditText
-                            android:id="@+id/email_et"
+                            android:id="@+id/email_sign_in"
 
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -163,7 +164,7 @@
                         app:passwordToggleTint="#B2FFFFFF">
 
                         <com.google.android.material.textfield.TextInputEditText
-                            android:id="@+id/password_et"
+                            android:id="@+id/password_sign_in"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:drawableStart="@drawable/ic_baseline_lock_24"
@@ -181,6 +182,7 @@
 
 
                     <TextView
+                        android:id="@+id/forgot_password"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -210,7 +212,7 @@
                         app:errorEnabled="true">
 
                         <com.google.android.material.textfield.TextInputEditText
-                            android:id="@+id/name_et"
+                            android:id="@+id/name_sign_up"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:drawableStart="@drawable/ic_baseline_person_24"
@@ -236,7 +238,7 @@
                         app:errorEnabled="true">
 
                         <com.google.android.material.textfield.TextInputEditText
-                            android:id="@+id/email_et2"
+                            android:id="@+id/email_sign_up"
 
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -265,7 +267,7 @@
                         app:passwordToggleTint="#B2FFFFFF">
 
                         <com.google.android.material.textfield.TextInputEditText
-                            android:id="@+id/password_et2"
+                            android:id="@+id/password_sign_up"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:drawableStart="@drawable/ic_baseline_lock_24"
@@ -292,7 +294,7 @@
                         app:passwordToggleTint="#B2FFFFFF">
 
                         <com.google.android.material.textfield.TextInputEditText
-                            android:id="@+id/password_conf_et2"
+                            android:id="@+id/password_conf_sign_up"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:drawableStart="@drawable/ic_baseline_lock_24"
@@ -329,7 +331,8 @@
                     android:textAllCaps="false"
                     android:textColor="#1561AC"
                     android:textSize="19sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:onClick="onClick"/>
             </RelativeLayout>
         </LinearLayout>
 
