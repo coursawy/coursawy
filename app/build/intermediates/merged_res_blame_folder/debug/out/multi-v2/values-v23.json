@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Hesha\\.gradle\\caches\\transforms-2\\files-2.1\\e98a027b550e5af226250695538cc1b3\\appcompat-1.2.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\youss\\.gradle\\caches\\transforms-2\\files-2.1\\e98a027b550e5af226250695538cc1b3\\appcompat-1.2.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Hesha\\.gradle\\caches\\transforms-2\\files-2.1\\f237dcb2da189d03ddc7445d4891e9e7\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\youss\\.gradle\\caches\\transforms-2\\files-2.1\\f237dcb2da189d03ddc7445d4891e9e7\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

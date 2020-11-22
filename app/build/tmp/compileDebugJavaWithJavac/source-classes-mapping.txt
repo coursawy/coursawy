@@ -25,6 +25,10 @@ com/example/coursawy/ContinueSignupActivity.java
  com.example.coursawy.ContinueSignupActivity$9
 com/example/coursawy/SigninOrSignupActivity.java
  com.example.coursawy.SigninOrSignupActivity
+com/example/coursawy/ContinueSignupActivity2.java
+ com.example.coursawy.ContinueSignupActivity2
+ com.example.coursawy.ContinueSignupActivity2$1
+ com.example.coursawy.ContinueSignupActivity2$2
 com/example/coursawy/database/Database.java
  com.example.coursawy.database.Database
 com/example/coursawy/MainActivity.java

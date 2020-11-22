@@ -1412,6 +1412,7 @@ id barrier
 id baseline
 id beginOnFirstDraw
 id beginning
+id bl
 id blocking
 id bottom
 id bounce
@@ -1431,6 +1432,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id code_et
+id code_tx
 id collapseActionView
 id container
 id content
@@ -1529,11 +1531,14 @@ id largeLabel
 id layout
 id left
 id light
+id line
 id line1
 id line3
 id linear
 id listMode
 id list_item
+id ll
+id ll2
 id ll3
 id masked
 id media_actions
@@ -1755,6 +1760,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_continue_signup
+layout activity_continue_signup2
 layout activity_main
 layout activity_sign
 layout activity_signin_or_signup

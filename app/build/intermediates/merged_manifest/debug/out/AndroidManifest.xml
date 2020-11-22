@@ -35,7 +35,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.coursawy.ContinueSignupActivity" />
+        <activity android:name="com.example.coursawy.ContinueSignupActivity" >
+        </activity>
         <activity android:name="com.example.coursawy.SigninOrSignupActivity" >
         </activity>
         <activity android:name="com.example.coursawy.StudentOrDoctorActivity" />

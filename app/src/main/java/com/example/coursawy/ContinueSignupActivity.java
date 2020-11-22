@@ -22,6 +22,7 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -65,7 +66,7 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
     private CircleImageView profImage;
     private EditText proPhone, proCode;
     private TextView mDisplayDate;
-    private LinearLayout signUpBtn;
+    private RelativeLayout signUpBtn;
     private ImageView backBtn;
     private DatePickerDialog.OnDateSetListener mDateSetListener;
 

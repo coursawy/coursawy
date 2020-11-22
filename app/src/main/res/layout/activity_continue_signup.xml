@@ -26,7 +26,7 @@
         android:background="@drawable/blue"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="20dp"
         android:layout_marginStart="10dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="56dp" />
@@ -34,16 +34,16 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="90dp"
-        android:background="@drawable/shape_signup"
+        android:layout_height="520dp"
+        android:paddingLeft="25dp"
+        android:background="@drawable/signs_bg"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/continue_signup_logo"
         app:layout_constraintEnd_toEndOf="parent"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent">
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="-10dp"
+        android:layout_marginLeft="-30dp">
 
         <LinearLayout
             android:id="@+id/continue_signup_pic_layout"
@@ -51,18 +51,19 @@
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/continue_signup_logo"
             android:orientation="horizontal"
+            android:layout_marginTop="15dp"
             android:gravity="center">
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="140dp"
                 android:layout_height="120dp"
-                android:background="@drawable/ic_baseline_person_pin_24"
+                android:background="@drawable/person"
                 android:id="@+id/photo"/>
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:background="@drawable/icon_feather"
-                android:layout_marginTop="40dp"
-                android:layout_marginLeft="-45dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="-22dp"
                 android:onClick="ChooseImageFromDevice"
                 />
         </LinearLayout>
@@ -242,33 +243,35 @@
                 />
         </LinearLayout>
 
-
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/sign_up_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:background="@drawable/backbutton"
-        android:layout_marginBottom="70dp"
-        android:onClick="onClick"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:text="Sign up"
-            android:textSize="22dp"
-            android:textColor="#1561AC"
-            android:textStyle="bold"
+        <RelativeLayout
+            android:id="@+id/sign_up_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:orientation="horizontal"
             android:layout_gravity="center"
-            android:gravity="center"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"/>
 
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
 
+                android:text="Sign up"
+                android:textSize="22dp"
+                android:textColor="#1561AC"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textAllCaps="false"
+                android:background="@drawable/button_submit"/>
+            </LinearLayout>
+        </RelativeLayout>
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
