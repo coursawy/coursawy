@@ -278,7 +278,6 @@
                             android:minWidth="350dp"
                             android:textColor="@android:color/white"
                             android:textColorHint="#CDFFFFFF"
-
                             android:textCursorDrawable="@null"
                             app:backgroundTint="@android:color/white" />
                     </com.google.android.material.textfield.TextInputLayout>

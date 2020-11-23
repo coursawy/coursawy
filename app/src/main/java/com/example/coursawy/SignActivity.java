@@ -45,6 +45,18 @@ public class SignActivity extends AppCompatActivity implements View.OnClickListe
     TextInputEditText nameSignUp;
     @BindView(R.id.email_sign_up)
     TextInputEditText emailSignUp;
+    @BindView(R.id.text_input_email)
+    TextInputLayout textInputEmail;
+    @BindView(R.id.text_input_email2)
+    TextInputLayout textInputEmail2;
+    @BindView(R.id.text_input_password)
+    TextInputLayout textInputPassword;
+    @BindView(R.id.text_input_conf_password2)
+    TextInputLayout textInputConfPassword2;
+    @BindView(R.id.text_input_password2)
+    TextInputLayout textInputPassword2;
+    @BindView(R.id.text_input_name)
+    TextInputLayout textInputName;
     @BindView(R.id.password_sign_up)
     TextInputEditText passwordSignUp;
     @BindView(R.id.password_conf_sign_up)
@@ -62,7 +74,7 @@ public class SignActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign);
         ButterKnife.bind(this);
-        isStudent = getIntent().getBooleanExtra("isStudent" , false);
+        isStudent = getIntent().getBooleanExtra("isStudent", false);
 
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
@@ -124,40 +136,40 @@ public class SignActivity extends AppCompatActivity implements View.OnClickListe
         String confirmPasswordText = passwordConfirmSignUp.getText().toString().trim();
 
         if (emailText.isEmpty()) {
-            emailSignUp.setError("required");
+            textInputEmail2.setError("required");
             return false;
         } else if (!validEmail()) {
-            emailSignUp.setError("Please Enter Valid Email");
+            textInputEmail2.setError("Please Enter Valid Email");
             return false;
         } else {
-            emailSignUp.setError(null);
+            textInputEmail2.setError(null);
         }
         if (userNameText.isEmpty()) {
-            nameSignUp.setError("required");
+            textInputName.setError("required");
             return false;
         } else {
-            nameSignUp.setError(null);
+            textInputName.setError(null);
         }
 
         if (passwordText.isEmpty()) {
-            passwordSignUp.setError("required");
+            textInputPassword2.setError("required");
             return false;
         } else if (!validPassword()) {
-            passwordSignUp.setError("Please Enter more than 6 Characters");
+            textInputPassword2.setError("Please enter more than 6 characters");
             return false;
         } else {
-            passwordSignUp.setError(null);
+            textInputPassword2.setError(null);
         }
         if (confirmPasswordText.isEmpty()) {
-            passwordConfirmSignUp.setError("required");
+            textInputConfPassword2.setError("required");
             return false;
         } else if (!confirmPasswordText.equals(passwordText)) {
-            passwordSignUp.setError("Passwords does not matching");
-            passwordConfirmSignUp.setError("Passwords does not matching");
+            textInputPassword2.setError("Passwords does not matching");
+            textInputConfPassword2.setError("Passwords does not matching");
             return false;
         } else {
-            passwordSignUp.setError(null);
-            passwordConfirmSignUp.setError(null);
+            textInputPassword2.setError(null);
+            textInputConfPassword2.setError(null);
         }
         return true;
     }
@@ -167,46 +179,48 @@ public class SignActivity extends AppCompatActivity implements View.OnClickListe
         String passwordText = passwordSignIn.getText().toString().trim();
 
         if (emailText.isEmpty()) {
-            emailSignIn.setError("required");
+            textInputEmail.setError("required");
             return false;
         } else {
-            emailSignIn.setError(null);
+            textInputEmail.setError(null);
         }
 
         if (passwordText.isEmpty()) {
-            passwordSignIn.setError("required");
+            textInputPassword.setError("required");
             return false;
         } else {
-            passwordSignIn.setError(null);
+            textInputPassword.setError(null);
         }
         return true;
     }
+
     @Override
     public void onClick(View view) {
-        if (view.getId() == R.id.sign_submit_btn){
-            if (validatedSignUpForm()){
+        if (view.getId() == R.id.sign_submit_btn) {
+
+            if (signSubmitBtn.getText().equals("Continue") && validatedSignUpForm()) {
                 continueSignUp();
-            }else if (validatedSignInForm()){
+            } else if (signSubmitBtn.getText().equals("Sign in") && validatedSignInForm()) {
                 logIn();
-            }else {
+            } else {
                 Toast.makeText(this, "Please Enter valid data", Toast.LENGTH_SHORT).show();
             }
-        }else if (view.getId() == R.id.back_iv){
+        } else if (view.getId() == R.id.back_iv) {
             finish();
         }
     }
 
     private void continueSignUp() {
-        Intent continueSignUp = new Intent(this , ContinueSignupActivity.class);
-        continueSignUp.putExtra("userName" , nameSignUp.getText().toString());
-        continueSignUp.putExtra("email" , emailSignUp.getText().toString());
-        continueSignUp.putExtra("password" , passwordSignUp.getText().toString());
-        continueSignUp.putExtra("isStudent" , isStudent);
+        Intent continueSignUp = new Intent(this, ContinueSignupActivity.class);
+        continueSignUp.putExtra("userName", nameSignUp.getText().toString());
+        continueSignUp.putExtra("email", emailSignUp.getText().toString());
+        continueSignUp.putExtra("password", passwordSignUp.getText().toString());
+        continueSignUp.putExtra("isStudent", isStudent);
         startActivity(continueSignUp);
     }
 
     private void logIn() {
-        signSubmitBtn.setEnabled(false);
+//        signSubmitBtn.setEnabled(false);
         auth = FirebaseAuth.getInstance();
         String emailText = emailSignIn.getText().toString().trim();
         String passwordText = passwordSignIn.getText().toString().trim();
@@ -216,8 +230,9 @@ public class SignActivity extends AppCompatActivity implements View.OnClickListe
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             Toast.makeText(SignActivity.this, "Sign in Successfully", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(SignActivity.this, ExamActivity.class));
                         } else {
-                            signSubmitBtn.setEnabled(true);
+//                            signSubmitBtn.setEnabled(true);
                             Toast.makeText(SignActivity.this, task.getException().getMessage(), Toast.LENGTH_LONG).show();
                         }
                     }

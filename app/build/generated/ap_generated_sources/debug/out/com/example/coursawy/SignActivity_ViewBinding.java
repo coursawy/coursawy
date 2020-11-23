@@ -12,6 +12,7 @@ import androidx.annotation.UiThread;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 
@@ -36,6 +37,12 @@ public class SignActivity_ViewBinding implements Unbinder {
     target.forgotPassword = Utils.findRequiredViewAsType(source, R.id.forgot_password, "field 'forgotPassword'", TextView.class);
     target.nameSignUp = Utils.findRequiredViewAsType(source, R.id.name_sign_up, "field 'nameSignUp'", TextInputEditText.class);
     target.emailSignUp = Utils.findRequiredViewAsType(source, R.id.email_sign_up, "field 'emailSignUp'", TextInputEditText.class);
+    target.textInputEmail = Utils.findRequiredViewAsType(source, R.id.text_input_email, "field 'textInputEmail'", TextInputLayout.class);
+    target.textInputEmail2 = Utils.findRequiredViewAsType(source, R.id.text_input_email2, "field 'textInputEmail2'", TextInputLayout.class);
+    target.textInputPassword = Utils.findRequiredViewAsType(source, R.id.text_input_password, "field 'textInputPassword'", TextInputLayout.class);
+    target.textInputConfPassword2 = Utils.findRequiredViewAsType(source, R.id.text_input_conf_password2, "field 'textInputConfPassword2'", TextInputLayout.class);
+    target.textInputPassword2 = Utils.findRequiredViewAsType(source, R.id.text_input_password2, "field 'textInputPassword2'", TextInputLayout.class);
+    target.textInputName = Utils.findRequiredViewAsType(source, R.id.text_input_name, "field 'textInputName'", TextInputLayout.class);
     target.passwordSignUp = Utils.findRequiredViewAsType(source, R.id.password_sign_up, "field 'passwordSignUp'", TextInputEditText.class);
     target.passwordConfirmSignUp = Utils.findRequiredViewAsType(source, R.id.password_conf_sign_up, "field 'passwordConfirmSignUp'", TextInputEditText.class);
     target.backBtn = Utils.findRequiredViewAsType(source, R.id.back_iv, "field 'backBtn'", ImageView.class);
@@ -57,6 +64,12 @@ public class SignActivity_ViewBinding implements Unbinder {
     target.forgotPassword = null;
     target.nameSignUp = null;
     target.emailSignUp = null;
+    target.textInputEmail = null;
+    target.textInputEmail2 = null;
+    target.textInputPassword = null;
+    target.textInputConfPassword2 = null;
+    target.textInputPassword2 = null;
+    target.textInputName = null;
     target.passwordSignUp = null;
     target.passwordConfirmSignUp = null;
     target.backBtn = null;
