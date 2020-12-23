@@ -3,6 +3,8 @@
     <string name="forgot_password"><u>Forgot password?</u></string>
     <string name="online_tests">Online Tests</string>
     <string name="offline_tests">Offline Tests</string>
+    <string name="add_tests">Add Tests</string>
+
     <string-array name="faculties">
         <item>Science</item>
         <item>Engineering</item>

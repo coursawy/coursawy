@@ -24,6 +24,7 @@ public class ExamActivity_ViewBinding implements Unbinder {
 
     target.onlineBtn = Utils.findRequiredViewAsType(source, R.id.online_btn, "field 'onlineBtn'", Button.class);
     target.offlineBtn = Utils.findRequiredViewAsType(source, R.id.offline_btn, "field 'offlineBtn'", Button.class);
+    target.addTestBtn = Utils.findRequiredViewAsType(source, R.id.add_test_btn, "field 'addTestBtn'", Button.class);
   }
 
   @Override
@@ -35,5 +36,6 @@ public class ExamActivity_ViewBinding implements Unbinder {
 
     target.onlineBtn = null;
     target.offlineBtn = null;
+    target.addTestBtn = null;
   }
 }

@@ -33,6 +33,7 @@ com/example/coursawy/model/User.java
 com/example/coursawy/ExamActivity.java
  com.example.coursawy.ExamActivity
  com.example.coursawy.ExamActivity$1
+ com.example.coursawy.ExamActivity$2
 com/example/coursawy/TestListAdapter.java
  com.example.coursawy.TestListAdapter
 com/example/coursawy/SignActivity.java

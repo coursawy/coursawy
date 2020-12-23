@@ -230,7 +230,9 @@ public class SignActivity extends AppCompatActivity implements View.OnClickListe
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             Toast.makeText(SignActivity.this, "Sign in Successfully", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(SignActivity.this, ExamActivity.class));
+                            Intent testIntent=new Intent(SignActivity.this, ExamActivity.class);
+                            testIntent.putExtra("isStudentLogin",isStudent);
+                            startActivity(testIntent);
                         } else {
 //                            signSubmitBtn.setEnabled(true);
                             Toast.makeText(SignActivity.this, task.getException().getMessage(), Toast.LENGTH_LONG).show();
