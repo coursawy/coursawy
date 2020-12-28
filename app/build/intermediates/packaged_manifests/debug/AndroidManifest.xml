@@ -29,11 +29,6 @@
         <activity
             android:name="com.example.coursawy.SplashActivity"
             android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="com.example.coursawy.ContinueSignupActivity" >
         </activity>
@@ -42,7 +37,13 @@
         <activity android:name="com.example.coursawy.StudentOrDoctorActivity" />
         <activity android:name="com.example.coursawy.SignActivity" />
         <activity android:name="com.example.coursawy.MainActivity" />
-        <activity android:name="com.example.coursawy.ExamActivity" />
+        <activity android:name="com.example.coursawy.ExamActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.coursawy.OfflineTests" />
         <activity android:name="com.example.coursawy.TestsListActivity" />
         <activity
@@ -127,17 +128,17 @@
             </intent-filter>
         </service>
 
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:authorities="com.example.coursawy.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <meta-data
             android:name="com.google.android.gms.version"

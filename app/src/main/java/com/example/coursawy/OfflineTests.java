@@ -6,10 +6,14 @@ import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -50,20 +54,21 @@ public class OfflineTests extends AppCompatActivity {
     RadioGroup eradioGroupAll;
     @BindView(R.id.exam_submit_btn)
     Button examSubmitBtn;
-    @BindView(R.id.warning_tv)
-    TextView warningTv;
     @BindView(R.id.exam_ll)
     LinearLayout examLl;
     @BindView(R.id.show_marks_btn)
     Button showMarksBtn;
     @BindView(R.id.questions_ll)
     LinearLayout questionsLl;
-    @BindView(R.id.read_btn)
-    Button readBtn;
+    @BindView(R.id.back_iv)
+    ImageView backIv;
+
     @BindView(R.id.back_btn)
     Button backBtn;
     @BindView(R.id.next_btn)
     Button nextBtn;
+    @BindView(R.id.questions_progress)
+    SeekBar questionsProgress;
     private String testId = "";
 
     private int testIndex;
@@ -73,7 +78,6 @@ public class OfflineTests extends AppCompatActivity {
     String marksString = "";
     String userId = "";
     public static String answers = "";
-
     //    FirebaseAuth mAuth;
 //    FirebaseDatabase database;
 //    DatabaseReference isSolvedRef;
@@ -94,6 +98,7 @@ public class OfflineTests extends AppCompatActivity {
 //        database = FirebaseDatabase.getInstance();
         answersPreferences = getPreferences(MODE_PRIVATE);
         stuAnswersList = new ArrayList<>();
+        questionsProgress.setProgress(x);
 
 //        timerTv.setText("لن تتمكن من العودة بعد حل اول سؤال");
         timerTv.setVisibility(View.GONE);
@@ -103,6 +108,12 @@ public class OfflineTests extends AppCompatActivity {
         answersString = answersPreferences.getString("answers" + testName, "MR");
         marksString = answersPreferences.getString("marks" + testName, "MR");
 
+        backIv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openDialog();
+            }
+        });
         examTitleTv.setText(testName);
 //        if (mAuth.getCurrentUser() != null) {
 //            userId = mAuth.getCurrentUser().getUid();
@@ -374,6 +385,38 @@ public class OfflineTests extends AppCompatActivity {
                 stuAnswersList.add("لم يتم الاجابة عليه");
             }
         }
+        examSubmitBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                answers = "";
+                for (int i = 0; i < examList.size(); i++) {
+                    if (stuAnswersList.get(i).trim().equals(examList.get(i).getReal_answer().trim())) {
+                        mark++;
+                    } else {
+                        answers += "\n" + examList.get(i).getQuestion() + " ( " + examList.get(i).getReal_answer() + " )"
+                                + "\n" + "اجابتك الخاطئة: " + stuAnswersList.get(i) + "\n";
+                    }
+                }
+                backFlag = 0;
+                markTv.setVisibility(View.VISIBLE);
+                eradioGroupAll.setVisibility(View.GONE);
+                examSubmitBtn.setVisibility(View.GONE);
+                backBtn.setVisibility(View.GONE);
+                nextBtn.setVisibility(View.GONE);
+                counterTv.setText("SOLVED");
+                questionsProgress.setVisibility(View.GONE);
+                questionsProgress.setMax(examList.size());
+                questionsProgress.setProgress(x);
+                markTv.setText(mark + "/" + examList.size());
+                equestionTv.setText(answers);
+                SharedPreferences.Editor editor = answersPreferences.edit();
+                editor.putString("answers" + testName, answers);
+                editor.putString("marks" + testName, mark + "/" + examList.size());
+                editor.apply();
+                editor.commit();
+            }
+        });
+
 //        eradioGroupAll.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
 //            @Override
 //            public void onCheckedChanged(RadioGroup group, int checkedId) {
@@ -472,27 +515,36 @@ public class OfflineTests extends AppCompatActivity {
         if (examList.size() > 0 && !(MR >= examList.size())) {
             backFlag = 0;
             getQuestions(examList, MR);
-            counterTv.setText(x + "/" + examList.size());
-            readBtn.setVisibility(View.VISIBLE);
-            readBtn.setOnClickListener(new View.OnClickListener() {
+            counterTv.setText("Question " + x + "/" + examList.size());
+            questionsProgress.setMax(examList.size());
+            questionsProgress.setProgress(x);
+            questionsProgress.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
                 @Override
-                public void onClick(View v) {
-                    String s = examList.get(MR).getQuestion().trim() + "\n"
-                            + examList.get(MR).getAns1().trim() + "\n"
-                            + examList.get(MR).getAns2().trim() + "\n"
-                            + examList.get(MR).getAns3().trim() + "\n"
-                            + examList.get(MR).getAns4().trim();
-                    textToSpeech = new TextToSpeech(OfflineTests.this, new TextToSpeech.OnInitListener() {
-                        @Override
-                        public void onInit(int status) {
-                            if (status == TextToSpeech.SUCCESS) {
-                                textToSpeech.setLanguage(Locale.ENGLISH);
-                                float speed = (float) 0.7f;
-                                textToSpeech.setSpeechRate(speed);
-                                textToSpeech.speak(s, TextToSpeech.QUEUE_FLUSH, null);
-                            }
-                        }
-                    });
+                public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                    if (progress == 1)
+                        backBtn.setEnabled(false);
+                    else
+                        backBtn.setEnabled(true);
+
+                    if (progress == examList.size()) {
+                        examSubmitBtn.setEnabled(true);
+                        nextBtn.setEnabled(false);
+                    } else
+                        nextBtn.setEnabled(true);
+                    x = progress;
+                    MR = progress - 1;
+                    counterTv.setText("Question " + progress + "/" + examList.size());
+                    getQuestions(examList, progress - 1);
+                }
+
+                @Override
+                public void onStartTrackingTouch(SeekBar seekBar) {
+
+                }
+
+                @Override
+                public void onStopTrackingTouch(SeekBar seekBar) {
+
                 }
             });
             backBtn.setOnClickListener(new View.OnClickListener() {
@@ -507,7 +559,9 @@ public class OfflineTests extends AppCompatActivity {
                     if (MR == 0)
                         backBtn.setEnabled(false);
                     x = MR + 1;
-                    counterTv.setText(x + "/" + examList.size());
+                    counterTv.setText("Question " + x + "/" + examList.size());
+                    questionsProgress.setMax(examList.size());
+                    questionsProgress.setProgress(x);
                     getQuestions(examList, MR);
                 }
             });
@@ -531,41 +585,13 @@ public class OfflineTests extends AppCompatActivity {
                         MR--;
                         nextBtn.setEnabled(false);
                         examSubmitBtn.setEnabled(true);
-                        examSubmitBtn.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                answers = "";
-                                for (int i = 0; i < examList.size(); i++) {
-                                    if (stuAnswersList.get(i).trim().equals(examList.get(i).getReal_answer().trim())) {
-                                        mark++;
-                                    } else {
-                                        answers += "\n" + examList.get(i).getQuestion() + " ( " + examList.get(i).getReal_answer() + " )"
-                                                + "\n" + "اجابتك الخاطئة: " + stuAnswersList.get(i) + "\n";
-                                    }
-                                }
-                                backFlag = 0;
-                                readBtn.setVisibility(View.GONE);
-                                markTv.setVisibility(View.VISIBLE);
-                                eradioGroupAll.setVisibility(View.GONE);
-                                examSubmitBtn.setVisibility(View.GONE);
-                                backBtn.setVisibility(View.GONE);
-                                nextBtn.setVisibility(View.GONE);
-                                warningTv.setVisibility(View.GONE);
-                                counterTv.setText("SOLVED");
-                                markTv.setText(mark + "/" + examList.size());
-                                equestionTv.setText(answers);
-                                SharedPreferences.Editor editor = answersPreferences.edit();
-                                editor.putString("answers" + testName, answers);
-                                editor.putString("marks" + testName, mark + "/" + examList.size());
-                                editor.apply();
-                                editor.commit();
-                            }
-                        });
 
                     } else {
                         backFlag = 1;
                         x = MR + 1;
-                        counterTv.setText(x + "/" + examList.size());
+                        counterTv.setText("Question " + x + "/" + examList.size());
+                        questionsProgress.setMax(examList.size());
+                        questionsProgress.setProgress(x);
                         getQuestions(examList, MR);
                     }
                 }
@@ -580,16 +606,15 @@ public class OfflineTests extends AppCompatActivity {
 
     private void setSolved() {
         backFlag = 0;
-        readBtn.setVisibility(View.GONE);
         markTv.setVisibility(View.VISIBLE);
         eradioGroupAll.setVisibility(View.GONE);
         backBtn.setVisibility(View.GONE);
         nextBtn.setVisibility(View.GONE);
-        warningTv.setVisibility(View.GONE);
         examSubmitBtn.setVisibility(View.GONE);
         timerTv.setVisibility(View.GONE);
         equestionTv.setText(answersString);
         counterTv.setText("SOLVED");
+        questionsProgress.setVisibility(View.GONE);
         markTv.setText(marksString);
         showMarksBtn.setVisibility(View.GONE);
     }
@@ -621,27 +646,29 @@ public class OfflineTests extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        if (backFlag == 0) {
-            MR = 0;
-            x = 0;
-            mark = 0;
-            answers = "";
-            examList.clear();
-            super.onBackPressed();
-        } else {
-            int flag = 0;
-            for (String s : stuAnswersList) {
-                if (!s.equals("لم يتم الاجابة عليه")) {
-                    flag = 1;
-                }
-            }
-            if (flag == 1) {
-                openDialog();
-            } else {
-                super.onBackPressed();
-            }
-//            Toast.makeText(this, "كمل حل يافاشل 😒", Toast.LENGTH_SHORT).show();
-        }
+        openDialog();
+
+
+//        if (backFlag == 0) {
+//            MR = 0;
+//            x = 0;
+//            mark = 0;
+//            answers = "";
+//            examList.clear();
+//            super.onBackPressed();
+//        } else {
+//            int flag = 0;
+//            for (String s : stuAnswersList) {
+//                if (!s.equals("لم يتم الاجابة عليه")) {
+//                    flag = 1;
+//                }
+//            }
+//            if (flag == 1) {
+//                openDialog();
+//            } else {
+//                super.onBackPressed();
+//            }
+//        }
     }
 
     private void openDialog() {

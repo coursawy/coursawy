@@ -3,9 +3,11 @@ package com.example.coursawy;
 
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.SeekBar;
 import android.widget.TextView;
 import androidx.annotation.CallSuper;
 import androidx.annotation.UiThread;
@@ -38,13 +40,13 @@ public class OfflineTests_ViewBinding implements Unbinder {
     target.eradioFour = Utils.findRequiredViewAsType(source, R.id.eradio_four, "field 'eradioFour'", RadioButton.class);
     target.eradioGroupAll = Utils.findRequiredViewAsType(source, R.id.eradio_group_all, "field 'eradioGroupAll'", RadioGroup.class);
     target.examSubmitBtn = Utils.findRequiredViewAsType(source, R.id.exam_submit_btn, "field 'examSubmitBtn'", Button.class);
-    target.warningTv = Utils.findRequiredViewAsType(source, R.id.warning_tv, "field 'warningTv'", TextView.class);
     target.examLl = Utils.findRequiredViewAsType(source, R.id.exam_ll, "field 'examLl'", LinearLayout.class);
     target.showMarksBtn = Utils.findRequiredViewAsType(source, R.id.show_marks_btn, "field 'showMarksBtn'", Button.class);
     target.questionsLl = Utils.findRequiredViewAsType(source, R.id.questions_ll, "field 'questionsLl'", LinearLayout.class);
-    target.readBtn = Utils.findRequiredViewAsType(source, R.id.read_btn, "field 'readBtn'", Button.class);
+    target.backIv = Utils.findRequiredViewAsType(source, R.id.back_iv, "field 'backIv'", ImageView.class);
     target.backBtn = Utils.findRequiredViewAsType(source, R.id.back_btn, "field 'backBtn'", Button.class);
     target.nextBtn = Utils.findRequiredViewAsType(source, R.id.next_btn, "field 'nextBtn'", Button.class);
+    target.questionsProgress = Utils.findRequiredViewAsType(source, R.id.questions_progress, "field 'questionsProgress'", SeekBar.class);
   }
 
   @Override
@@ -66,12 +68,12 @@ public class OfflineTests_ViewBinding implements Unbinder {
     target.eradioFour = null;
     target.eradioGroupAll = null;
     target.examSubmitBtn = null;
-    target.warningTv = null;
     target.examLl = null;
     target.showMarksBtn = null;
     target.questionsLl = null;
-    target.readBtn = null;
+    target.backIv = null;
     target.backBtn = null;
     target.nextBtn = null;
+    target.questionsProgress = null;
   }
 }

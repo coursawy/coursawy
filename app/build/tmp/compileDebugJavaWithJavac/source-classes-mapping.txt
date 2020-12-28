@@ -1,11 +1,11 @@
 com/example/coursawy/OfflineTests.java
  com.example.coursawy.OfflineTests
  com.example.coursawy.OfflineTests$1
- com.example.coursawy.OfflineTests$1$1
  com.example.coursawy.OfflineTests$2
  com.example.coursawy.OfflineTests$3
- com.example.coursawy.OfflineTests$3$1
  com.example.coursawy.OfflineTests$4
+ com.example.coursawy.OfflineTests$5
+ com.example.coursawy.OfflineTests$6
 com/example/coursawy/database/UserDao.java
  com.example.coursawy.database.UserDao
 com/example/coursawy/model/Exam.java
