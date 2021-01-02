@@ -66,18 +66,28 @@ public class UserDao {
                 .document(DOCTOR_DOCUMENT)
                 .collection(EXAMS)
                 .document(exam.getId())
+                .collection(QUESTIONS)
+                .document()
                 .set(exam)
                 .addOnSuccessListener(onSuccessListener)
                 .addOnFailureListener(onFailureListener);
     }
     public static void getExam(String id ,
+                               OnCompleteListener<QuerySnapshot> onCompleteListener){
+        Database.getUsersReference()
+                .document(DOCTOR_DOCUMENT)
+                .collection(EXAMS)
+                .document(id)
+                .collection(QUESTIONS)
+                .get()
+                .addOnCompleteListener(onCompleteListener);
+    }
+    public static void delete(String id ,
                                OnCompleteListener<DocumentSnapshot> onCompleteListener){
         Database.getUsersReference()
                 .document(DOCTOR_DOCUMENT)
                 .collection(EXAMS)
                 .document(id)
-                .get()
-                .addOnCompleteListener(onCompleteListener);
+                .delete();
     }
-
 }

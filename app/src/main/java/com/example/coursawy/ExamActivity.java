@@ -62,15 +62,20 @@ public class ExamActivity extends AppCompatActivity {
         else
             addTestBtn.setVisibility(View.GONE);
 
-
-        //get questions from firebase
+        /**
+         * get list of questions from firebase
+         */
 //        UserDao.getExam(FirebaseAuth.getInstance().getUid(), task -> {
 //            if (task.isSuccessful()){
 //
-//                Exam exam = task.getResult().toObject(Exam.class);
+//                allQuestionsList = task.getResult().toObjects(Exam.class);
 //
-//                Log.e("Exams" , exam.getQuestion() + "\n" + exam.getAns1() + "\n" +
-//                        exam.getAns2() + "\n" + exam.getAns3() + exam.getAns3());
+//                for (int i = 0 ; i < allQuestionsList.size() ; i++) {
+//                    Log.e("Exams", allQuestionsList.get(i).getQuestion() + "\n" +
+//                            allQuestionsList.get(i).getAns1() + "\n" +
+//                            allQuestionsList.get(i).getAns2() + "\n" +
+//                            allQuestionsList.get(i).getAns3() + allQuestionsList.get(i).getAns4());
+//                }
 //            }
 //        });
 
@@ -160,9 +165,9 @@ public class ExamActivity extends AppCompatActivity {
 
     private void addQuestionsToFirebase() {
         for (int i = 0; i < questions.size() ; i++){
-            Log.e("Exams" , questions.get(i) +
-                    answers1.get(i) + answers2.get(i) + answers3.get(i) +
-                    answers4.get(i) + correctAnswers.get(i));
+            Log.e("Exams" , questions.get(i) + "\n" +
+                    answers1.get(i) + "\n" + answers2.get(i) + "\n" + answers3.get(i) + "\n" +
+                    answers4.get(i) + "\n" + correctAnswers.get(i));
             Exam exam = new Exam(FirebaseAuth.getInstance().getUid(),questions.get(i) ,
                     answers1.get(i) , answers2.get(i) , answers3.get(i) ,
                     answers4.get(i) , correctAnswers.get(i));
