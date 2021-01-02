@@ -7,7 +7,7 @@ public class Database {
     public static final String USERS_BRANCH = "USERS";
     private static FirebaseFirestore firebaseFirestore;
 
-    private static FirebaseFirestore getFirestore(){
+    private static FirebaseFirestore getInstance(){
         if (firebaseFirestore == null){
             firebaseFirestore = FirebaseFirestore.getInstance();
         }
@@ -15,6 +15,6 @@ public class Database {
     }
 
     public static CollectionReference getUsersReference() {
-        return getFirestore().collection(USERS_BRANCH);
+        return getInstance().collection(USERS_BRANCH);
     }
 }

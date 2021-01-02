@@ -30,17 +30,12 @@ com/example/coursawy/database/Database.java
  com.example.coursawy.database.Database
 com/example/coursawy/model/User.java
  com.example.coursawy.model.User
-com/example/coursawy/ExamActivity.java
- com.example.coursawy.ExamActivity
- com.example.coursawy.ExamActivity$1
- com.example.coursawy.ExamActivity$2
+com/example/coursawy/MainActivity.java
+ com.example.coursawy.MainActivity
 com/example/coursawy/TestListAdapter.java
  com.example.coursawy.TestListAdapter
-com/example/coursawy/SignActivity.java
- com.example.coursawy.SignActivity
- com.example.coursawy.SignActivity$1
- com.example.coursawy.SignActivity$2
- com.example.coursawy.SignActivity$3
+com/example/coursawy/BuildConfig.java
+ com.example.coursawy.BuildConfig
 com/example/coursawy/StudentOrDoctorActivity.java
  com.example.coursawy.StudentOrDoctorActivity
 com/example/coursawy/TestInfoItem.java
@@ -54,7 +49,12 @@ com/example/coursawy/ContinueSignupActivity2.java
  com.example.coursawy.ContinueSignupActivity2
  com.example.coursawy.ContinueSignupActivity2$1
  com.example.coursawy.ContinueSignupActivity2$2
-com/example/coursawy/MainActivity.java
- com.example.coursawy.MainActivity
-com/example/coursawy/BuildConfig.java
- com.example.coursawy.BuildConfig
+com/example/coursawy/SignActivity.java
+ com.example.coursawy.SignActivity
+ com.example.coursawy.SignActivity$1
+ com.example.coursawy.SignActivity$2
+ com.example.coursawy.SignActivity$3
+com/example/coursawy/ExamActivity.java
+ com.example.coursawy.ExamActivity
+ com.example.coursawy.ExamActivity$1
+ com.example.coursawy.ExamActivity$2

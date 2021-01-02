@@ -5,14 +5,11 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
-import android.telephony.mbms.MbmsErrors;
-import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -21,13 +18,11 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.coursawy.database.Database;
 import com.example.coursawy.database.UserDao;
 import com.example.coursawy.model.User;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -36,12 +31,8 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
@@ -50,14 +41,8 @@ import com.theartofdev.edmodo.cropper.CropImageView;
 
 import java.util.Calendar;
 import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
 
 import de.hdodenhof.circleimageview.CircleImageView;
-
-import static com.example.coursawy.database.UserDao.STUDENT_DATA;
-import static com.example.coursawy.database.UserDao.STUDENT_DOCUMENT;
 
 public class ContinueSignupActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener, View.OnClickListener {
     private static final String TAG = "MainActivity";
@@ -66,7 +51,7 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
     private CircleImageView profImage;
     private EditText proPhone, proCode;
     private TextView mDisplayDate;
-    private RelativeLayout signUpBtn;
+    private Button signUpBtn;
     private ImageView backBtn;
     private DatePickerDialog.OnDateSetListener mDateSetListener;
 
@@ -80,6 +65,7 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
     private String password;
     private static String profile_image;
     private boolean isStudent;
+    private Uri uriImage;
 
 
     User user;
@@ -178,10 +164,7 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
             if (resultCode == RESULT_OK) {
                 Uri resultUri = result.getUri();
                 Picasso.get().load(resultUri).placeholder(R.drawable.ic_baseline_person_pin_24).into(profImage);
-
-
-                //TO Save image in Firebase Storage
-                saveImageToDatabase(resultUri);
+                uriImage = resultUri;
             }
             else {
                 Toast.makeText(this, "error: Image can't be cropped try again..", Toast.LENGTH_SHORT).show();
@@ -189,7 +172,7 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
         }
     }
 
-    private void saveImageToDatabase(Uri resultUri) {
+    private void saveImageInStorage(Uri resultUri) {
         // get the Firebase  storage reference
         storageReference = FirebaseStorage.getInstance().getReference();
         firebaseFirestore = FirebaseFirestore.getInstance();
@@ -208,8 +191,7 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
                     result.addOnSuccessListener(new OnSuccessListener<Uri>() {
                         @Override
                         public void onSuccess(Uri uri) {
-                            final String downloadUri=uri.toString();
-                            profile_image = downloadUri;
+                            profile_image = uri.toString();
                         }
                     });
                 }
@@ -315,7 +297,10 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
         String faculty = selectedFaculty;
         String grade = selectedGrade;
         String code = proCode.getText().toString();
-        user = new User(auth.getUid() ,profile_image , userName , email , password , dateOfBirth , phoneNumber , faculty , grade , Integer.parseInt(code));
+        //TO Save image in Firebase Storage
+        saveImageInStorage(uriImage);
+        user = new User(auth.getUid() ,profile_image , userName , email , password ,
+                dateOfBirth , phoneNumber , faculty , grade , Integer.parseInt(code));
 
         if (isStudent) {
             UserDao.addStudent(user, new OnSuccessListener() {
@@ -349,6 +334,8 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
         if (view.getId() == R.id.sign_up_btn) {
             if (validatedEntryData()) {
                 registerUser();
+            }else {
+                Toast.makeText(this, "Please fill empty places.", Toast.LENGTH_SHORT).show();
             }
         }else if (view.getId() == R.id.back_iv){
             finish();
