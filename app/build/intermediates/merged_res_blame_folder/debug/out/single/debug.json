@@ -1,550 +1,554 @@
 [
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_segoeuil.ttf.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\font\\segoeuil.ttf"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_student_or_doctor.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\layout\\activity_student_or_doctor.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_pin_24.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_person_pin_24.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_line.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\line.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_blue_logo.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xhdpi\\blue_logo.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_examtitlebg.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xhdpi\\examtitlebg.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_sign.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_pin_24.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\ic_baseline_person_pin_24.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_signs_bg.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\signs_bg.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_sign_radio_bg.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-ldpi\\sign_radio_bg.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_seguibli.ttf.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\font\\seguibli.ttf"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_undraw_questions_re.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\undraw_questions_re.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_backk.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-v24\\backk.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_lock_open_24.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\ic_baseline_lock_open_24.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_person.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\person.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\font_segoeui.ttf.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\font\\segoeui.ttf"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_blue_logo.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\blue_logo.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_google_plus.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xhdpi\\google_plus.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backbutton.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\backbutton.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_signs_bg.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-ldpi\\signs_bg.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_signs_bg.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\signs_bg.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_exam_alert.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\exam_alert.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_undraw_questions_re.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xhdpi\\undraw_questions_re.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cancel.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\cancel.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_test.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\list_item_test.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_examtitlebg.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-ldpi\\examtitlebg.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_signs_bg.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\signs_bg.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_corsawy.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-v24\\corsawy.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logo.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-mdpi\\logo.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_seguisbi.ttf.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\font\\seguisbi.ttf"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_signs_bg.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xhdpi\\signs_bg.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_text_color.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\text_color.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\ic_baseline_email_24.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_button_online.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\button_online.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_signs_bg.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-mdpi\\signs_bg.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\font_seguisli.ttf.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\font\\seguisli.ttf"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_blue_logo.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\blue_logo.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_google_plus.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-ldpi\\google_plus.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\font_segoeuisl.ttf.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\font\\segoeuisl.ttf"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_seguisli.ttf.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\font\\seguisli.ttf"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_background.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-ldpi\\background.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cancel.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-v24\\cancel.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_lock_open_24.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_lock_open_24.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_button_offline.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\button_offline.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_segoeui.ttf.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\font\\segoeui.ttf"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_account_box_24.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\ic_baseline_account_box_24.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_background.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\background.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_button_online.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\button_online.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_undraw_choice.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\undraw_choice.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_examtitlebg.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-hdpi\\examtitlebg.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_signup.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\shape_signup.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxhdpi\\logo.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_background.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\background.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\font_seguisb.ttf.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\font\\seguisb.ttf"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_signs_bg.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\signs_bg.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_signs_bg.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxhdpi\\signs_bg.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_blue_logo.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\blue_logo.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_google_plus.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-hdpi\\google_plus.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon_feather.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\icon_feather.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_teacher_icon.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-v24\\teacher_icon.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_google_plus.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\google_plus.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_undraw_questions_re.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-mdpi\\undraw_questions_re.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_24.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_person_24.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_forward_ios_24.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_forward_ios_24.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_wifi_off_24.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_baseline_wifi_off_24.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_undraw_choice.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\undraw_choice.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\font_seguibli.ttf.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\font\\seguibli.ttf"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_seguisb.ttf.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\font\\seguisb.ttf"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backbutton.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\backbutton.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_undraw_questions_re.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\undraw_questions_re.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_test_item_bg.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\test_item_bg.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_examtitlebg.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-mdpi\\examtitlebg.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_background.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\background.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_text_color.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\text_color.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_examtitlebg.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\examtitlebg.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_blue_logo.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\blue_logo.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_blue_logo.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\blue_logo.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_blue_logo.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\blue_logo.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\font_seguibl.ttf.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\font\\seguibl.ttf"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_facebook.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\facebook.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_forward_ios_24.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_forward_ios_24.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_button_selector.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\button_selector.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_btn_background.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\btn_background.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_back_ios_24.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_ios_24.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_person.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-v24\\person.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_facebook.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\facebook.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_test.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\layout\\list_item_test.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_facebook.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\facebook.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\font_segoeuib.ttf.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\font\\segoeuib.ttf"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sign_bgg.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\sign_bgg.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon_feather.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-v24\\icon_feather.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_background.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\background.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_facebook.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-mdpi\\facebook.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_segoeuisl.ttf.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\font\\segoeuisl.ttf"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_exam.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\layout\\activity_exam.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_submit.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\button_submit.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_facebook.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\facebook.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_blue_logo.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxhdpi\\blue_logo.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logo.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\logo.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_submit.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\button_submit.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_background.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-mdpi\\background.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_blue_logo.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-ldpi\\blue_logo.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_examtitlebg.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\examtitlebg.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_undraw_questions_re.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\undraw_questions_re.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_text_color2.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\text_color2.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_google_plus.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxhdpi\\google_plus.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_continue_signup.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_continue_signup.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_facebook.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\facebook.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_blue_logo.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\blue_logo.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_background.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-hdpi\\background.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_segoeuib.ttf.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\font\\segoeuib.ttf"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_back_ios_24.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_ios_24.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_teacher_icon.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\teacher_icon.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\ic_baseline_lock_24.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_google_plus.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\google_plus.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\layout_color_spinner_layout.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\layout\\color_spinner_layout.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signin_or_signup.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_signin_or_signup.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signin_or_signup.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\layout\\activity_signin_or_signup.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_continue_signup2.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_continue_signup2.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_background.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xhdpi\\background.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_back_ios_new_24.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_ios_new_24.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_facebook.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxhdpi\\facebook.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_student_or_doctor.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_student_or_doctor.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_undraw_choice.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxhdpi\\undraw_choice.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tests.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_tests.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_signs_bg.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\signs_bg.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backstudentordoctor.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\backstudentordoctor.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_background.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\background.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_seguili.ttf.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\font\\seguili.ttf"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_blue_logo.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-mdpi\\blue_logo.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_backk.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\backk.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_examtitlebg.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\examtitlebg.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_examtitlebg.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\examtitlebg.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_blue.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-v24\\blue.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_wifi_24.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_baseline_wifi_24.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sign_bgg.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-v24\\sign_bgg.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thumb.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\thumb.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_google_plus.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\google_plus.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_email_24.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_email_24.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_button_selector.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\button_selector.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_google_plus.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\google_plus.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_undraw_questions_re.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxhdpi\\undraw_questions_re.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_back_ios_new_24.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_ios_new_24.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logo.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\logo.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logo.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\logo.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_google_plus.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\google_plus.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\font_seguili.ttf.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\font\\seguili.ttf"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_examtitlebg.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\examtitlebg.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_undraw_choice.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-ldpi\\undraw_choice.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_date_range_24.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_date_range_24.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tests_list.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\layout\\activity_tests_list.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tests_list.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_tests_list.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_facebook.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\facebook.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_signs_bg.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\signs_bg.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_facebook.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-hdpi\\facebook.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_btn_background.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\btn_background.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_background.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxhdpi\\background.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_examtitlebg.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\examtitlebg.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backstudentordoctor.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\backstudentordoctor.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_undraw_questions_re.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\undraw_questions_re.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\font_seguisbi.ttf.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\font\\seguisbi.ttf"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_exam.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_exam.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\layout_exam_alert.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\layout\\exam_alert.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_undraw_questions_re.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\undraw_questions_re.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_line.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-v24\\line.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_account_box_24.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_account_box_24.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_signup.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\shape_signup.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_button_offline.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\button_offline.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tests.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\layout\\activity_tests.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_google_plus.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\google_plus.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_date_range_24.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\ic_baseline_date_range_24.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bcak_splacsh.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\bcak_splacsh.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\layout\\activity_sign.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_bg.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\radio_bg.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_test_item_bg.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\test_item_bg.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progress_drawable.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\progress_drawable.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_undraw_questions_re.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-ldpi\\undraw_questions_re.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_student_icon.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\student_icon.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_text_color2.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\text_color2.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\font_segoeuil.ttf.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\font\\segoeuil.ttf"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\logo.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_background.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\background.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_shadow_signup.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\shadow_signup.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_blue_logo.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-hdpi\\blue_logo.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_wifi_off_24.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_baseline_wifi_off_24.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_corsawy.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\corsawy.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\font_segoeuiz.ttf.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\font\\segoeuiz.ttf"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_perm_identity_24.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_perm_identity_24.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_signs_bg.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\signs_bg.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_perm_identity_24.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\ic_baseline_perm_identity_24.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_undraw_choice.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\undraw_choice.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_google_plus.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-mdpi\\google_plus.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_undraw_choice.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xhdpi\\undraw_choice.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_undraw_choice.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\undraw_choice.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_wifi_24.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_baseline_wifi_24.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_facebook.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\facebook.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_continue_signup.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\layout\\activity_continue_signup.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_background.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\background.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progress_drawable.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\progress_drawable.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_lock_24.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_lock_24.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_shadow_signup.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-v24\\shadow_signup.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_facebook.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xhdpi\\facebook.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_undraw_questions_re.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-hdpi\\undraw_questions_re.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_undraw_choice.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\undraw_choice.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bcak_splacsh.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-v24\\bcak_splacsh.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_color_spinner_layout.xml.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\color_spinner_layout.xml"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thumb.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\thumb.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_google_plus.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\google_plus.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_signs_bg.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-hdpi\\signs_bg.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_examtitlebg.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\examtitlebg.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_student_icon.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-v24\\student_icon.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_segoeuii.ttf.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\font\\segoeuii.ttf"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_examtitlebg.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-xxhdpi\\examtitlebg.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_blue.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\blue.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_undraw_choice.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-hdpi\\undraw_choice.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_segoeuiz.ttf.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\font\\segoeuiz.ttf"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\ic_baseline_person_24.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_undraw_choice.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\undraw_choice.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_undraw_choice.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-mdpi\\undraw_choice.png"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logo.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\logo.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\font_segoeuii.ttf.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\font\\segoeuii.ttf"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_seguibl.ttf.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\font\\seguibl.ttf"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_bg.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\radio_bg.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_undraw_questions_re.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\undraw_questions_re.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_undraw_choice.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\undraw_choice.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_continue_signup2.xml.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\layout\\activity_continue_signup2.xml"
     },
     {
-        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_undraw_questions_re.png.flat",
-        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\undraw_questions_re.png"
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_facebook.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-ldpi\\facebook.png"
+    },
+    {
+        "merged": "C:\\Users\\nolov\\Desktop\\finallll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logo.png.flat",
+        "source": "C:\\Users\\nolov\\Desktop\\finallll\\app\\src\\main\\res\\drawable-ldpi\\logo.png"
     }
 ]

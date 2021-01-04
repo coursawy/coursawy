@@ -72,7 +72,7 @@
                         android:id="@+id/rb_sign_in"
                         android:layout_width="90sp"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/radio_bg"
+                        android:background="@drawable/sign_radio_bg"
                         android:button="@android:color/transparent"
                         android:checked="true"
 
@@ -87,7 +87,7 @@
                         android:layout_width="90sp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:background="@drawable/radio_bg"
+                        android:background="@drawable/sign_radio_bg"
                         android:button="@android:color/transparent"
                         android:gravity="center"
                         android:padding="7dp"

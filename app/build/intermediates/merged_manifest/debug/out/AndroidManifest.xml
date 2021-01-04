@@ -10,11 +10,11 @@
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14" /> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -29,20 +29,19 @@
         <activity
             android:name="com.example.coursawy.SplashActivity"
             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name="com.example.coursawy.ContinueSignupActivity" >
-        </activity>
+        <activity android:name="com.example.coursawy.ContinueSignupActivity" />
         <activity android:name="com.example.coursawy.SigninOrSignupActivity" >
         </activity>
         <activity android:name="com.example.coursawy.StudentOrDoctorActivity" />
         <activity android:name="com.example.coursawy.SignActivity" />
         <activity android:name="com.example.coursawy.MainActivity" />
         <activity android:name="com.example.coursawy.ExamActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="com.example.coursawy.OfflineTests" />
         <activity android:name="com.example.coursawy.TestsListActivity" />
@@ -74,11 +73,6 @@
                 android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
-
-        <provider
-            android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.example.coursawy.com.squareup.picasso"
-            android:exported="false" />
 
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
@@ -128,6 +122,10 @@
             </intent-filter>
         </service>
 
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.coursawy.com.squareup.picasso"
+            android:exported="false" />
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:authorities="com.example.coursawy.firebaseinitprovider"

@@ -1697,6 +1697,7 @@ drawable radio_bg
 drawable shadow_signup
 drawable shape_signup
 drawable sign_bgg
+drawable sign_radio_bg
 drawable signs_bg
 drawable student_icon
 drawable teacher_icon
@@ -2419,7 +2420,6 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
-string firebase_database_url
 string forgot_password
 string gcm_defaultSenderId
 string google_api_key

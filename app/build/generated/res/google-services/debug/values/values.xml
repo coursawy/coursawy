@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">945501641872-qtatpfhajoshjd2abi0r7323v6oi72lu.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://coursawy-64722.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">945501641872</string>
-    <string name="google_api_key" translatable="false">AIzaSyCusbaumxa4BZ-1hyrTSiwvJ9nbUX31mjA</string>
-    <string name="google_app_id" translatable="false">1:945501641872:android:6de0c505de73f0cbd64c15</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCusbaumxa4BZ-1hyrTSiwvJ9nbUX31mjA</string>
-    <string name="google_storage_bucket" translatable="false">coursawy-64722.appspot.com</string>
-    <string name="project_id" translatable="false">coursawy-64722</string>
+    <string name="default_web_client_id" translatable="false">163014466361-16u2tt68j1g6ppg1p6tv1fqv8u10kr20.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">163014466361</string>
+    <string name="google_api_key" translatable="false">AIzaSyCWf2FmmhO5NqwYR-8JS3lyzHxM_NZChNI</string>
+    <string name="google_app_id" translatable="false">1:163014466361:android:f7ff007cd7926622f426e8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCWf2FmmhO5NqwYR-8JS3lyzHxM_NZChNI</string>
+    <string name="google_storage_bucket" translatable="false">coursawy-a3545.appspot.com</string>
+    <string name="project_id" translatable="false">coursawy-a3545</string>
 </resources>

@@ -15,10 +15,16 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.coursawy.model.Exam;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -89,6 +95,10 @@ public class OfflineTests extends AppCompatActivity {
     TextToSpeech textToSpeech;
     ArrayList<String> stuAnswersList;
 
+
+    DatabaseReference examRef;
+    FirebaseDatabase database;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -103,7 +113,6 @@ public class OfflineTests extends AppCompatActivity {
 //        timerTv.setText("لن تتمكن من العودة بعد حل اول سؤال");
         timerTv.setVisibility(View.GONE);
         testId = getIntent().getExtras().getString("id");
-        testIndex = getIntent().getExtras().getInt("unitExam");
         testName = getIntent().getExtras().getString("unitName");
         answersString = answersPreferences.getString("answers" + testName, "MR");
         marksString = answersPreferences.getString("marks" + testName, "MR");
@@ -125,7 +134,8 @@ public class OfflineTests extends AppCompatActivity {
 //            editor.clear();
 //            editor.apply();
 //            editor.commit();
-        if (getIntent().getExtras().getString("type").equals("offline")) {
+        if (getIntent().getExtras().getString("type").equals("offline"))
+        {
             switch (testId) {
                 case "ahmed2020":
                     examTitleTv.setText("الامتحان هدفه الوقوف على مستواك و معالجة أي سلبيات لذا كن قدر المسئولية يا فااااااشل");
@@ -506,6 +516,100 @@ public class OfflineTests extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+
+        if (getIntent().getExtras().getString("type").equals("online"))
+        {
+            questionsProgress.setVisibility(View.GONE);
+            database = FirebaseDatabase.getInstance();
+            examRef = database.getReference("Test Exam");
+            examRef.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    for (DataSnapshot n : snapshot.getChildren()) {
+                        Exam exam = n.getValue(Exam.class);
+                        examList.add(exam);
+                    }
+                    for (Exam exam : examList) {
+                        stuAnswersList.add("لم يتم الاجابة عليه");
+                    }
+                    if (examList.size() > 0 && !(MR >= examList.size())) {
+                        backFlag = 0;
+                        getQuestions(examList, MR);
+                        counterTv.setText(x + "/" + examList.size());
+                        backBtn.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                nextBtn.setEnabled(true);
+                                int radioId = eradioGroupAll.getCheckedRadioButtonId();
+                                RadioButton radioButton = findViewById(radioId);
+                                if (radioButton != null)
+                                    stuAnswersList.set(MR, radioButton.getText().toString());
+                                MR--;
+                                if (MR == 0)
+                                    backBtn.setEnabled(false);
+                                x = MR + 1;
+                                counterTv.setText(x + "/" + examList.size());
+                                getQuestions(examList, MR);
+                            }
+                        });
+
+                        nextBtn.setOnClickListener(v -> {
+                            backBtn.setEnabled(true);
+                            showMarksBtn.setVisibility(View.GONE);
+
+                            int radioId = eradioGroupAll.getCheckedRadioButtonId();
+                            RadioButton radioButton = findViewById(radioId);
+//                        String s = radioButton.getText().toString().toLowerCase();
+
+                            if (radioButton != null)
+                                stuAnswersList.set(MR, radioButton.getText().toString());
+                            MR++;
+                            if (MR >= examList.size()) {
+
+                                MR--;
+                                nextBtn.setEnabled(false);
+                                examSubmitBtn.setEnabled(true);
+                                examSubmitBtn.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        backFlag = 0;
+                                        answers = "";
+                                        for (int i = 0; i < examList.size(); i++) {
+                                            if (stuAnswersList.get(i).trim().equals(examList.get(i).getReal_answer().trim())) {
+                                                mark++;
+                                            } else {
+                                                answers += "\n" + examList.get(i).getQuestion() + " ( " + examList.get(i).getReal_answer() + " )"
+                                                        + "\n" + "اجابتك الخاطئة: " + stuAnswersList.get(i) + "\n";
+                                            }
+                                        }
+                                        markTv.setVisibility(View.VISIBLE);
+                                        eradioGroupAll.setVisibility(View.GONE);
+                                        examSubmitBtn.setVisibility(View.GONE);
+                                        backBtn.setVisibility(View.GONE);
+                                        nextBtn.setVisibility(View.GONE);
+                                        counterTv.setText("SOLVED");
+                                        markTv.setText(mark + "/" + examList.size());
+                                        equestionTv.setText(answers);
+
+
+                                    }
+                                });
+                            } else {
+                                x = MR + 1;
+                                counterTv.setText(x + "/" + examList.size());
+                                getQuestions(examList, MR);
+                            }
+                        });
+                    }
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+
+                }
+            });
+        }
+
         if (!answersString.equals("MR")) {
 
             showMarksBtn.setVisibility(View.VISIBLE);
@@ -596,11 +700,12 @@ public class OfflineTests extends AppCompatActivity {
                     }
                 }
             });
-        } else if (examList.isEmpty()) {
-            timerTv.setVisibility(View.GONE);
-            examTitleTv.setText("سيتم اضافة باقي الامتحانات قريبًأ :)");
-            questionsLl.setVisibility(View.GONE);
         }
+//        else if (examList.isEmpty()) {
+//            timerTv.setVisibility(View.GONE);
+//            examTitleTv.setText("سيتم اضافة باقي الامتحانات قريبًأ :)");
+//            questionsLl.setVisibility(View.GONE);
+//        }
 
     }
 
