@@ -4,8 +4,10 @@
     <string name="online_tests">Online Tests</string>
     <string name="offline_tests">Offline Tests</string>
     <string name="add_tests">Add Tests</string>
+    <string name="countrycode"><u>+20</u></string>
 
     <string-array name="faculties">
+        <item>Select</item>
         <item>Science</item>
         <item>Engineering</item>
         <item>Law</item>
@@ -13,11 +15,27 @@
         <item>Medicine</item>
         <item>Education</item>
         <item>Pharmacy</item>
+        <item>Computers and AI</item>
     </string-array>
-    <string-array name="grades">
+
+    <string-array name="studentgrades">
+        <item>Select</item>
         <item>First</item>
         <item>Second</item>
         <item>Third</item>
         <item>Fourth</item>
+        <item>Fifth</item>
     </string-array>
+
+    <string-array name="doctorgrades">
+        <item>Select</item>
+        <item>Teaching Assistant</item>
+        <item> Assistant Lecturer</item>
+        <item>Lecturer</item>
+        <item>Associate Professor</item>
+        <item>Professor</item>
+        <item>Professor Emeritus</item>
+    </string-array>
+
+
 </resources>

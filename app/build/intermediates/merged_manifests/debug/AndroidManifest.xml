@@ -36,8 +36,6 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.coursawy.ContinueSignupActivity" />
-        <activity android:name="com.example.coursawy.SigninOrSignupActivity" >
-        </activity>
         <activity android:name="com.example.coursawy.StudentOrDoctorActivity" />
         <activity android:name="com.example.coursawy.SignActivity" />
         <activity android:name="com.example.coursawy.MainActivity" />

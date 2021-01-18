@@ -10,7 +10,6 @@ import android.widget.Button;
 import android.widget.Toast;
 
 
-import com.example.coursawy.database.UserDao;
 import com.example.coursawy.model.Exam;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
@@ -61,7 +60,7 @@ public class ExamActivity extends AppCompatActivity {
 
         isStudent = getIntent().getBooleanExtra("isStudentLogin", false);
 
-        if (isStudent == false)
+        if (!isStudent)
             addTestBtn.setVisibility(View.VISIBLE);
         else
             addTestBtn.setVisibility(View.GONE);

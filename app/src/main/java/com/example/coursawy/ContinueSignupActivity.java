@@ -18,20 +18,20 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.coursawy.database.UserDao;
-import com.example.coursawy.model.User;
 import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
@@ -41,52 +41,113 @@ import com.theartofdev.edmodo.cropper.CropImageView;
 
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class ContinueSignupActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener, View.OnClickListener {
+
+
+    @BindView(R.id.Date)
+    TextView mDisplayDate;
+    @BindView(R.id.spinner_faculty)
+    Spinner spinner_faculty;
+    @BindView(R.id.student_spinner_grade)
+    Spinner student_spinner_grade;
+    @BindView(R.id.doctor_spinner_grade)
+    Spinner doctor_spinner_grade;
+    @BindView(R.id.department_lable)
+    TextView departmentLabel;
+    @BindView(R.id.code_lable)
+    TextView codeLabel;
+    @BindView(R.id.continue_department)
+    EditText department;
+    @BindView(R.id.continue_code)
+    EditText code;
+    @BindView(R.id.continue_profile_phone)
+    EditText phone;
+    @BindView(R.id.signin_btn)
+    Button signUpBtn;
+    @BindView(R.id.continue_profile_pic)
+    CircleImageView profImage;
+    @BindView(R.id.progress_bar)
+    ProgressBar progressBar;
+
+
     private static final String TAG = "MainActivity";
-    Spinner spinner_faculty, spinner_grade;
     final static int Galary_Pic = 1;
-    private CircleImageView profImage;
-    private EditText proPhone, proCode;
-    private TextView mDisplayDate;
-    private Button signUpBtn;
-    private ImageView backBtn;
     private DatePickerDialog.OnDateSetListener mDateSetListener;
 
-    //declare
     private String[] faculties;
     private String selectedFaculty;
-    private String[] grades;
-    private String selectedGrade;
-    private String userName;
-    private String email;
-    private String password;
-    private static String profile_image;
+    private String[] studentGrades;
+    private String[] doctorGrades;
+    private String selectedStudentGrade;
+    private String selectedDoctorGrade;
+    private String userName,fullname,email,password,currentUserID;
+
+
+    private FirebaseAuth auth;
+    private DatabaseReference userRef;
+    private StorageReference storageReference;
     private boolean isStudent;
     private Uri uriImage;
 
 
-    User user;
-    FirebaseAuth auth;
-    // instance for firebase storage and StorageReference
-    FirebaseFirestore firebaseFirestore;
-    StorageReference storageReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_continue_signup);
-        initView();
+        ButterKnife.bind(this);
+
         Intent intent = getIntent();
         userName = intent.getStringExtra("userName");
+        fullname = intent.getStringExtra("fullName");
         email = intent.getStringExtra("email");
         password = intent.getStringExtra("password");
         isStudent = intent.getBooleanExtra("isStudent", false);
 
-        createFacultySpinner();
-        createGradeSpinner();
+        auth=FirebaseAuth.getInstance();
+
+
+
+        if (isStudent){
+            storageReference= FirebaseStorage.getInstance().getReference().child("profile images").child("students");
+        }
+        else {
+            storageReference= FirebaseStorage.getInstance().getReference().child("profile images").child("doctors");
+        }
+
+        if (!isStudent){
+
+            createFacultySpinner();
+            createDoctorGradeSpinner();
+
+            student_spinner_grade.setVisibility(View.GONE);
+            codeLabel.setVisibility(View.GONE);
+            code.setVisibility(View.GONE);
+            doctor_spinner_grade.setVisibility(View.VISIBLE);
+            departmentLabel.setVisibility(View.VISIBLE);
+            department.setVisibility(View.VISIBLE);
+        }
+        else {
+
+            createFacultySpinner();
+            createStudentGradeSpinner();
+
+            doctor_spinner_grade.setVisibility(View.GONE);
+            departmentLabel.setVisibility(View.GONE);
+            department.setVisibility(View.GONE);
+            student_spinner_grade.setVisibility(View.VISIBLE);
+            codeLabel.setVisibility(View.VISIBLE);
+            code.setVisibility(View.VISIBLE);
+        }
+
+
+
 
         mDisplayDate.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -119,18 +180,6 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
         };
     }
 
-    private void initView() {
-        mDisplayDate = findViewById(R.id.Date);
-        profImage = findViewById(R.id.photo);
-        proPhone = findViewById(R.id.prof_phone);
-        proCode = findViewById(R.id.code_et);
-        spinner_faculty = findViewById(R.id.spinner_faculty);
-        spinner_grade = findViewById(R.id.spinner_grade);
-        signUpBtn = findViewById(R.id.sign_up_btn);
-        backBtn = findViewById(R.id.back_iv);
-        signUpBtn.setOnClickListener(this);
-        backBtn.setOnClickListener(this);
-    }
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -143,7 +192,7 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
 
     }
 
-    public void ChooseImageFromDevice(View view) {
+    public void ChooseImageFromDevice() {
         Intent galaryIntent = new Intent();
         galaryIntent.setAction(Intent.ACTION_GET_CONTENT);
         galaryIntent.setType("image/*");
@@ -155,12 +204,11 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == Galary_Pic && resultCode == RESULT_OK && data != null) {
             Uri imageUri = data.getData();
-            CropImage.activity().setGuidelines(CropImageView.Guidelines.ON)
+            CropImage.activity(imageUri).setGuidelines(CropImageView.Guidelines.ON)
                     .setAspectRatio(1, 1).start(this);
         }
         if (requestCode == CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE) {
             CropImage.ActivityResult result = CropImage.getActivityResult(data);
-
             if (resultCode == RESULT_OK) {
                 Uri resultUri = result.getUri();
                 Picasso.get().load(resultUri).placeholder(R.drawable.ic_baseline_person_pin_24).into(profImage);
@@ -172,32 +220,27 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
         }
     }
 
-    private void saveImageInStorage(Uri resultUri) {
-        // get the Firebase  storage reference
-        storageReference = FirebaseStorage.getInstance().getReference();
-        firebaseFirestore = FirebaseFirestore.getInstance();
 
-        auth=FirebaseAuth.getInstance();
-        storageReference= FirebaseStorage.getInstance().getReference().child("profile images");
-
-        StorageReference filePath=storageReference.child(FirebaseAuth.getInstance().getUid()+".jpg");
-
-        filePath.putFile(resultUri).addOnCompleteListener(new OnCompleteListener<UploadTask.TaskSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<UploadTask.TaskSnapshot> task) {
-
-                if (task.isSuccessful()){
-                    Task<Uri> result=task.getResult().getMetadata().getReference().getDownloadUrl();
-                    result.addOnSuccessListener(new OnSuccessListener<Uri>() {
-                        @Override
-                        public void onSuccess(Uri uri) {
-                            profile_image = uri.toString();
+    private void createNewAccount(Uri resultUri){
+        signUpBtn.setVisibility(View.GONE);
+        progressBar.setVisibility(View.VISIBLE);
+        auth.createUserWithEmailAndPassword(email, password)
+                .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            Toast.makeText(ContinueSignupActivity.this, "Sign up successfully", Toast.LENGTH_SHORT).show();
+                            addUserToDatabase(resultUri);
+                        } else {
+                            signUpBtn.setVisibility(View.VISIBLE);
+                            progressBar.setVisibility(View.GONE);
+                            Toast.makeText(ContinueSignupActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }
-                    });
-                }
-            }
-        });
+                    }
+                });
     }
+
+
 
     private void createFacultySpinner() {
         faculties = getResources().getStringArray(R.array.faculties);
@@ -218,16 +261,34 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
         });
     }
 
-    private void createGradeSpinner() {
-        grades = getResources().getStringArray(R.array.grades);
-        ArrayAdapter<CharSequence> spinnerAdapter = ArrayAdapter.createFromResource(this, R.array.grades, R.layout.color_spinner_layout);
+    private void createStudentGradeSpinner() {
+        studentGrades = getResources().getStringArray(R.array.studentgrades);
+        ArrayAdapter<CharSequence> spinnerAdapter = ArrayAdapter.createFromResource(this, R.array.studentgrades, R.layout.color_spinner_layout);
         spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
-        spinner_grade.setAdapter(spinnerAdapter);
-        spinner_grade.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        student_spinner_grade.setAdapter(spinnerAdapter);
+        student_spinner_grade.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                selectedGrade = grades[position];
+                selectedStudentGrade = studentGrades[position];
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+    }
+    private void createDoctorGradeSpinner() {
+        doctorGrades = getResources().getStringArray(R.array.doctorgrades);
+        ArrayAdapter<CharSequence> spinnerAdapter = ArrayAdapter.createFromResource(this, R.array.doctorgrades, R.layout.color_spinner_layout);
+        spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        doctor_spinner_grade.setAdapter(spinnerAdapter);
+        doctor_spinner_grade.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                selectedDoctorGrade = doctorGrades[position];
             }
 
             @Override
@@ -240,105 +301,183 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
     private boolean validatedEntryData() {
         CircleImageView image = profImage;
         String dateOfBirth = mDisplayDate.getText().toString().trim();
-        String phoneNumber = proPhone.getText().toString();
-        String code = proCode.getText().toString();
+        String phoneNumber = phone.getText().toString();
+        String sCode = code.getText().toString();
+        String docDepartment = department.getText().toString();
         String faculty = selectedFaculty;
-        String grade = selectedGrade;
+        String stuGrade = selectedStudentGrade;
+        String docGrade = selectedDoctorGrade;
 
         if (dateOfBirth.equals("select")){
             mDisplayDate.setError("required");
             Toast.makeText(this, "Please select your birth date", Toast.LENGTH_SHORT).show();
             return false;
         }else if (phoneNumber.isEmpty()){
-            proPhone.setError("required");
+            phone.setError("required");
             Toast.makeText(this, "Please Enter valid number", Toast.LENGTH_SHORT).show();
             return false;
-        }else if (faculty == null) {
+        }else if (faculty == null || faculty.equals("Select")) {
             spinner_faculty.requestFocus();
             Toast.makeText(this, "Please enter your faculty name", Toast.LENGTH_SHORT).show();
-            return false;
-        }else if (grade == null){
-            spinner_grade.requestFocus();
-            Toast.makeText(this, "Please enter your grade", Toast.LENGTH_SHORT).show();
-            return false;
-        }else if (code.isEmpty()) {
-            proCode.setError("required");
-            Toast.makeText(this, "Please enter valid code", Toast.LENGTH_SHORT).show();
             return false;
         }else if (image.getDrawable() == null) {
             image.requestFocus();
             Toast.makeText(this, "Please select your image", Toast.LENGTH_SHORT).show();
             return false;
         }
+        if (isStudent){
+            if (stuGrade == null || stuGrade.equals("Select")){
+                student_spinner_grade.requestFocus();
+                Toast.makeText(this, "Please enter your grade", Toast.LENGTH_SHORT).show();
+                return false;
+            }
+            else if (sCode.isEmpty()) {
+                code.setError("required");
+                Toast.makeText(this, "Please enter valid code", Toast.LENGTH_SHORT).show();
+                return false;
+            }
+        }
+        if (!isStudent){
+            if (docGrade == null || docGrade.equals("Select")){
+                doctor_spinner_grade.requestFocus();
+                Toast.makeText(this, "Please enter your grade", Toast.LENGTH_SHORT).show();
+                return false;
+            }
+           else if (docDepartment.isEmpty()) {
+                department.setError("required");
+                Toast.makeText(this, "Please enter valid department", Toast.LENGTH_SHORT).show();
+                return false;
+            }
+        }
         return true;
     }
 
-    private void registerUser() {
-        signUpBtn.setEnabled(false);
-        auth = FirebaseAuth.getInstance();
-        auth.createUserWithEmailAndPassword(email, password)
-                .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            Toast.makeText(ContinueSignupActivity.this, "Sign up successfully", Toast.LENGTH_SHORT).show();
-                            addUserToDatabase();
-                        } else {
-                            signUpBtn.setEnabled(true);
-                            Toast.makeText(ContinueSignupActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
-    }
 
-    private void addUserToDatabase() {
+
+    private void addUserToDatabase(Uri resultUri) {
         String dateOfBirth = mDisplayDate.getText().toString().trim();
-        String phoneNumber = proPhone.getText().toString();
+        String phoneNumber = phone.getText().toString();
         String faculty = selectedFaculty;
-        String grade = selectedGrade;
-        String code = proCode.getText().toString();
-        //TO Save image in Firebase Storage
-        saveImageInStorage(uriImage);
-        user = new User(auth.getUid() ,profile_image , userName , email , password ,
-                dateOfBirth , phoneNumber , faculty , grade , Integer.parseInt(code));
 
-        if (isStudent) {
-            UserDao.addStudent(user, new OnSuccessListener() {
-                @Override
-                public void onSuccess(Object o) {
+        currentUserID=auth.getCurrentUser().getUid();
+        userRef = FirebaseDatabase.getInstance().getReference().child("Users").child(currentUserID);
 
+
+        StorageReference filePath = storageReference.child(currentUserID + ".jpg");
+
+        filePath.putFile(resultUri).addOnCompleteListener(new OnCompleteListener<UploadTask.TaskSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<UploadTask.TaskSnapshot> task) {
+
+                if (task.isSuccessful()) {
+                    Task<Uri> result = task.getResult().getMetadata().getReference().getDownloadUrl();
+                    result.addOnSuccessListener(new OnSuccessListener<Uri>() {
+                        @Override
+                        public void onSuccess(Uri uri) {
+                            final String downloadUri = uri.toString();
+                            userRef.child("profileImage").setValue(downloadUri)
+                                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<Void> task) {
+                                            if (task.isSuccessful()){
+                                                Toast.makeText(ContinueSignupActivity.this, "Profile image store in firebase database", Toast.LENGTH_SHORT).show();
+                                            }
+                                            else {
+                                                Toast.makeText(ContinueSignupActivity.this, "error: "+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                                            }
+                                        }
+                                    });
+                        }
+                    });
                 }
-            }, new OnFailureListener() {
-                @Override
-                public void onFailure(@NonNull Exception e) {
-                    Toast.makeText(ContinueSignupActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
-                }
-            });
-        }else {
-            UserDao.addDoctor(user, new OnSuccessListener() {
-                @Override
-                public void onSuccess(Object o) {
+            }
+        });
 
-                }
-            }, new OnFailureListener() {
-                @Override
-                public void onFailure(@NonNull Exception e) {
+        HashMap<String, Object> userMap = new HashMap<>();
+        userMap.put("username", userName);
+        userMap.put("fullname", fullname);
+        userMap.put("email", email);
+        userMap.put("password", password);
+        userMap.put("dateOfBirth", dateOfBirth);
+        userMap.put("phoneNumber", phoneNumber);
+        userMap.put("faculty", faculty);
+        if (isStudent){
+            userMap.put("grade", selectedStudentGrade);
+            userMap.put("code", code.getText().toString().trim());
+        }
+        else {
+            userMap.put("grade", selectedDoctorGrade);
+            userMap.put("department", department.getText().toString());
+        }
 
+        userRef.updateChildren(userMap).addOnCompleteListener(new OnCompleteListener<Void>() {
+            @Override
+            public void onComplete(@NonNull Task<Void> task) {
+                if (task.isSuccessful()) {
+                    sendEmailVerificationMessage();
+                    Toast.makeText(ContinueSignupActivity.this, "Data saved successfully in database", Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    signUpBtn.setVisibility(View.VISIBLE);
+                    progressBar.setVisibility(View.GONE);
+                    Toast.makeText(ContinueSignupActivity.this, "Error: "+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+
+    }
+    private void sendEmailVerificationMessage(){
+
+        FirebaseUser user=auth.getCurrentUser();
+
+        if (user != null){
+            user.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                @Override
+                public void onComplete(@NonNull Task<Void> task) {
+                    if (task.isSuccessful()){
+                        signUpBtn.setVisibility(View.VISIBLE);
+                        progressBar.setVisibility(View.GONE);
+                        Toast.makeText(ContinueSignupActivity.this, "Registeration successfull. please check your emal to verify account..", Toast.LENGTH_LONG).show();
+                        SendUserToLoginActivity();
+                        auth.signOut();
+                    }
+                    else {
+                        signUpBtn.setVisibility(View.VISIBLE);
+                        progressBar.setVisibility(View.GONE);
+                        Toast.makeText(ContinueSignupActivity.this, "Error: "+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                        auth.signOut();
+                    }
                 }
             });
         }
     }
 
+    private void SendUserToLoginActivity() {
+        Intent intent=new Intent(ContinueSignupActivity.this, SignActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        intent.putExtra("isStudent",isStudent);
+        startActivity(intent);
+        finish();
+    }
+
+
     @Override
     public void onClick(View view) {
-        if (view.getId() == R.id.sign_up_btn) {
-            if (validatedEntryData()) {
-                registerUser();
-            }else {
-                Toast.makeText(this, "Please fill empty places.", Toast.LENGTH_SHORT).show();
-            }
-        }else if (view.getId() == R.id.back_iv){
+        if (view.getId() == R.id.continue_back_to_main_btn) {
+            startActivity(new Intent(ContinueSignupActivity.this,MainActivity.class));
             finish();
+        }
+        else if (view.getId() == R.id.continue_back_btn){
+            finish();
+        }
+        else if (view.getId()==R.id.select_image_btn){
+            ChooseImageFromDevice();
+        }
+        else if (view.getId()==R.id.signin_btn){
+            if (validatedEntryData()){
+                createNewAccount(uriImage);
+            }
         }
     }
 }
