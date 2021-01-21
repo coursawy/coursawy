@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#635875"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="20dp"
+    android:id="@+id/cardview">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#635875">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 questions"
+            android:textSize="14dp"
+            android:textColor="#ffffff"
+            android:id="@+id/questions"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MATH II"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#311B53"
+            android:id="@+id/subject"
+            android:layout_below="@id/questions"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20 questions"
+            android:textSize="14dp"
+            android:textColor="#ffffff"
+            android:id="@+id/doctorName"
+            android:layout_below="@id/subject"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/pass_or_fail_button"
+            android:button="@android:color/transparent"
+            android:textColor="#ffffff"
+            android:text="new"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="16dp"
+            android:id="@+id/passOrfail"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/passOrfail"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/start_button"
+            android:text="start"
+            android:textColor="#C097FF"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/start"
+            android:drawableLeft="@drawable/start"
+            android:drawablePadding="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:textCursorDrawable="@null"
+            android:textSize="16dp"
+            android:id="@+id/start"/>
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

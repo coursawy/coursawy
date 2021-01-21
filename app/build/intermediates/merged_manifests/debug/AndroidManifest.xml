@@ -26,21 +26,25 @@
         android:supportsRtl="false"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.example.coursawy.SplashActivity"
-            android:screenOrientation="portrait" >
+        <activity android:name="com.example.coursawy.DoctorInfoActivity" >
+        </activity>
+        <activity android:name="com.example.coursawy.Quiz_ExamActivity" >
+        </activity>
+        <activity android:name="com.example.coursawy.CourseProfile" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.coursawy.SplashActivity"
+            android:screenOrientation="portrait" >
+        </activity>
         <activity android:name="com.example.coursawy.ContinueSignupActivity" />
-        <activity android:name="com.example.coursawy.StudentOrDoctorActivity" />
         <activity android:name="com.example.coursawy.SignActivity" />
         <activity android:name="com.example.coursawy.MainActivity" />
-        <activity android:name="com.example.coursawy.ExamActivity" >
-        </activity>
+        <activity android:name="com.example.coursawy.ExamActivity" />
         <activity android:name="com.example.coursawy.OfflineTests" />
         <activity android:name="com.example.coursawy.TestsListActivity" />
         <activity

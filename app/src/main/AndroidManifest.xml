@@ -2,10 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.coursawy">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,29 +9,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
+        <activity android:name=".DoctorInfoActivity">
+
+        </activity>
+        <activity android:name=".Quiz_ExamActivity" >
+
+        </activity>
+        <activity android:name=".CourseProfile" >
+
+        </activity>
         <activity
             android:name=".SplashActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
         </activity>
-        <activity android:name=".ContinueSignupActivity"></activity>
-        <activity android:name=".SignActivity"></activity>
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".ExamActivity">
-
-        </activity>
-        <activity android:name=".OfflineTests"></activity>
-        <activity android:name=".TestsListActivity"></activity>
-
+        <activity android:name=".ContinueSignupActivity" />
+        <activity android:name=".SignActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ExamActivity" />
+        <activity android:name=".OfflineTests" />
+        <activity android:name=".TestsListActivity" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-
-
     </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

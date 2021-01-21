@@ -1,3 +1,32 @@
+com/example/coursawy/CourseProfile.java
+ com.example.coursawy.CourseProfile
+ com.example.coursawy.CourseProfile$1
+com/example/coursawy/Public_Exams_Fragment.java
+ com.example.coursawy.Public_Exams_Fragment
+com/example/coursawy/SplashActivity.java
+ com.example.coursawy.SplashActivity
+ com.example.coursawy.SplashActivity$1
+com/example/coursawy/model/Item_Courses.java
+ com.example.coursawy.model.Item_Courses
+com/example/coursawy/ExamActivity.java
+ com.example.coursawy.ExamActivity
+ com.example.coursawy.ExamActivity$1
+ com.example.coursawy.ExamActivity$2
+com/example/coursawy/SignActivity.java
+ com.example.coursawy.SignActivity
+ com.example.coursawy.SignActivity$1
+com/example/coursawy/Materials_Fragment2.java
+ com.example.coursawy.Materials_Fragment2
+com/example/coursawy/TestsListActivity.java
+ com.example.coursawy.TestsListActivity
+ com.example.coursawy.TestsListActivity$1
+com/example/coursawy/adapter/CoursesAdapter.java
+ com.example.coursawy.adapter.CoursesAdapter
+ com.example.coursawy.adapter.CoursesAdapter$ViewHolder
+com/example/coursawy/adapter/PageAdapter.java
+ com.example.coursawy.adapter.PageAdapter
+com/example/coursawy/BuildConfig.java
+ com.example.coursawy.BuildConfig
 com/example/coursawy/OfflineTests.java
  com.example.coursawy.OfflineTests
  com.example.coursawy.OfflineTests$1
@@ -11,9 +40,6 @@ com/example/coursawy/OfflineTests.java
  com.example.coursawy.OfflineTests$7
 com/example/coursawy/model/Exam.java
  com.example.coursawy.model.Exam
-com/example/coursawy/SplashActivity.java
- com.example.coursawy.SplashActivity
- com.example.coursawy.SplashActivity$1
 com/example/coursawy/ContinueSignupActivity.java
  com.example.coursawy.ContinueSignupActivity
  com.example.coursawy.ContinueSignupActivity$1
@@ -27,25 +53,32 @@ com/example/coursawy/ContinueSignupActivity.java
  com.example.coursawy.ContinueSignupActivity$7$1$1
  com.example.coursawy.ContinueSignupActivity$8
  com.example.coursawy.ContinueSignupActivity$9
+com/example/coursawy/DoctorInfoActivity.java
+ com.example.coursawy.DoctorInfoActivity
+com/example/coursawy/adapter/MyAdapter.java
+ com.example.coursawy.adapter.MyAdapter
+ com.example.coursawy.adapter.MyAdapter$ViewHolder
+com/example/coursawy/adapter/PageAdapter2.java
+ com.example.coursawy.adapter.PageAdapter2
 com/example/coursawy/model/User.java
  com.example.coursawy.model.User
-com/example/coursawy/ExamActivity.java
- com.example.coursawy.ExamActivity
- com.example.coursawy.ExamActivity$1
- com.example.coursawy.ExamActivity$2
+com/example/coursawy/adapter/MyAdapter2.java
+ com.example.coursawy.adapter.MyAdapter2
+ com.example.coursawy.adapter.MyAdapter2$ViewHolder
 com/example/coursawy/TestListAdapter.java
  com.example.coursawy.TestListAdapter
-com/example/coursawy/SignActivity.java
- com.example.coursawy.SignActivity
- com.example.coursawy.SignActivity$1
-com/example/coursawy/StudentOrDoctorActivity.java
- com.example.coursawy.StudentOrDoctorActivity
 com/example/coursawy/TestInfoItem.java
  com.example.coursawy.TestInfoItem
-com/example/coursawy/TestsListActivity.java
- com.example.coursawy.TestsListActivity
- com.example.coursawy.TestsListActivity$1
+com/example/coursawy/Quiz_ExamActivity.java
+ com.example.coursawy.Quiz_ExamActivity
+ com.example.coursawy.Quiz_ExamActivity$1
+com/example/coursawy/Public_Quizes_Fragment.java
+ com.example.coursawy.Public_Quizes_Fragment
+com/example/coursawy/model/Item_Tabs.java
+ com.example.coursawy.model.Item_Tabs
+com/example/coursawy/Exams_Fragment2.java
+ com.example.coursawy.Exams_Fragment2
 com/example/coursawy/MainActivity.java
  com.example.coursawy.MainActivity
-com/example/coursawy/BuildConfig.java
- com.example.coursawy.BuildConfig
+com/example/coursawy/Quisez_Fragment2.java
+ com.example.coursawy.Quisez_Fragment2
