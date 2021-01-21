@@ -45,7 +45,7 @@ import java.util.Date;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class ContinueSignupActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener, View.OnClickListener {
-    private static final String TAG = "MainActivity";
+//    private static final String TAG = "MainActivity";
     Spinner spinner_faculty, spinner_grade;
     final static int Galary_Pic = 1;
     private CircleImageView profImage;
@@ -111,7 +111,7 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
             @Override
             public void onDateSet(DatePicker datePicker, int year, int month, int day) {
                 month = month + 1;
-                Log.d(TAG, "onDateSet: mm/dd/yyy: " + month + "/" + day + "/" + year);
+//                Log.d(TAG, "onDateSet: mm/dd/yyy: " + month + "/" + day + "/" + year);
 
                 String date = month + "/" + day + "/" + year;
                 mDisplayDate.setText(date);
@@ -165,8 +165,7 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
                 Uri resultUri = result.getUri();
                 Picasso.get().load(resultUri).placeholder(R.drawable.ic_baseline_person_pin_24).into(profImage);
                 uriImage = resultUri;
-            }
-            else {
+            } else {
                 Toast.makeText(this, "error: Image can't be cropped try again..", Toast.LENGTH_SHORT).show();
             }
         }
@@ -177,17 +176,17 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
         storageReference = FirebaseStorage.getInstance().getReference();
         firebaseFirestore = FirebaseFirestore.getInstance();
 
-        auth=FirebaseAuth.getInstance();
-        storageReference= FirebaseStorage.getInstance().getReference().child("profile images");
+        auth = FirebaseAuth.getInstance();
+        storageReference = FirebaseStorage.getInstance().getReference().child("profile images");
 
-        StorageReference filePath=storageReference.child(FirebaseAuth.getInstance().getUid()+".jpg");
+        StorageReference filePath = storageReference.child(FirebaseAuth.getInstance().getUid() + ".jpg");
 
         filePath.putFile(resultUri).addOnCompleteListener(new OnCompleteListener<UploadTask.TaskSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<UploadTask.TaskSnapshot> task) {
 
-                if (task.isSuccessful()){
-                    Task<Uri> result=task.getResult().getMetadata().getReference().getDownloadUrl();
+                if (task.isSuccessful()) {
+                    Task<Uri> result = task.getResult().getMetadata().getReference().getDownloadUrl();
                     result.addOnSuccessListener(new OnSuccessListener<Uri>() {
                         @Override
                         public void onSuccess(Uri uri) {
@@ -245,27 +244,27 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
         String faculty = selectedFaculty;
         String grade = selectedGrade;
 
-        if (dateOfBirth.equals("select")){
+        if (dateOfBirth.equals("select")) {
             mDisplayDate.setError("required");
             Toast.makeText(this, "Please select your birth date", Toast.LENGTH_SHORT).show();
             return false;
-        }else if (phoneNumber.isEmpty()){
+        } else if (phoneNumber.isEmpty()) {
             proPhone.setError("required");
             Toast.makeText(this, "Please Enter valid number", Toast.LENGTH_SHORT).show();
             return false;
-        }else if (faculty == null) {
+        } else if (faculty == null) {
             spinner_faculty.requestFocus();
             Toast.makeText(this, "Please enter your faculty name", Toast.LENGTH_SHORT).show();
             return false;
-        }else if (grade == null){
+        } else if (grade == null) {
             spinner_grade.requestFocus();
             Toast.makeText(this, "Please enter your grade", Toast.LENGTH_SHORT).show();
             return false;
-        }else if (code.isEmpty()) {
+        } else if (code.isEmpty()) {
             proCode.setError("required");
             Toast.makeText(this, "Please enter valid code", Toast.LENGTH_SHORT).show();
             return false;
-        }else if (image.getDrawable() == null) {
+        } else if (image.getDrawable() == null) {
             image.requestFocus();
             Toast.makeText(this, "Please select your image", Toast.LENGTH_SHORT).show();
             return false;
@@ -281,7 +280,7 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Toast.makeText(ContinueSignupActivity.this, "Sign up successfully", Toast.LENGTH_SHORT).show();
+//                            Toast.makeText(ContinueSignupActivity.this, "Sign up successfully", Toast.LENGTH_SHORT).show();
                             addUserToDatabase();
                         } else {
                             signUpBtn.setEnabled(true);
@@ -299,14 +298,14 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
         String code = proCode.getText().toString();
         //TO Save image in Firebase Storage
         saveImageInStorage(uriImage);
-        user = new User(auth.getUid() ,profile_image , userName , email , password ,
-                dateOfBirth , phoneNumber , faculty , grade , Integer.parseInt(code));
+        user = new User(auth.getUid(), profile_image, userName, email, password,
+                dateOfBirth, phoneNumber, faculty, grade, Integer.parseInt(code));
 
         if (isStudent) {
             UserDao.addStudent(user, new OnSuccessListener() {
                 @Override
                 public void onSuccess(Object o) {
-
+                    startExamActivity(isStudent);
                 }
             }, new OnFailureListener() {
                 @Override
@@ -314,11 +313,11 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
                     Toast.makeText(ContinueSignupActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
                 }
             });
-        }else {
+        } else {
             UserDao.addDoctor(user, new OnSuccessListener() {
                 @Override
                 public void onSuccess(Object o) {
-
+                    startExamActivity(isStudent);
                 }
             }, new OnFailureListener() {
                 @Override
@@ -334,11 +333,15 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
         if (view.getId() == R.id.sign_up_btn) {
             if (validatedEntryData()) {
                 registerUser();
-            }else {
+            } else {
                 Toast.makeText(this, "Please fill empty places.", Toast.LENGTH_SHORT).show();
             }
-        }else if (view.getId() == R.id.back_iv){
+        } else if (view.getId() == R.id.back_iv) {
             finish();
         }
+    }
+    private void startExamActivity(boolean isStudent) {
+        startActivity(new Intent(ContinueSignupActivity.this ,
+                ExamActivity.class).putExtra("isStudent" , isStudent));
     }
 }

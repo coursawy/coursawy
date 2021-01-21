@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.HomeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_courses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="16sp"
+            android:textColor="#292929"
+            android:text="@string/my_courses" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/courses_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/text_popular_courses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="16sp"
+            android:textColor="#292929"
+            android:text="@string/popular_courses" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/popular_courses_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp" />
+        <TextView
+            android:id="@+id/text_popular_trainers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="16sp"
+            android:textColor="#292929"
+            android:text="@string/popular_trainers" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/popular_trainers_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/text_quizes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="16sp"
+            android:textColor="#292929"
+            android:text="@string/quizes" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/quizes_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.Animator;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,6 +15,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.coursawy.ui.activities.HomeActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
@@ -229,8 +229,8 @@ public class SignActivity extends AppCompatActivity implements View.OnClickListe
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Toast.makeText(SignActivity.this, "Sign in Successfully", Toast.LENGTH_SHORT).show();
-                            Intent testIntent=new Intent(SignActivity.this, ExamActivity.class);
+//                            Toast.makeText(SignActivity.this, "Sign in Successfully", Toast.LENGTH_SHORT).show();
+                            Intent testIntent=new Intent(SignActivity.this, HomeActivity.class);
                             testIntent.putExtra("isStudentLogin",isStudent);
                             startActivity(testIntent);
                         } else {

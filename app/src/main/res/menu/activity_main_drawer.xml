@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/book"
+            android:title="@string/menu_courses" />
+        <item
+            android:id="@+id/nav_online_exams"
+            android:icon="@drawable/exam"
+            android:title="@string/menu_online_exams" />
+        <item
+            android:id="@+id/nav_public_exam"
+            android:icon="@drawable/public_exam"
+            android:title="@string/menu_public_exam" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/menu_settings" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/help"
+            android:title="@string/menu_help" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/logout"
+            android:title="@string/menu_log_out" />
+    </group>
+</menu>

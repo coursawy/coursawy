@@ -26,6 +26,12 @@
         android:supportsRtl="false"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.coursawy.NotificationsActivity" />
+        <activity android:name="com.example.coursawy.ui.activities.PopularCoursesActivity" />
+        <activity
+            android:name="com.example.coursawy.ui.activities.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.example.coursawy.SplashActivity"
             android:screenOrientation="portrait" >
@@ -36,13 +42,10 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.coursawy.ContinueSignupActivity" />
-        <activity android:name="com.example.coursawy.SigninOrSignupActivity" >
-        </activity>
+        <activity android:name="com.example.coursawy.SigninOrSignupActivity" />
         <activity android:name="com.example.coursawy.StudentOrDoctorActivity" />
         <activity android:name="com.example.coursawy.SignActivity" />
-        <activity android:name="com.example.coursawy.MainActivity" />
-        <activity android:name="com.example.coursawy.ExamActivity" >
-        </activity>
+        <activity android:name="com.example.coursawy.ExamActivity" />
         <activity android:name="com.example.coursawy.OfflineTests" />
         <activity android:name="com.example.coursawy.TestsListActivity" />
         <activity

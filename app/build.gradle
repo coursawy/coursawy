@@ -14,6 +14,9 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
     }
+    buildFeatures {
+        viewBinding true
+    }
     packagingOptions {
         exclude 'META-INF/DEPENDENCIES'
         exclude 'META-INF/NOTICE'
@@ -41,6 +44,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore:22.0.1'
     implementation files('libs/poi-3.12-android-a.jar')
     implementation 'com.google.firebase:firebase-auth:20.0.1'
+    implementation 'androidx.navigation:navigation-fragment:2.3.2'
+    implementation 'androidx.navigation:navigation-ui:2.3.2'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
 
     implementation 'com.google.android.material:material:1.2.1'

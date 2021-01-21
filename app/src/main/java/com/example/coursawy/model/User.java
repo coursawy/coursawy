@@ -14,6 +14,11 @@ public class User {
 
     public User() {
     }
+
+    public User(String name) {
+        this.name = name;
+    }
+
     public User(String id, String name, String email, String password, String dateOfBirth, String phoneNumber, String faculty, String grade, int code) {
         this.id = id;
         this.name = name;

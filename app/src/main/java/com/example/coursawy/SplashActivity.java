@@ -6,7 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.example.coursawy.ui.activities.HomeActivity;
+import com.google.firebase.auth.FirebaseAuth;
+
 public class SplashActivity extends AppCompatActivity {
+    FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,10 +19,26 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(SplashActivity.this,StudentOrDoctorActivity.class);
-                startActivity(i);
-                finish();
+                checkUser();
             }
         },3000);
+    }
+
+    private void checkUser() {
+        if (firebaseAuth.getCurrentUser() != null) {
+            startHomeActivity();
+        } else {
+            startSignActivity();
+        }
+    }
+
+    private void startSignActivity() {
+        startActivity(new Intent(this, SignActivity.class));
+        finish();
+    }
+
+    private void startHomeActivity() {
+        startActivity(new Intent(this, HomeActivity.class));
+        finish();
     }
 }
