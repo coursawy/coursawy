@@ -274,19 +274,21 @@
             android:textColor="@android:color/darker_gray"/>
 
 
-        <ImageView
+        <com.facebook.login.widget.LoginButton
             android:id="@+id/sign_facbook_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:src="@drawable/facebook" />
+            android:src="@drawable/facebook"
+           />
 
         <ImageView
             android:id="@+id/sign_gmail_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:src="@drawable/google_plus" />
+            android:src="@drawable/google_plus"
+            android:onClick="onClick"/>
     </LinearLayout>
 
     <Button

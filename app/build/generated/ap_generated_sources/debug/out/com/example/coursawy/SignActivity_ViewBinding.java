@@ -10,6 +10,7 @@ import androidx.annotation.CallSuper;
 import androidx.annotation.UiThread;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
+import com.facebook.login.widget.LoginButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import java.lang.IllegalStateException;
@@ -49,6 +50,8 @@ public class SignActivity_ViewBinding implements Unbinder {
     target.passwordSignUp = Utils.findRequiredViewAsType(source, R.id.password_sign_up, "field 'passwordSignUp'", TextInputEditText.class);
     target.passwordConfirmSignUp = Utils.findRequiredViewAsType(source, R.id.password_conf_sign_up, "field 'passwordConfirmSignUp'", TextInputEditText.class);
     target.backBtn = Utils.findRequiredViewAsType(source, R.id.sign_back_btn, "field 'backBtn'", ImageView.class);
+    target.gmailBtn = Utils.findRequiredViewAsType(source, R.id.sign_gmail_btn, "field 'gmailBtn'", ImageView.class);
+    target.facebookBtn = Utils.findRequiredViewAsType(source, R.id.sign_facbook_btn, "field 'facebookBtn'", LoginButton.class);
   }
 
   @Override
@@ -80,5 +83,7 @@ public class SignActivity_ViewBinding implements Unbinder {
     target.passwordSignUp = null;
     target.passwordConfirmSignUp = null;
     target.backBtn = null;
+    target.gmailBtn = null;
+    target.facebookBtn = null;
   }
 }

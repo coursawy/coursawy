@@ -15,6 +15,11 @@ com/example/coursawy/ExamActivity.java
 com/example/coursawy/SignActivity.java
  com.example.coursawy.SignActivity
  com.example.coursawy.SignActivity$1
+ com.example.coursawy.SignActivity$2
+ com.example.coursawy.SignActivity$3
+ com.example.coursawy.SignActivity$4
+ com.example.coursawy.SignActivity$5
+ com.example.coursawy.SignActivity$6
 com/example/coursawy/Materials_Fragment2.java
  com.example.coursawy.Materials_Fragment2
 com/example/coursawy/TestsListActivity.java
