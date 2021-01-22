@@ -19,7 +19,6 @@ com/example/coursawy/SignActivity.java
  com.example.coursawy.SignActivity$3
  com.example.coursawy.SignActivity$4
  com.example.coursawy.SignActivity$5
- com.example.coursawy.SignActivity$6
 com/example/coursawy/Materials_Fragment2.java
  com.example.coursawy.Materials_Fragment2
 com/example/coursawy/TestsListActivity.java
@@ -85,5 +84,7 @@ com/example/coursawy/Exams_Fragment2.java
  com.example.coursawy.Exams_Fragment2
 com/example/coursawy/MainActivity.java
  com.example.coursawy.MainActivity
+com/example/coursawy/MyFirebaseInstanceIDService.java
+ com.example.coursawy.MyFirebaseInstanceIDService
 com/example/coursawy/Quisez_Fragment2.java
  com.example.coursawy.Quisez_Fragment2

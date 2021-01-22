@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_lecture.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\item_lecture.xml"
+    },
+    {
         "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_signs_bg.png.flat",
         "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\signs_bg.png"
     },
@@ -38,6 +42,10 @@
     {
         "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_undraw_choice.png.flat",
         "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\undraw_choice.png"
+    },
+    {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_quiz_exam_blue.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\item_quiz_exam_blue.xml"
     },
     {
         "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_facebook.png.flat",
@@ -168,6 +176,10 @@
         "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_perm_identity_24.xml"
     },
     {
+        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_quiz_exam_white.xml.flat",
+        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\item_quiz_exam_white.xml"
+    },
+    {
         "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_undraw_choice.png.flat",
         "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\undraw_choice.png"
     },
@@ -240,20 +252,12 @@
         "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\examtitlebg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_course.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\item_course.xml"
-    },
-    {
         "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logo.png.flat",
         "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\logo.png"
     },
     {
         "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tests_list.xml.flat",
         "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_tests_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_item2.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\item2.xml"
     },
     {
         "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_background_item_doctor_profile_bottom.xml.flat",
@@ -514,10 +518,6 @@
     {
         "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_undraw_questions_re.png.flat",
         "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\undraw_questions_re.png"
-    },
-    {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_item1.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\item1.xml"
     },
     {
         "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",

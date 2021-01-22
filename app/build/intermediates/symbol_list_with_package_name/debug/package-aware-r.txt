@@ -2468,9 +2468,9 @@ layout fragment_materials_2
 layout fragment_public__exams_
 layout fragment_public__quizes_
 layout fragment_quisez_2
-layout item1
-layout item2
-layout item_course
+layout item_lecture
+layout item_quiz_exam_blue
+layout item_quiz_exam_white
 layout list_item_test
 layout messenger_button_send_blue_large
 layout messenger_button_send_blue_round
@@ -2637,6 +2637,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string facebook_app_id
 string fb_login_protocol_scheme
+string fcm_fallback_notification_channel_label
 string forgot_password
 string gcm_defaultSenderId
 string google_api_key

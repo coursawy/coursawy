@@ -38,19 +38,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1ee6d58-e4af-4cb6-a051-fadc46608a18" name="Default Changelist" comment="Mo'men Update">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/coursawy/adapter/CoursesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coursawy/adapter/CoursesAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/coursawy/adapter/MyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coursawy/adapter/MyAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/coursawy/adapter/MyAdapter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coursawy/adapter/MyAdapter2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_quiz_exam_blue.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_quiz_exam_white.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_course.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lecture.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_datatransport_transport_api_2_2_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_datatransport_transport_backend_cct_2_3_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_datatransport_transport_runtime_2_2_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cloud_messaging_16_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_datatransport_17_0_10_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_encoders_16_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_encoders_json_17_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_21_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_installations_16_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_installations_interop_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_18_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_21_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coursawy/MyFirebaseInstanceIDService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/coursawy.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/coursawy.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[FI5HSSAUZDS48L6T]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -389,25 +410,25 @@
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605716794142" />
     <state x="521" y="135" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610986059653" />
-    <state width="1323" height="445" key="GridCell.Tab.0.bottom" timestamp="1611300854758">
+    <state width="1323" height="445" key="GridCell.Tab.0.bottom" timestamp="1611309522548">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="445" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611300854758" />
+    <state width="1323" height="445" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611309522548" />
     <state width="1491" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611005917995" />
-    <state width="1323" height="445" key="GridCell.Tab.0.center" timestamp="1611300854758">
+    <state width="1323" height="445" key="GridCell.Tab.0.center" timestamp="1611309522547">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="445" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611300854758" />
+    <state width="1323" height="445" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611309522547" />
     <state width="1491" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611005917994" />
-    <state width="1323" height="445" key="GridCell.Tab.0.left" timestamp="1611300854758">
+    <state width="1323" height="445" key="GridCell.Tab.0.left" timestamp="1611309522547">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="445" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611300854758" />
+    <state width="1323" height="445" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611309522547" />
     <state width="1491" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611005917994" />
-    <state width="1323" height="445" key="GridCell.Tab.0.right" timestamp="1611300854758">
+    <state width="1323" height="445" key="GridCell.Tab.0.right" timestamp="1611309522548">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="445" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611300854758" />
+    <state width="1323" height="445" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611309522548" />
     <state width="1491" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611005917995" />
     <state width="1491" height="260" key="GridCell.Tab.1.bottom" timestamp="1605913233622">
       <screen x="0" y="0" width="1536" height="824" />
