@@ -7,8 +7,32 @@
     <string name="countrycode"><u>+20</u></string>
     <string name="facebook_app_id">156320372563050</string>
     <string name="fb_login_protocol_scheme">fb156320372563050</string>
-
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Hesham Fawzy</string>
+    <string name="nav_header_subtitle">Student</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_search">Search</string>
+    <string name="menu_home">Home</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="action_notification">Notifications</string>
+    <string name="menu_courses">My Courses</string>
+    <string name="menu_online_exams">Online Exams</string>
+    <string name="menu_public_exam"><![CDATA[public exams & quizes]]></string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_log_out">Log out</string>
+    <string name="my_courses">My Courses</string>
+    <string name="popular_courses">Popular Courses</string>
+    <string name="quizes">Quizes</string>
+    <string name="log_out">Are you sure to log out ?</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="notifications">Notifications</string>
+    <string name="popular_trainers">Popular Trainers</string>
+    <string name="home">Home</string>
 
     <string-array name="faculties">
         <item>Select</item>

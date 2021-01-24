@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5A62AC"
+    tools:context=".ui.activities.PopularCoursesActivity">
+
+    <ImageView
+        android:id="@+id/back_iv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="13dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/course_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/background_course_type"
+        android:layout_margin="10dp"
+        android:paddingStart="8dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="2dp"
+        android:text="Programming"
+        android:textColor="@color/colorWhite" />
+
+    <ImageView
+        android:id="@+id/course_image"
+        android:layout_width="185dp"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="116dp"
+        android:src="@drawable/java_svgrepo_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/doctor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingStart="8dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="2dp"
+        android:text="Dr.Kareem"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/background_course_type"
+        app:layout_constraintEnd_toEndOf="@id/course_type"
+        app:layout_constraintBottom_toBottomOf="@id/course_name"
+        app:layout_constraintTop_toTopOf="@id/course_name"
+        />
+
+
+    <TextView
+        android:id="@+id/course_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="JAVA"
+        android:textColor="@color/colorWhite"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/doctor_name"
+        app:layout_constraintStart_toEndOf="@id/back_iv"
+        app:layout_constraintTop_toBottomOf="@id/course_image" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="40sp"
+        android:layout_marginBottom="25dp"
+        android:text="Java is a general-purpose, class-based, object-oriented programming language designed for having lesser implementation dependencies"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_send_request"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/course_name"
+
+        app:layout_constraintTop_toBottomOf="@id/course_name" />
+    <LinearLayout
+        android:id="@+id/btn_send_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@drawable/rectangle216"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Join Request"
+            android:textSize="17sp"
+            android:textColor="#545454"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="25dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_forward"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginEnd="30dp"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

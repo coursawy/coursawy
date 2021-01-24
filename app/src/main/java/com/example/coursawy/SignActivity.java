@@ -4,13 +4,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.animation.Animator;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.content.res.ColorStateList;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
@@ -18,11 +16,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.coursawy.ui.activities.HomeActivity;
 import com.facebook.AccessToken;
 import com.facebook.AccessTokenTracker;
 import com.facebook.CallbackManager;
@@ -47,7 +44,6 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 import com.facebook.login.widget.LoginButton;
 import com.facebook.FacebookSdk;
-import com.facebook.appevents.AppEventsLogger;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -264,7 +260,7 @@ public class SignActivity extends AppCompatActivity implements View.OnClickListe
         emailAddressChecker=user.isEmailVerified();
 
         if (emailAddressChecker){
-            sendUserToExamActivity();
+            sendUserToHomeActivity();
         }
         else {
             Toast.makeText(this, "Please,verify your account first.", Toast.LENGTH_SHORT).show();
@@ -272,8 +268,8 @@ public class SignActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    private void sendUserToExamActivity() {
-        Intent testIntent=new Intent(SignActivity.this, ExamActivity.class);
+    private void sendUserToHomeActivity() {
+        Intent testIntent=new Intent(SignActivity.this, HomeActivity.class);
         testIntent.putExtra("isStudentLogin",isStudent);
         startActivity(testIntent);
     }
@@ -426,17 +422,6 @@ public class SignActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-
-        FirebaseUser currentUser = auth.getCurrentUser();
-        if (currentUser != null) {
-            Intent intent = new Intent(SignActivity.this,ExamActivity.class);
-            startActivity(intent);
-            finish();
-        }
-    }
     @Override
     protected void onDestroy() {
         super.onDestroy();

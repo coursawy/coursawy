@@ -44,6 +44,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.coursawy.ui.activities.NotificationsActivity" />
+        <activity android:name="com.example.coursawy.ui.activities.PopularCoursesActivity" />
+        <activity
+            android:name="com.example.coursawy.ui.activities.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
         <activity android:name="com.example.coursawy.ContinueSignupActivity" />
         <activity android:name="com.example.coursawy.SignActivity" />
         <activity android:name="com.example.coursawy.MainActivity" />

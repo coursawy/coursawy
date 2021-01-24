@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="109dp"
+    android:layout_height="107dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="#F6AE59"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/doctor_image"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/elon_mask"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/doctor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Dr. elon musk"
+            android:paddingBottom="4dp"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
