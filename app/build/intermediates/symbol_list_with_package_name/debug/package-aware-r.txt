@@ -2223,6 +2223,7 @@ id frame_layout
 id fullname_sign_up
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id grade_layout
 id graph
@@ -2241,7 +2242,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id info
 id info_v
 id inline
@@ -2310,6 +2310,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id nameCourse
 id name_sign_up
 id nav_controller_view_tag
 id nav_courses
@@ -2326,6 +2327,7 @@ id nav_view
 id navigation_header_container
 id never
 id never_display
+id next
 id next_btn
 id noScroll
 id none
@@ -2543,6 +2545,8 @@ id unknown
 id unlabeled
 id up
 id useLogo
+id user_image
+id user_name
 id viewPager
 id viewPager2
 id view_offset_helper

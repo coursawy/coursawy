@@ -63,8 +63,12 @@ com/example/coursawy/ShowCamera.java
  com.example.coursawy.ShowCamera
  com.example.coursawy.ShowCamera$1
  com.example.coursawy.ShowCamera$2
+com/example/coursawy/adapters/CoursesClickListner.java
+ com.example.coursawy.adapters.CoursesClickListner
 com/example/coursawy/model/Notification.java
  com.example.coursawy.model.Notification
+com/example/coursawy/adapters/QuizClickLisner.java
+ com.example.coursawy.adapters.QuizClickLisner
 com/example/coursawy/databinding/ActivityContinueSignupBinding.java
  com.example.coursawy.databinding.ActivityContinueSignupBinding
 com/example/coursawy/model/Exam.java
@@ -73,6 +77,8 @@ com/example/coursawy/databinding/ActivityNotificationsBinding.java
  com.example.coursawy.databinding.ActivityNotificationsBinding
 com/example/coursawy/DoctorInfoActivity.java
  com.example.coursawy.DoctorInfoActivity
+ com.example.coursawy.DoctorInfoActivity$1
+ com.example.coursawy.DoctorInfoActivity$2
 com/example/coursawy/adapter/MyAdapter.java
  com.example.coursawy.adapter.MyAdapter
  com.example.coursawy.adapter.MyAdapter$ViewHolder
@@ -97,28 +103,37 @@ com/example/coursawy/TestInfoItem.java
 com/example/coursawy/Quiz_ExamActivity.java
  com.example.coursawy.Quiz_ExamActivity
  com.example.coursawy.Quiz_ExamActivity$1
+ com.example.coursawy.Quiz_ExamActivity$2
 com/example/coursawy/databinding/ActivityDoctorInfoBinding.java
  com.example.coursawy.databinding.ActivityDoctorInfoBinding
 com/example/coursawy/model/Item_Tabs.java
  com.example.coursawy.model.Item_Tabs
 com/example/coursawy/ui/activities/HomeActivity.java
  com.example.coursawy.ui.activities.HomeActivity
+ com.example.coursawy.ui.activities.HomeActivity$1
 com/example/coursawy/MainActivity.java
  com.example.coursawy.MainActivity
 com/example/coursawy/adapters/PopularCourseClickListener.java
  com.example.coursawy.adapters.PopularCourseClickListener
-com/example/coursawy/databinding/ActivityExamCodeBinding.java
- com.example.coursawy.databinding.ActivityExamCodeBinding
+com/example/coursawy/ExamTypeActivity.java
+ com.example.coursawy.ExamTypeActivity
+ com.example.coursawy.ExamTypeActivity$1
+ com.example.coursawy.ExamTypeActivity$2
+ com.example.coursawy.ExamTypeActivity$3
 com/example/coursawy/CourseProfile.java
  com.example.coursawy.CourseProfile
  com.example.coursawy.CourseProfile$1
+ com.example.coursawy.CourseProfile$2
 com/example/coursawy/databinding/ActivitySignBinding.java
  com.example.coursawy.databinding.ActivitySignBinding
 com/example/coursawy/databinding/FragmentMaterials2Binding.java
  com.example.coursawy.databinding.FragmentMaterials2Binding
-com/example/coursawy/cam/FrontCameraRetriever.java
- com.example.coursawy.cam.FrontCameraRetriever
- com.example.coursawy.cam.FrontCameraRetriever$Listener
+com/example/coursawy/adapters/PopularTrainersClickLisner.java
+ com.example.coursawy.adapters.PopularTrainersClickLisner
+com/example/coursawy/ExamCodeActivity.java
+ com.example.coursawy.ExamCodeActivity
+ com.example.coursawy.ExamCodeActivity$1
+ com.example.coursawy.ExamCodeActivity$2
 com/example/coursawy/model/Item_Courses.java
  com.example.coursawy.model.Item_Courses
 com/example/coursawy/databinding/ActivityMainBinding.java
@@ -131,8 +146,16 @@ com/example/coursawy/databinding/ActivityPopularCoursesBinding.java
 com/example/coursawy/adapters/NotificationsAdapter.java
  com.example.coursawy.adapters.NotificationsAdapter
  com.example.coursawy.adapters.NotificationsAdapter$NotificationsViewHolder
-com/example/coursawy/Quisez_Fragment2.java
- com.example.coursawy.Quisez_Fragment2
+com/example/coursawy/TestsActivity.java
+ com.example.coursawy.TestsActivity
+ com.example.coursawy.TestsActivity$1
+ com.example.coursawy.TestsActivity$2
+ com.example.coursawy.TestsActivity$3
+ com.example.coursawy.TestsActivity$4
+ com.example.coursawy.TestsActivity$5
+ com.example.coursawy.TestsActivity$6
+ com.example.coursawy.TestsActivity$7
+ com.example.coursawy.TestsActivity$8
 com/example/coursawy/databinding/FragmentQuisez2Binding.java
  com.example.coursawy.databinding.FragmentQuisez2Binding
 com/example/coursawy/databinding/FragmentPublicQuizesBinding.java
@@ -144,8 +167,9 @@ com/example/coursawy/adapters/CoursesAdapter.java
  com.example.coursawy.adapters.CoursesAdapter$CoursesViewHolder
 com/example/coursawy/databinding/ExamExitAlertBinding.java
  com.example.coursawy.databinding.ExamExitAlertBinding
-com/example/coursawy/MyFirebaseInstanceIDService.java
- com.example.coursawy.MyFirebaseInstanceIDService
+com/example/coursawy/TestsListActivity.java
+ com.example.coursawy.TestsListActivity
+ com.example.coursawy.TestsListActivity$1
 com/example/coursawy/databinding/ActivityTestsListBinding.java
  com.example.coursawy.databinding.ActivityTestsListBinding
 com/example/coursawy/databinding/QuizeItemBinding.java
@@ -202,25 +226,12 @@ com/example/coursawy/ui/fragments/OnlineExamsFragment.java
  com.example.coursawy.ui.fragments.OnlineExamsFragment
 com/example/coursawy/Exams_Fragment2.java
  com.example.coursawy.Exams_Fragment2
-com/example/coursawy/TestsActivity.java
- com.example.coursawy.TestsActivity
- com.example.coursawy.TestsActivity$1
- com.example.coursawy.TestsActivity$2
- com.example.coursawy.TestsActivity$3
- com.example.coursawy.TestsActivity$4
- com.example.coursawy.TestsActivity$5
- com.example.coursawy.TestsActivity$6
- com.example.coursawy.TestsActivity$7
- com.example.coursawy.TestsActivity$8
-com/example/coursawy/ExamCodeActivity.java
- com.example.coursawy.ExamCodeActivity
- com.example.coursawy.ExamCodeActivity$1
- com.example.coursawy.ExamCodeActivity$2
-com/example/coursawy/TestsListActivity.java
- com.example.coursawy.TestsListActivity
- com.example.coursawy.TestsListActivity$1
-com/example/coursawy/ExamTypeActivity.java
- com.example.coursawy.ExamTypeActivity
- com.example.coursawy.ExamTypeActivity$1
- com.example.coursawy.ExamTypeActivity$2
- com.example.coursawy.ExamTypeActivity$3
+com/example/coursawy/databinding/ActivityExamCodeBinding.java
+ com.example.coursawy.databinding.ActivityExamCodeBinding
+com/example/coursawy/MyFirebaseInstanceIDService.java
+ com.example.coursawy.MyFirebaseInstanceIDService
+com/example/coursawy/cam/FrontCameraRetriever.java
+ com.example.coursawy.cam.FrontCameraRetriever
+ com.example.coursawy.cam.FrontCameraRetriever$Listener
+com/example/coursawy/Quisez_Fragment2.java
+ com.example.coursawy.Quisez_Fragment2

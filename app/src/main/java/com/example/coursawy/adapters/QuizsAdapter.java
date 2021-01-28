@@ -14,6 +14,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class QuizsAdapter extends RecyclerView.Adapter<QuizsAdapter.QuizsViewHolder> {
     private List<Course> courseList;
+    private final QuizClickLisner listener3;
+    public QuizsAdapter( QuizClickLisner listener3) {
+        this.listener3 = listener3;
+    }
     @NonNull
     @Override
     public QuizsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -40,7 +44,7 @@ public class QuizsAdapter extends RecyclerView.Adapter<QuizsAdapter.QuizsViewHol
         notifyDataSetChanged();
     }
 
-    static class QuizsViewHolder extends RecyclerView.ViewHolder {
+    class QuizsViewHolder extends RecyclerView.ViewHolder {
         private final QuizeItemBinding binding;
 
         public QuizsViewHolder(@NonNull QuizeItemBinding binding) {
@@ -52,6 +56,8 @@ public class QuizsAdapter extends RecyclerView.Adapter<QuizsAdapter.QuizsViewHol
         public void bind(Course course){
             binding.courseImage.setImageResource(course.getCourseImage());
             binding.courseName.setText(course.getCourseName());
+            binding.getRoot().setOnClickListener(view -> listener3.onClick3(course.getCourseName()));
+
         }
     }
 }

@@ -5,15 +5,26 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.Menu;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.example.coursawy.ExamTypeActivity;
+import com.example.coursawy.MainActivity;
 import com.example.coursawy.R;
 import com.example.coursawy.SignActivity;
 import com.example.coursawy.databinding.ActivityHomeBinding;
+import com.example.coursawy.model.User;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -35,11 +46,15 @@ public class HomeActivity extends AppCompatActivity  {
     public static DrawerLayout drawer;
     private NavigationView navigationView;
     private Toolbar toolbar;
+    TextView navUsername,navUsertype;
+    ImageView navUserImage;
+    DatabaseReference reference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityHomeBinding.inflate(getLayoutInflater());
+
         setContentView(binding.getRoot());
 //        toolbar = binding.appBarMain.toolbar;
         setSupportActionBar(toolbar);
@@ -48,6 +63,33 @@ public class HomeActivity extends AppCompatActivity  {
 
         drawer = binding.drawerLayout;
         navigationView = binding.navView;
+        View headerView = navigationView.getHeaderView(0);
+        navUsername = headerView.findViewById(R.id.user_name);
+        navUserImage = headerView.findViewById(R.id.user_image);
+        navUsertype = headerView.findViewById(R.id.textView);
+        user = FirebaseAuth.getInstance().getCurrentUser();
+        reference = FirebaseDatabase.getInstance().getReference("Users").child(user.getUid());
+
+        reference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                User user = dataSnapshot.getValue(User.class);
+                navUsername.setText(user.getUsername());
+                navUsertype.setText(user.getType());
+
+                if (user.getProfileImage().equals("default")){
+                    navUserImage.setImageResource(R.mipmap.ic_launcher);
+                } else {
+
+                    //change this
+                    Glide.with(getApplicationContext()).load(user.getProfileImage()).into(navUserImage);
+                }
+            }
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
@@ -115,7 +157,7 @@ public class HomeActivity extends AppCompatActivity  {
 
     private void startSignActivity() {
         auth.signOut();
-        startActivity(new Intent(this , SignActivity.class));
+        startActivity(new Intent(this , MainActivity.class));
     }
 
     @Override

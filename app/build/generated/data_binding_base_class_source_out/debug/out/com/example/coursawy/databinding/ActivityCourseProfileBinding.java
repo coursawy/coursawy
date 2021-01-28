@@ -42,6 +42,9 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
   public final TabItem materialsCourse;
 
   @NonNull
+  public final TextView nameCourse;
+
+  @NonNull
   public final TabItem quizesCourse;
 
   @NonNull
@@ -56,7 +59,7 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
   private ActivityCourseProfileBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView backIv, @NonNull TextView courseOnPhoto,
       @NonNull TextView doctorNameOnPhoto, @NonNull TabItem examsCourse,
-      @NonNull LinearLayout linear1, @NonNull TabItem materialsCourse,
+      @NonNull LinearLayout linear1, @NonNull TabItem materialsCourse, @NonNull TextView nameCourse,
       @NonNull TabItem quizesCourse, @NonNull ImageView rect, @NonNull TabLayout tablayoutCourses,
       @NonNull ViewPager viewPager2) {
     this.rootView = rootView;
@@ -66,6 +69,7 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
     this.examsCourse = examsCourse;
     this.linear1 = linear1;
     this.materialsCourse = materialsCourse;
+    this.nameCourse = nameCourse;
     this.quizesCourse = quizesCourse;
     this.rect = rect;
     this.tablayoutCourses = tablayoutCourses;
@@ -135,6 +139,12 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.nameCourse;
+      TextView nameCourse = rootView.findViewById(id);
+      if (nameCourse == null) {
+        break missingId;
+      }
+
       id = R.id.quizes_course;
       TabItem quizesCourse = rootView.findViewById(id);
       if (quizesCourse == null) {
@@ -160,7 +170,7 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
       }
 
       return new ActivityCourseProfileBinding((ConstraintLayout) rootView, backIv, courseOnPhoto,
-          doctorNameOnPhoto, examsCourse, linear1, materialsCourse, quizesCourse, rect,
+          doctorNameOnPhoto, examsCourse, linear1, materialsCourse, nameCourse, quizesCourse, rect,
           tablayoutCourses, viewPager2);
     }
     String missingId = rootView.getResources().getResourceName(id);

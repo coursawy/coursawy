@@ -403,10 +403,12 @@ public class ContinueSignupActivity extends AppCompatActivity implements Adapter
         userMap.put("faculty", faculty);
         if (isStudent){
             userMap.put("grade", selectedStudentGrade);
+            userMap.put("type","student");
             userMap.put("code", code.getText().toString().trim());
         }
         else {
             userMap.put("grade", selectedDoctorGrade);
+            userMap.put("type","doctor");
             userMap.put("department", department.getText().toString());
         }
 

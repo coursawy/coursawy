@@ -272,6 +272,7 @@ public class SignActivity extends AppCompatActivity implements View.OnClickListe
         Intent testIntent=new Intent(SignActivity.this, HomeActivity.class);
         testIntent.putExtra("isStudentLogin",isStudent);
         startActivity(testIntent);
+        finish();
     }
 
     private void handleFacebookAccessToken(AccessToken token) {

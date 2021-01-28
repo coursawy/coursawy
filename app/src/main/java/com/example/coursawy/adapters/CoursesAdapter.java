@@ -18,7 +18,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class CoursesAdapter extends RecyclerView.Adapter<CoursesAdapter.CoursesViewHolder> {
     private List<Course> courseList;
-
+    private final CoursesClickListner listener4;
+    public CoursesAdapter( CoursesClickListner listener4) {
+        this.listener4 = listener4;
+    }
     @NonNull
     @Override
     public CoursesViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -46,7 +49,7 @@ public class CoursesAdapter extends RecyclerView.Adapter<CoursesAdapter.CoursesV
         notifyDataSetChanged();
     }
 
-    static class CoursesViewHolder extends RecyclerView.ViewHolder {
+     class CoursesViewHolder extends RecyclerView.ViewHolder {
         private final CourseItemBinding binding;
         public CoursesViewHolder(@NonNull CourseItemBinding binding) {
             super(binding.getRoot());
@@ -55,6 +58,8 @@ public class CoursesAdapter extends RecyclerView.Adapter<CoursesAdapter.CoursesV
         public void bind(Course course){
             binding.courseImage.setImageResource(course.getCourseImage());
             binding.courseName.setText(course.getCourseName());
+            binding.getRoot().setOnClickListener(view -> listener4.onClick4(course.getCourseName()));
+
         }
     }
 

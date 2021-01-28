@@ -6,6 +6,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.coursawy.CourseProfile;
+import com.example.coursawy.DoctorInfoActivity;
+import com.example.coursawy.Quiz_ExamActivity;
+import com.example.coursawy.adapters.CoursesClickListner;
+import com.example.coursawy.adapters.PopularTrainersClickLisner;
+import com.example.coursawy.adapters.QuizClickLisner;
+import com.example.coursawy.databinding.FragmentHomeBinding;
 import com.example.coursawy.ui.activities.PopularCoursesActivity;
 import com.example.coursawy.R;
 import com.example.coursawy.adapters.CoursesAdapter;
@@ -13,7 +20,7 @@ import com.example.coursawy.adapters.PopularCourseClickListener;
 import com.example.coursawy.adapters.PopularCoursesAdapter;
 import com.example.coursawy.adapters.PopularTrainersAdapter;
 import com.example.coursawy.adapters.QuizsAdapter;
-import com.example.coursawy.databinding.FragmentHomeBinding;
+
 import com.example.coursawy.model.Course;
 import com.example.coursawy.model.User;
 
@@ -26,7 +33,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
-public class HomeFragment extends Fragment implements PopularCourseClickListener {
+public class HomeFragment extends Fragment implements PopularCourseClickListener, PopularTrainersClickLisner , QuizClickLisner, CoursesClickListner {
     private FragmentHomeBinding binding;
     private List<Course> courseList;
     private List<Course> popularCourseList;
@@ -100,7 +107,7 @@ public class HomeFragment extends Fragment implements PopularCourseClickListener
         recyclerView.setLayoutManager(new LinearLayoutManager(requireContext(),
                 RecyclerView.HORIZONTAL , false));
         recyclerView.setHasFixedSize(true);
-        popularTrainersAdapter = new PopularTrainersAdapter();
+        popularTrainersAdapter = new PopularTrainersAdapter(this);
         popularTrainersAdapter.setUserList(userList);
         recyclerView.setAdapter(popularTrainersAdapter);
     }
@@ -111,7 +118,7 @@ public class HomeFragment extends Fragment implements PopularCourseClickListener
         recyclerView.setLayoutManager(new LinearLayoutManager(requireContext(),
                 RecyclerView.HORIZONTAL , false));
         recyclerView.setHasFixedSize(true);
-        coursesAdapter = new CoursesAdapter();
+        coursesAdapter = new CoursesAdapter(this);
         coursesAdapter.setCourseList(courseList);
         recyclerView.setAdapter(coursesAdapter);
     }
@@ -133,7 +140,7 @@ public class HomeFragment extends Fragment implements PopularCourseClickListener
         recyclerView.setLayoutManager(new LinearLayoutManager(requireContext(),
                 RecyclerView.HORIZONTAL , false));
         recyclerView.setHasFixedSize(true);
-        quizsAdapter = new QuizsAdapter();
+        quizsAdapter = new QuizsAdapter(this);
         quizsAdapter.setCourseList(quizList);
         recyclerView.setAdapter(quizsAdapter);
     }
@@ -142,5 +149,21 @@ public class HomeFragment extends Fragment implements PopularCourseClickListener
     public void onClick(String courseName) {
         //We have Course Name
         startActivity(new Intent(requireContext() , PopularCoursesActivity.class));
+    }
+    @Override
+    public void onClick2(String courseName) {
+        //We have Course Name
+        startActivity(new Intent(requireContext() , DoctorInfoActivity.class));
+    }
+
+    @Override
+    public void onClick3(String courseName) {
+        startActivity(new Intent(requireContext() , Quiz_ExamActivity.class));
+    }
+
+    @Override
+    public void onClick4(String courseName) {
+        Intent i = new Intent(requireContext(), CourseProfile.class);
+        startActivity(i);
     }
 }

@@ -38,10 +38,13 @@ public final class ActivityPopularCoursesBinding implements ViewBinding {
   @NonNull
   public final TextView doctorName;
 
+  @NonNull
+  public final ImageView next;
+
   private ActivityPopularCoursesBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView backIv, @NonNull LinearLayout btnSendRequest,
       @NonNull ImageView courseImage, @NonNull TextView courseName, @NonNull TextView courseType,
-      @NonNull TextView doctorName) {
+      @NonNull TextView doctorName, @NonNull ImageView next) {
     this.rootView = rootView;
     this.backIv = backIv;
     this.btnSendRequest = btnSendRequest;
@@ -49,6 +52,7 @@ public final class ActivityPopularCoursesBinding implements ViewBinding {
     this.courseName = courseName;
     this.courseType = courseType;
     this.doctorName = doctorName;
+    this.next = next;
   }
 
   @Override
@@ -114,8 +118,14 @@ public final class ActivityPopularCoursesBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.next;
+      ImageView next = rootView.findViewById(id);
+      if (next == null) {
+        break missingId;
+      }
+
       return new ActivityPopularCoursesBinding((ConstraintLayout) rootView, backIv, btnSendRequest,
-          courseImage, courseName, courseType, doctorName);
+          courseImage, courseName, courseType, doctorName, next);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
