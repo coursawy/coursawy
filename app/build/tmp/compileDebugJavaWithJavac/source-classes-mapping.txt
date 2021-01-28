@@ -26,8 +26,8 @@ com/example/coursawy/databinding/PopularCourseItemBinding.java
  com.example.coursawy.databinding.PopularCourseItemBinding
 com/example/coursawy/databinding/FragmentHomeBinding.java
  com.example.coursawy.databinding.FragmentHomeBinding
-com/example/coursawy/databinding/FragmentPublicExamsBinding.java
- com.example.coursawy.databinding.FragmentPublicExamsBinding
+com/example/coursawy/Quisez_Fragment2.java
+ com.example.coursawy.Quisez_Fragment2
 com/example/coursawy/model/Course.java
  com.example.coursawy.model.Course
 com/example/coursawy/databinding/ItemLectureBinding.java
@@ -233,5 +233,5 @@ com/example/coursawy/MyFirebaseInstanceIDService.java
 com/example/coursawy/cam/FrontCameraRetriever.java
  com.example.coursawy.cam.FrontCameraRetriever
  com.example.coursawy.cam.FrontCameraRetriever$Listener
-com/example/coursawy/Quisez_Fragment2.java
- com.example.coursawy.Quisez_Fragment2
+com/example/coursawy/databinding/FragmentPublicExamsBinding.java
+ com.example.coursawy.databinding.FragmentPublicExamsBinding

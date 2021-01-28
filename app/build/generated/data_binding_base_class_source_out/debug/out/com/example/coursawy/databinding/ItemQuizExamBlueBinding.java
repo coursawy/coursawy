@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import com.example.coursawy.R;
 import java.lang.NullPointerException;
@@ -16,10 +16,10 @@ import java.lang.String;
 
 public final class ItemQuizExamBlueBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final CardView rootView;
 
   @NonNull
-  public final ConstraintLayout cardview;
+  public final CardView cardview;
 
   @NonNull
   public final TextView doctorName;
@@ -36,10 +36,9 @@ public final class ItemQuizExamBlueBinding implements ViewBinding {
   @NonNull
   public final TextView subject;
 
-  private ItemQuizExamBlueBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout cardview, @NonNull TextView doctorName,
-      @NonNull TextView passOrfail, @NonNull TextView questions, @NonNull TextView start,
-      @NonNull TextView subject) {
+  private ItemQuizExamBlueBinding(@NonNull CardView rootView, @NonNull CardView cardview,
+      @NonNull TextView doctorName, @NonNull TextView passOrfail, @NonNull TextView questions,
+      @NonNull TextView start, @NonNull TextView subject) {
     this.rootView = rootView;
     this.cardview = cardview;
     this.doctorName = doctorName;
@@ -51,7 +50,7 @@ public final class ItemQuizExamBlueBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public CardView getRoot() {
     return rootView;
   }
 
@@ -76,7 +75,7 @@ public final class ItemQuizExamBlueBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      ConstraintLayout cardview = (ConstraintLayout) rootView;
+      CardView cardview = (CardView) rootView;
 
       id = R.id.doctorName;
       TextView doctorName = rootView.findViewById(id);
@@ -108,8 +107,8 @@ public final class ItemQuizExamBlueBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemQuizExamBlueBinding((ConstraintLayout) rootView, cardview, doctorName,
-          passOrfail, questions, start, subject);
+      return new ItemQuizExamBlueBinding((CardView) rootView, cardview, doctorName, passOrfail,
+          questions, start, subject);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
