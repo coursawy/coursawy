@@ -63,6 +63,20 @@ animator nav_default_pop_exit_anim
 array doctorgrades
 array faculties
 array studentgrades
+attr OtpCursorColor
+attr OtpCursorWidth
+attr OtpHideLineWhenFilled
+attr OtpItemCount
+attr OtpItemHeight
+attr OtpItemRadius
+attr OtpItemSpacing
+attr OtpItemWidth
+attr OtpLineColor
+attr OtpLineWidth
+attr OtpMaskingChar
+attr OtpRtlTextDirection
+attr OtpState_filled
+attr OtpViewType
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -138,6 +152,17 @@ attr badgeGravity
 attr badgeStyle
 attr badgeTextColor
 attr barLength
+attr bar_active_color
+attr bar_enabled
+attr bar_error_color
+attr bar_height
+attr bar_inactive_color
+attr bar_margin
+attr bar_margin_bottom
+attr bar_margin_left
+attr bar_margin_right
+attr bar_margin_top
+attr bar_success_color
 attr barrierAllowsGoneWidgets
 attr barrierDirection
 attr barrierMargin
@@ -169,6 +194,11 @@ attr boxStrokeColor
 attr boxStrokeErrorColor
 attr boxStrokeWidth
 attr boxStrokeWidthFocused
+attr box_margin
+attr box_margin_bottom
+attr box_margin_left
+attr box_margin_right
+attr box_margin_top
 attr brightness
 attr buttonBarButtonStyle
 attr buttonBarNegativeButtonStyle
@@ -496,6 +526,8 @@ attr helperTextTextColor
 attr hideMotionSpec
 attr hideOnContentScroll
 attr hideOnScroll
+attr hide_otp
+attr hide_otp_drawable
 attr hintAnimationEnabled
 attr hintEnabled
 attr hintTextAppearance
@@ -617,6 +649,7 @@ attr layout_keyline
 attr layout_optimizationLevel
 attr layout_scrollFlags
 attr layout_scrollInterpolator
+attr length
 attr liftOnScroll
 attr liftOnScrollTargetViewId
 attr limitBoundsTo
@@ -705,6 +738,14 @@ attr onNegativeCross
 attr onPositiveCross
 attr onShow
 attr onTouchUp
+attr otp
+attr otpViewStyle
+attr otp_box_background
+attr otp_box_background_active
+attr otp_box_background_error
+attr otp_box_background_inactive
+attr otp_box_background_success
+attr otp_text_size
 attr overlapAnchor
 attr overlay
 attr paddingBottomNoButtons
@@ -897,6 +938,7 @@ attr textInputLayoutFocusedRectEnabled
 attr textInputStyle
 attr textLocale
 attr textStartPadding
+attr text_typeface
 attr theme
 attr themeLineHeight
 attr thickness
@@ -965,6 +1007,7 @@ attr waveOffset
 attr wavePeriod
 attr waveShape
 attr waveVariesBy
+attr width
 attr windowActionBar
 attr windowActionBarOverlay
 attr windowActionModeOverlay
@@ -1015,6 +1058,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1114,6 +1158,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
@@ -1208,6 +1253,7 @@ color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color radiobutton_themeable_attribute_color
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1224,6 +1270,8 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color transparent
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1583,6 +1631,11 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen otp_view_cursor_width
+dimen otp_view_item_line_width
+dimen otp_view_item_radius
+dimen otp_view_item_size
+dimen otp_view_item_spacing
 dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
@@ -1699,6 +1752,8 @@ drawable background_item_dactor_profile
 drawable background_item_doctor_profile_bottom
 drawable backk
 drawable bcak_splacsh
+drawable bg_otp_item
+drawable bg_pin
 drawable black_left_arrow
 drawable blue
 drawable blue_logo
@@ -1718,6 +1773,7 @@ drawable button_selector
 drawable button_submit
 drawable cancel
 drawable changeicon
+drawable codebg
 drawable com_facebook_auth_dialog_background
 drawable com_facebook_auth_dialog_cancel_background
 drawable com_facebook_auth_dialog_header_background
@@ -1783,10 +1839,12 @@ drawable google_plus
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable group_quizs
+drawable header
 drawable help
 drawable home
 drawable home_background
 drawable ic_baseline_account_box_24
+drawable ic_baseline_add_circle_outline_24
 drawable ic_baseline_arrow_back_ios_24
 drawable ic_baseline_date_range_24
 drawable ic_baseline_email_24
@@ -1893,6 +1951,10 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable undraw_choice
 drawable undraw_questions_re
+drawable user
+drawable warning_bg
+drawable warning_header
+font arafont
 font oswaldregular
 font segoeui
 id ALT
@@ -1913,6 +1975,8 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id a_exam_title_tv
+id a_mark_tv
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1979,6 +2043,7 @@ id all
 id always
 id animateToEnd
 id animateToStart
+id answers_tv
 id appBarMain
 id app_bar_icon
 id app_bar_main
@@ -2042,6 +2107,7 @@ id com_facebook_smart_instructions_or
 id com_facebook_tooltip_bubble_view_bottom_pointer
 id com_facebook_tooltip_bubble_view_text_body
 id com_facebook_tooltip_bubble_view_top_pointer
+id confirm_btn
 id confirm_button
 id confirmation_code
 id container
@@ -2091,6 +2157,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detection_tv
 id dialog_button
 id dimensions
 id direct
@@ -2152,6 +2219,7 @@ id floating
 id forever
 id forgot_password
 id fragment_container_view_tag
+id frame_layout
 id fullname_sign_up
 id ghost_view
 id ghost_view_holder
@@ -2192,6 +2260,7 @@ id lecture
 id left
 id left_layout
 id light
+id line
 id line1
 id line3
 id linear
@@ -2281,6 +2350,7 @@ id onTouch
 id online_btn
 id open
 id open_graph
+id otp_view
 id outline
 id oval
 id packed
@@ -2546,10 +2616,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_answers
 layout activity_continue_signup
 layout activity_course_profile
 layout activity_doctor_info
-layout activity_exam
+layout activity_exam_code
+layout activity_exam_type
 layout activity_home
 layout activity_main
 layout activity_notifications
@@ -2588,7 +2660,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout exam_alert
+layout exam_exit_alert
+layout exam_warning
 layout fragment_exams_2
 layout fragment_home
 layout fragment_materials_2
@@ -3117,6 +3190,8 @@ style MessengerButtonText_Blue_Small
 style MessengerButtonText_White
 style MessengerButtonText_White_Large
 style MessengerButtonText_White_Small
+style OtpWidget
+style OtpWidget_OtpView
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
@@ -3689,6 +3764,9 @@ styleable NavigationView android_background android_fitsSystemWindows android_ma
 styleable Navigator android_label android_id
 styleable OnClick clickAction targetId
 styleable OnSwipe dragDirection dragScale dragThreshold limitBoundsTo maxAcceleration maxVelocity moveWhenScrollAtTop nestedScrollFlags onTouchUp touchAnchorId touchAnchorSide touchRegionId
+styleable OtpTextView android_textColor bar_active_color bar_enabled bar_error_color bar_height bar_inactive_color bar_margin bar_margin_bottom bar_margin_left bar_margin_right bar_margin_top bar_success_color box_margin box_margin_bottom box_margin_left box_margin_right box_margin_top height hide_otp hide_otp_drawable length otp otp_box_background otp_box_background_active otp_box_background_error otp_box_background_inactive otp_box_background_success otp_text_size text_typeface width
+styleable OtpView android_itemBackground android_cursorVisible android_textAllCaps OtpCursorColor OtpCursorWidth OtpHideLineWhenFilled OtpItemCount OtpItemHeight OtpItemRadius OtpItemSpacing OtpItemWidth OtpLineColor OtpLineWidth OtpMaskingChar OtpRtlTextDirection OtpState_filled OtpViewType
+styleable OtpViewTheme otpViewStyle
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode

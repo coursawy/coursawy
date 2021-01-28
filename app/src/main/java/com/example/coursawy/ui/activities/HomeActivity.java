@@ -7,7 +7,7 @@ import android.view.MenuItem;
 import android.view.Menu;
 import android.widget.Toast;
 
-import com.example.coursawy.ExamActivity;
+import com.example.coursawy.ExamTypeActivity;
 import com.example.coursawy.R;
 import com.example.coursawy.SignActivity;
 import com.example.coursawy.databinding.ActivityHomeBinding;
@@ -16,7 +16,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.view.GravityCompat;
 import androidx.navigation.NavController;
@@ -60,7 +59,7 @@ public class HomeActivity extends AppCompatActivity  {
             return true;
         });
         navigationView.getMenu().findItem(R.id.nav_online_exams).setOnMenuItemClickListener(menuItem -> {
-            startActivity(new Intent(this , ExamActivity.class));
+            startActivity(new Intent(this , ExamTypeActivity.class));
             return true;
         });
 

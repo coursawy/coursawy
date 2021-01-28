@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.coursawy">
+
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,26 +14,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DoctorInfoActivity">
-
-        </activity>
-        <activity android:name=".Quiz_ExamActivity" >
-
-
-        </activity>
-        <activity android:name=".CourseProfile" >
-
-        </activity>
+        <activity android:name=".AnswersActivity" />
+        <activity android:name=".ExamCodeActivity" />
+        <activity android:name=".DoctorInfoActivity"></activity>
+        <activity android:name=".Quiz_ExamActivity"></activity>
+        <activity android:name=".CourseProfile"></activity>
         <activity
             android:name=".SplashActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activities.NotificationsActivity"/>
+        <activity android:name=".ui.activities.NotificationsActivity" />
         <activity android:name=".ui.activities.PopularCoursesActivity" />
         <activity
             android:name=".ui.activities.HomeActivity"
@@ -39,8 +36,10 @@
         <activity android:name=".ContinueSignupActivity" />
         <activity android:name=".SignActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".ExamActivity" />
-        <activity android:name=".OfflineTests" />
+        <activity android:name=".ExamTypeActivity" />
+        <activity
+            android:name=".TestsActivity"
+            android:screenOrientation="portrait" />
         <activity android:name=".TestsListActivity" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
@@ -62,17 +61,14 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
-        <service
-            android:name=".MyFirebaseInstanceIDService">
+        <service android:name=".MyFirebaseInstanceIDService">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
-
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
     </application>
-
-
 </manifest>

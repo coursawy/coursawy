@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
+    android:background="#F4ECFF"
     android:orientation="vertical">
 
     <!--        <ImageView-->
@@ -20,10 +20,10 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/examtitlebg"
+            android:background="@drawable/header"
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:paddingBottom="5dp">
@@ -32,7 +32,9 @@
                 android:id="@+id/back_iv"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:layout_margin="13dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
                 android:src="@drawable/left_arrow" />
 
             <TextView
@@ -45,29 +47,67 @@
                 android:text="Practice test 1"
                 android:textColor="@android:color/white"
                 android:textSize="21sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/timer_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="14dp"
+                android:layout_toEndOf="@+id/back_iv"
+                android:gravity="center"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                android:text="Timer"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
                 android:textStyle="bold" />
-        </LinearLayout>
+
+            <Button
+                android:id="@+id/exam_submit_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@+id/timer_tv"
+                android:background="@drawable/btn_background"
+                android:enabled="false"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </RelativeLayout>
 
         <TextView
-            android:id="@+id/timer_tv"
+            android:id="@+id/detection_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="#80FFFFFF"
-            android:gravity="center"
-            android:paddingStart="6dp"
-            android:paddingEnd="6dp"
-            android:text="سيتم بدأ العد التازلي لوقت الامتحان بعد حل اول سؤال"
-            android:textColor="#4B7003"
-            android:textSize="16sp" />
+            android:layout_marginTop="10dp"
+            android:text="ياعالم ياللي هنا"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
 
         <TextView
             android:id="@+id/counter_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="30dp"
             android:text="Question 1/10" />
 
@@ -138,7 +178,7 @@
                     android:layout_marginEnd="11dp"
                     android:gravity="center"
                     android:text="1. Test test ..... test."
-                    android:textColor="#1561AC"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -230,11 +270,11 @@
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="20dp"
                         android:background="@drawable/btn_background"
-                        android:drawableLeft="@drawable/black_left_arrow"
                         android:enabled="false"
                         android:paddingStart="15dp"
                         android:paddingEnd="15dp"
-                        android:text="back"
+                        android:text="Back"
+                        android:textAllCaps="false"
                         android:textColor="@android:color/white"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -250,29 +290,15 @@
                         android:background="@drawable/btn_background"
                         android:paddingStart="15dp"
                         android:paddingEnd="15dp"
-                        android:text="next"
+                        android:text="Next"
+                        android:textAllCaps="false"
                         android:textColor="@android:color/white"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                 </RelativeLayout>
 
-                <Button
-                    android:id="@+id/exam_submit_btn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/btn_background"
-                    android:enabled="false"
-                    android:paddingLeft="22dp"
-                    android:paddingRight="22dp"
-                    android:text="Submit Answers"
-                    android:textAllCaps="false"
-                    android:textColor="@android:color/white"
-                    android:textSize="21sp"
-                    android:textStyle="bold"
-                    android:visibility="visible" />
+
             </LinearLayout>
         </ScrollView>
     </LinearLayout>

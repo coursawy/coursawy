@@ -49,7 +49,7 @@ public class TestsListActivity extends AppCompatActivity {
             testsListView.setVisibility(View.VISIBLE);
 
             testInfoItemList.clear();
-            for (int i = 1; i < 13; i++) {
+            for (int i = 1; i < 8; i++) {
                 testInfoItemList.add(new TestInfoItem(i + "", "General", "Test " + i, ""));
             }
 
@@ -60,7 +60,7 @@ public class TestsListActivity extends AppCompatActivity {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     TestInfoItem item = testInfoItemList.get(position);
-                    Intent intent = new Intent(TestsListActivity.this, OfflineTests.class);
+                    Intent intent = new Intent(TestsListActivity.this, TestsActivity.class);
                     intent.putExtra("id", item.getId());
                     intent.putExtra("type", type);
                     intent.putExtra("unitName", item.getTitle());

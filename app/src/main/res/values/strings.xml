@@ -27,8 +27,8 @@
     <string name="my_courses">My Courses</string>
     <string name="popular_courses">Popular Courses</string>
     <string name="quizes">Quizes</string>
-    <string name="log_out">Are you sure to log out ?</string>
-    <string name="yes">yes</string>
+    <string name="log_out">Are you sure you want to log out?</string>
+    <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="notifications">Notifications</string>
     <string name="popular_trainers">Popular Trainers</string>
