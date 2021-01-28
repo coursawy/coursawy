@@ -4,9 +4,9 @@ package com.example.coursawy.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import com.example.coursawy.R;
@@ -16,12 +16,12 @@ import java.lang.String;
 
 public final class FragmentPublicQuizesBinding implements ViewBinding {
   @NonNull
-  private final NestedScrollView rootView;
+  private final FrameLayout rootView;
 
   @NonNull
   public final RecyclerView recyclerView;
 
-  private FragmentPublicQuizesBinding(@NonNull NestedScrollView rootView,
+  private FragmentPublicQuizesBinding(@NonNull FrameLayout rootView,
       @NonNull RecyclerView recyclerView) {
     this.rootView = rootView;
     this.recyclerView = recyclerView;
@@ -29,7 +29,7 @@ public final class FragmentPublicQuizesBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public NestedScrollView getRoot() {
+  public FrameLayout getRoot() {
     return rootView;
   }
 
@@ -60,7 +60,7 @@ public final class FragmentPublicQuizesBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentPublicQuizesBinding((NestedScrollView) rootView, recyclerView);
+      return new FragmentPublicQuizesBinding((FrameLayout) rootView, recyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

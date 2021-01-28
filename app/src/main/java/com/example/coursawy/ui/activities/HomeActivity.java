@@ -11,8 +11,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.example.coursawy.CourseProfile;
 import com.example.coursawy.ExamTypeActivity;
 import com.example.coursawy.MainActivity;
+import com.example.coursawy.Quiz_ExamActivity;
 import com.example.coursawy.R;
 import com.example.coursawy.SignActivity;
 import com.example.coursawy.databinding.ActivityHomeBinding;
@@ -98,6 +100,14 @@ public class HomeActivity extends AppCompatActivity  {
                 .build();
         navigationView.getMenu().findItem(R.id.nav_log_out).setOnMenuItemClickListener(menuItem -> {
             checkUser();
+            return true;
+        });
+        navigationView.getMenu().findItem(R.id.nav_courses).setOnMenuItemClickListener(menuItem -> {
+            startActivity(new Intent(HomeActivity.this , CourseProfile.class));
+            return true;
+        });
+        navigationView.getMenu().findItem(R.id.nav_public_exam).setOnMenuItemClickListener(menuItem -> {
+            startActivity(new Intent(HomeActivity.this , Quiz_ExamActivity.class));
             return true;
         });
         navigationView.getMenu().findItem(R.id.nav_online_exams).setOnMenuItemClickListener(menuItem -> {

@@ -158,7 +158,7 @@ public class HomeFragment extends Fragment implements PopularCourseClickListener
 
     @Override
     public void onClick3(String courseName) {
-        startActivity(new Intent(requireContext() , Quiz_ExamActivity.class));
+
     }
 
     @Override
