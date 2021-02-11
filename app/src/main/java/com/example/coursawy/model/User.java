@@ -12,8 +12,9 @@ public class User {
     String grade;
     String code;
     String type;
+    String message;
 
-    public User(String username, String profileImage, String fullname, String email, String password, String dateOfBirth, String phoneNumber, String faculty, String grade, String code,String type) {
+    public User(String username, String profileImage, String fullname, String email, String password, String dateOfBirth, String phoneNumber, String faculty, String grade, String code,String type,String message) {
         this.username = username;
         this.profileImage = profileImage;
         this.fullname = fullname;
@@ -25,6 +26,7 @@ public class User {
         this.grade = grade;
         this.code = code;
         this.type=type;
+        this.message=message;
     }
 
     public User(String username) {
@@ -32,6 +34,14 @@ public class User {
     }
 
     public User() {
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 
     public String getUsername() {

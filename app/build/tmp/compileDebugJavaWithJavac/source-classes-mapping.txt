@@ -1,5 +1,7 @@
 com/example/coursawy/Public_Exams_Fragment.java
  com.example.coursawy.Public_Exams_Fragment
+com/example/coursawy/TakePhoto/APictureCapturingService.java
+ com.example.coursawy.TakePhoto.APictureCapturingService
 com/example/coursawy/CameraSurfaceView.java
  com.example.coursawy.CameraSurfaceView
 com/example/coursawy/ui/fragments/SlideshowFragment.java
@@ -26,8 +28,13 @@ com/example/coursawy/databinding/PopularCourseItemBinding.java
  com.example.coursawy.databinding.PopularCourseItemBinding
 com/example/coursawy/databinding/FragmentHomeBinding.java
  com.example.coursawy.databinding.FragmentHomeBinding
-com/example/coursawy/Quisez_Fragment2.java
- com.example.coursawy.Quisez_Fragment2
+com/example/coursawy/TakePhoto/PictureCapturingServiceImpl.java
+ com.example.coursawy.TakePhoto.PictureCapturingServiceImpl
+ com.example.coursawy.TakePhoto.PictureCapturingServiceImpl$1
+ com.example.coursawy.TakePhoto.PictureCapturingServiceImpl$2
+ com.example.coursawy.TakePhoto.PictureCapturingServiceImpl$3
+com/example/coursawy/databinding/FragmentPublicExamsBinding.java
+ com.example.coursawy.databinding.FragmentPublicExamsBinding
 com/example/coursawy/model/Course.java
  com.example.coursawy.model.Course
 com/example/coursawy/databinding/ItemLectureBinding.java
@@ -79,6 +86,8 @@ com/example/coursawy/DoctorInfoActivity.java
  com.example.coursawy.DoctorInfoActivity
  com.example.coursawy.DoctorInfoActivity$1
  com.example.coursawy.DoctorInfoActivity$2
+com/example/coursawy/TakePhoto/PictureCapturingListener.java
+ com.example.coursawy.TakePhoto.PictureCapturingListener
 com/example/coursawy/adapter/MyAdapter.java
  com.example.coursawy.adapter.MyAdapter
  com.example.coursawy.adapter.MyAdapter$ViewHolder
@@ -149,6 +158,10 @@ com/example/coursawy/adapters/NotificationsAdapter.java
 com/example/coursawy/TestsActivity.java
  com.example.coursawy.TestsActivity
  com.example.coursawy.TestsActivity$1
+ com.example.coursawy.TestsActivity$10
+ com.example.coursawy.TestsActivity$11
+ com.example.coursawy.TestsActivity$11$1
+ com.example.coursawy.TestsActivity$11$1$1
  com.example.coursawy.TestsActivity$2
  com.example.coursawy.TestsActivity$3
  com.example.coursawy.TestsActivity$4
@@ -156,6 +169,7 @@ com/example/coursawy/TestsActivity.java
  com.example.coursawy.TestsActivity$6
  com.example.coursawy.TestsActivity$7
  com.example.coursawy.TestsActivity$8
+ com.example.coursawy.TestsActivity$9
 com/example/coursawy/databinding/FragmentQuisez2Binding.java
  com.example.coursawy.databinding.FragmentQuisez2Binding
 com/example/coursawy/databinding/FragmentPublicQuizesBinding.java
@@ -233,5 +247,5 @@ com/example/coursawy/MyFirebaseInstanceIDService.java
 com/example/coursawy/cam/FrontCameraRetriever.java
  com.example.coursawy.cam.FrontCameraRetriever
  com.example.coursawy.cam.FrontCameraRetriever$Listener
-com/example/coursawy/databinding/FragmentPublicExamsBinding.java
- com.example.coursawy.databinding.FragmentPublicExamsBinding
+com/example/coursawy/Quisez_Fragment2.java
+ com.example.coursawy.Quisez_Fragment2

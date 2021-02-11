@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\youss\\.gradle\\caches\\transforms-2\\files-2.1\\5b5a991b1da69e5e5fa90b9b890b2a79\\jetified-facebook-login-5.15.3\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,190,302,410",
+                        "endColumns": "134,111,107,147",
+                        "endOffsets": "185,297,405,553"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2762,2897,3009,3117",
+                        "endColumns": "134,111,107,147",
+                        "endOffsets": "2892,3004,3112,3260"
+                    }
+                },
+                {
                     "source": "C:\\Users\\youss\\.gradle\\caches\\transforms-2\\files-2.1\\a6726d819be00473d72bec53ad09d977\\jetified-firebase-messaging-21.0.1\\res\\values-en-rGB\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -52,23 +69,6 @@
                         "startOffsets": "5913",
                         "endColumns": "111",
                         "endOffsets": "6020"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\youss\\.gradle\\caches\\transforms-2\\files-2.1\\14f4547bfd7c648b09d0070df03b1e6b\\jetified-facebook-login-5.15.3\\res\\values-en-rGB\\values-en-rGB.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,190,302,410",
-                        "endColumns": "134,111,107,147",
-                        "endOffsets": "185,297,405,553"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "2762,2897,3009,3117",
-                        "endColumns": "134,111,107,147",
-                        "endOffsets": "2892,3004,3112,3260"
                     }
                 },
                 {
