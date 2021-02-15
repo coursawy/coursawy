@@ -1,5 +1,6 @@
 package com.example.coursawy;
 
+import android.media.Image;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -11,6 +12,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.example.coursawy.adapter.CoursesAdapter;
 import com.example.coursawy.model.Item_Courses;
@@ -73,6 +75,7 @@ public class Materials_Fragment2 extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_materials_2, container, false);
         simpleList = (RecyclerView) view.findViewById(R.id.recyclerView);
+
         fillOrders ();
         return view;
     }

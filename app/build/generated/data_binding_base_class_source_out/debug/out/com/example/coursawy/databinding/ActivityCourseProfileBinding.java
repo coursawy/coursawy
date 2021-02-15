@@ -24,7 +24,13 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageView addBtn;
+
+  @NonNull
   public final ImageView backIv;
+
+  @NonNull
+  public final ImageView badgeIcon;
 
   @NonNull
   public final TextView courseOnPhoto;
@@ -45,6 +51,9 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
   public final TextView nameCourse;
 
   @NonNull
+  public final TextView newMembersCount;
+
+  @NonNull
   public final TabItem quizesCourse;
 
   @NonNull
@@ -57,19 +66,23 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
   public final ViewPager viewPager2;
 
   private ActivityCourseProfileBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView backIv, @NonNull TextView courseOnPhoto,
-      @NonNull TextView doctorNameOnPhoto, @NonNull TabItem examsCourse,
-      @NonNull LinearLayout linear1, @NonNull TabItem materialsCourse, @NonNull TextView nameCourse,
+      @NonNull ImageView addBtn, @NonNull ImageView backIv, @NonNull ImageView badgeIcon,
+      @NonNull TextView courseOnPhoto, @NonNull TextView doctorNameOnPhoto,
+      @NonNull TabItem examsCourse, @NonNull LinearLayout linear1, @NonNull TabItem materialsCourse,
+      @NonNull TextView nameCourse, @NonNull TextView newMembersCount,
       @NonNull TabItem quizesCourse, @NonNull ImageView rect, @NonNull TabLayout tablayoutCourses,
       @NonNull ViewPager viewPager2) {
     this.rootView = rootView;
+    this.addBtn = addBtn;
     this.backIv = backIv;
+    this.badgeIcon = badgeIcon;
     this.courseOnPhoto = courseOnPhoto;
     this.doctorNameOnPhoto = doctorNameOnPhoto;
     this.examsCourse = examsCourse;
     this.linear1 = linear1;
     this.materialsCourse = materialsCourse;
     this.nameCourse = nameCourse;
+    this.newMembersCount = newMembersCount;
     this.quizesCourse = quizesCourse;
     this.rect = rect;
     this.tablayoutCourses = tablayoutCourses;
@@ -103,9 +116,21 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.add_btn;
+      ImageView addBtn = rootView.findViewById(id);
+      if (addBtn == null) {
+        break missingId;
+      }
+
       id = R.id.back_iv;
       ImageView backIv = rootView.findViewById(id);
       if (backIv == null) {
+        break missingId;
+      }
+
+      id = R.id.badge_icon;
+      ImageView badgeIcon = rootView.findViewById(id);
+      if (badgeIcon == null) {
         break missingId;
       }
 
@@ -145,6 +170,12 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.new_members_count;
+      TextView newMembersCount = rootView.findViewById(id);
+      if (newMembersCount == null) {
+        break missingId;
+      }
+
       id = R.id.quizes_course;
       TabItem quizesCourse = rootView.findViewById(id);
       if (quizesCourse == null) {
@@ -169,9 +200,9 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityCourseProfileBinding((ConstraintLayout) rootView, backIv, courseOnPhoto,
-          doctorNameOnPhoto, examsCourse, linear1, materialsCourse, nameCourse, quizesCourse, rect,
-          tablayoutCourses, viewPager2);
+      return new ActivityCourseProfileBinding((ConstraintLayout) rootView, addBtn, backIv,
+          badgeIcon, courseOnPhoto, doctorNameOnPhoto, examsCourse, linear1, materialsCourse,
+          nameCourse, newMembersCount, quizesCourse, rect, tablayoutCourses, viewPager2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

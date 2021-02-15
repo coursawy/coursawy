@@ -1,7 +1,8 @@
 package com.example.coursawy.model;
 
 public class Exam {
-    String id, question, ans1, ans2, ans3, ans4, real_answer;
+    String id, question, ans1, ans2, ans3, ans4, real_answer , course_category , course_name , course_description;
+    boolean is_private;
 
     public Exam() {
     }
@@ -23,6 +24,22 @@ public class Exam {
         this.ans3 = ans3;
         this.ans4 = ans4;
         this.real_answer = real_answer;
+    }
+
+    public String getCourse_category() {
+        return course_category;
+    }
+
+    public String getCourse_name() {
+        return course_name;
+    }
+
+    public String getCourse_description() {
+        return course_description;
+    }
+
+    public boolean isIs_private() {
+        return is_private;
     }
 
     public String getId() {

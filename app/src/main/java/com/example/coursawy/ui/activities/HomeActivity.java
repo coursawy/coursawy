@@ -16,7 +16,6 @@ import com.example.coursawy.ExamTypeActivity;
 import com.example.coursawy.MainActivity;
 import com.example.coursawy.Quiz_ExamActivity;
 import com.example.coursawy.R;
-import com.example.coursawy.SignActivity;
 import com.example.coursawy.databinding.ActivityHomeBinding;
 import com.example.coursawy.model.User;
 import com.google.android.material.navigation.NavigationView;
@@ -95,7 +94,7 @@ public class HomeActivity extends AppCompatActivity  {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_log_out, R.id.nav_slideshow)
+                R.id.nav_home, R.id.nav_log_out, R.id.nav_add_new_exam)
                 .setOpenableLayout(binding.drawerLayout)
                 .build();
         navigationView.getMenu().findItem(R.id.nav_log_out).setOnMenuItemClickListener(menuItem -> {
@@ -112,6 +111,10 @@ public class HomeActivity extends AppCompatActivity  {
         });
         navigationView.getMenu().findItem(R.id.nav_online_exams).setOnMenuItemClickListener(menuItem -> {
             startActivity(new Intent(this , ExamTypeActivity.class));
+            return true;
+        });
+        navigationView.getMenu().findItem(R.id.nav_add_new_exam).setOnMenuItemClickListener(menuItem -> {
+            startActivity(new Intent(this , AddNewExamActivity.class));
             return true;
         });
 

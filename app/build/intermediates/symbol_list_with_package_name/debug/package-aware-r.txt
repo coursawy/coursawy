@@ -60,6 +60,8 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
+array Courses
+array CoursesCategory
 array doctorgrades
 array faculties
 array studentgrades
@@ -1158,6 +1160,8 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray_btn
+color gray_tv
 color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
@@ -1241,6 +1245,7 @@ color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
+color not_selected_btn_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
@@ -1252,6 +1257,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color radio_flat_text_selector
 color radiobutton_themeable_attribute_color
 color red
 color ripple_material_dark
@@ -1260,6 +1266,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color selected_btn_color
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -1735,9 +1742,13 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add
+drawable add_course_icon
+drawable add_new_course_recycler_btn
 drawable app_bar
 drawable app_bar_icon
 drawable app_bar_image
+drawable app_bar_tint
 drawable arrow_back_blue
 drawable arrow_forward
 drawable avd_hide_password
@@ -1754,6 +1765,7 @@ drawable backk
 drawable bcak_splacsh
 drawable bg_otp_item
 drawable bg_pin
+drawable bg_spinner
 drawable black_left_arrow
 drawable blue
 drawable blue_logo
@@ -1819,6 +1831,7 @@ drawable common_google_signin_btn_text_light_normal_background
 drawable continuebackground
 drawable corsawy
 drawable course_image
+drawable course_quiz_and_secure_exam_btn
 drawable crop_image_menu_flip
 drawable crop_image_menu_rotate_left
 drawable crop_image_menu_rotate_right
@@ -1830,6 +1843,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable doctor_photo
+drawable down_arrow_icon
 drawable elon_mask
 drawable exam
 drawable examtitlebg
@@ -1871,7 +1885,9 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_open
+drawable icon_download
 drawable icon_feather
+drawable instructions
 drawable java_course
 drawable java_svgrepo_com
 drawable java_svgrepo_main
@@ -1907,6 +1923,7 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable new_members_count
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1914,6 +1931,7 @@ drawable notification_bg_low_normal
 drawable notification_bg_low_pressed
 drawable notification_bg_normal
 drawable notification_bg_normal_pressed
+drawable notification_group_icon
 drawable notification_icon_background
 drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
@@ -1926,8 +1944,12 @@ drawable person
 drawable progress_drawable
 drawable public_exam
 drawable radio_bg
+drawable radio_flat_regular
+drawable radio_flat_selected
+drawable radio_flat_selector
 drawable rect
 drawable rectangle216
+drawable rounded_button
 drawable settings
 drawable shadow_signup
 drawable side_nav_bar
@@ -1938,6 +1960,7 @@ drawable signinnn
 drawable signs_bg
 drawable signuppp
 drawable splash_background
+drawable star_icon
 drawable start
 drawable start_button
 drawable student_icon
@@ -1951,6 +1974,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable undraw_choice
 drawable undraw_questions_re
+drawable upload_file_icon
 drawable user
 drawable warning_bg
 drawable warning_header
@@ -2034,6 +2058,9 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id add_btn
+id add_course_btn
+id add_new_exam_layout
 id add_test_btn
 id adjust_height
 id adjust_width
@@ -2056,6 +2083,7 @@ id autoCompleteToStart
 id automatic
 id back_btn
 id back_iv
+id badge_icon
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2109,6 +2137,7 @@ id com_facebook_tooltip_bubble_view_text_body
 id com_facebook_tooltip_bubble_view_top_pointer
 id confirm_btn
 id confirm_button
+id confirm_exam_code
 id confirmation_code
 id container
 id content
@@ -2130,9 +2159,15 @@ id cos
 id counter_tv
 id course_image
 id course_name
+id course_name_et
 id course_on_photo
+id course_quiz_btn
+id course_quiz_layout
 id course_type
+id courses_category_spinner
+id courses_quiz_spinner
 id courses_recycler_view
+id create_new_room_tv
 id cropImageView
 id crop_image_menu_crop
 id crop_image_menu_flip
@@ -2152,6 +2187,7 @@ id default_activity_button
 id deltaRelative
 id department_lable
 id dependency_ordering
+id description_et
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2170,6 +2206,7 @@ id doctorName_on_photo
 id doctor_image
 id doctor_name
 id doctor_spinner_grade
+id download_btn
 id dragDown
 id dragEnd
 id dragLeft
@@ -2194,6 +2231,8 @@ id eradio_group_all
 id eradio_one
 id eradio_three
 id eradio_two
+id exam_code
+id exam_instructions_layout
 id exam_ll
 id exam_submit_btn
 id exam_title_tv
@@ -2242,6 +2281,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id info
 id info_v
 id inline
@@ -2312,6 +2352,7 @@ id mtrl_picker_title_text
 id multiply
 id nameCourse
 id name_sign_up
+id nav_add_new_exam
 id nav_controller_view_tag
 id nav_courses
 id nav_help
@@ -2322,11 +2363,12 @@ id nav_log_out
 id nav_online_exams
 id nav_public_exam
 id nav_settings
-id nav_slideshow
 id nav_view
 id navigation_header_container
 id never
 id never_display
+id new_members_count
+id new_room_app_bar
 id next
 id next_btn
 id noScroll
@@ -2347,6 +2389,7 @@ id numOfExams
 id numOfExamsTop
 id off
 id offline_btn
+id ok_btn
 id on
 id onTouch
 id online_btn
@@ -2376,14 +2419,18 @@ id popular_courses_recycler_view
 id popular_trainers_recycler_view
 id position
 id postLayout
+id private_btn
+id private_public_btn_view
 id profile_imagee
 id progress
 id progress_bar
 id progress_circular
 id progress_horizontal
+id public_btn
 id questions
 id questions_ll
 id questions_progress
+id quiz_name_et
 id quizes_course
 id quizes_recycler_view
 id radio
@@ -2418,6 +2465,9 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id secure_exam_btn
+id secure_exam_courses_spinner
+id secure_exam_layout
 id select_dialog_listview
 id select_image_btn
 id selected
@@ -2458,6 +2508,8 @@ id src_atop
 id src_in
 id src_over
 id standard
+id star
+id star2
 id start
 id startHorizontal
 id startVertical
@@ -2499,6 +2551,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView2
+id textView3
+id textView5
 id text_courses
 id text_gallery
 id text_input_conf_password2
@@ -2544,9 +2599,12 @@ id universityTop
 id unknown
 id unlabeled
 id up
+id upload_exam_tv
+id upload_quiz_btn
 id useLogo
 id user_image
 id user_name
+id view
 id viewPager
 id viewPager2
 id view_offset_helper
@@ -2620,9 +2678,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_new_exam
 layout activity_answers
 layout activity_continue_signup
 layout activity_course_profile
+layout activity_create_new_room
 layout activity_doctor_info
 layout activity_exam_code
 layout activity_exam_type
@@ -2666,6 +2726,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout exam_exit_alert
 layout exam_warning
+layout fragment_add_new_exam
 layout fragment_exams_2
 layout fragment_home
 layout fragment_materials_2
@@ -2673,7 +2734,6 @@ layout fragment_online_exams
 layout fragment_public__exams_
 layout fragment_public__quizes_
 layout fragment_quisez_2
-layout fragment_slideshow
 layout item_lecture
 layout item_quiz_exam_blue
 layout item_quiz_exam_white
@@ -2758,6 +2818,9 @@ mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 navigation mobile_navigation
 plurals mtrl_badge_content_description
+string _ok
+string _private
+string _public
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2787,10 +2850,12 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string action_notification
 string action_search
+string add_new_exam
 string add_tests
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string cancel
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2838,6 +2903,8 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string countrycode
+string course_quiz
+string create_new_room
 string crop_image_activity_no_permissions
 string crop_image_activity_title
 string crop_image_menu_crop
@@ -2847,6 +2914,8 @@ string crop_image_menu_flip_vertically
 string crop_image_menu_rotate_left
 string crop_image_menu_rotate_right
 string default_web_client_id
+string description
+string download_example_file
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2864,6 +2933,7 @@ string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string home
 string icon_content_description
+string instructions
 string item_view_role_description
 string log_out
 string material_slider_range_end
@@ -2875,7 +2945,6 @@ string menu_log_out
 string menu_online_exams
 string menu_public_exam
 string menu_settings
-string menu_slideshow
 string messenger_send_button_text
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
@@ -2933,10 +3002,13 @@ string pick_image_intent_chooser_title
 string popular_courses
 string popular_trainers
 string project_id
+string quiz_title
 string quizes
 string search_menu_title
+string secure_exam
 string status_bar_notification_info_overflow
 string title_activity_home
+string upload_quiz
 string yes
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -3248,6 +3320,7 @@ style ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year
 style ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox
 style ShapeAppearanceOverlay_TopLeftCut
 style ShapeAppearanceOverlay_TopRightDifferentCornerSize
+style SpinnerTheme
 style Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day
 style Test_Theme_MaterialComponents_MaterialCalendar
 style Test_Widget_MaterialComponents_MaterialCalendar

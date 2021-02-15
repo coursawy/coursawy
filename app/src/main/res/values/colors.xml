@@ -11,4 +11,8 @@
     <color name="colorAccent">#6E5593</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBlack">#000000</color>
+    <color name="selected_btn_color">#6CAFE0</color>
+    <color name="not_selected_btn_color">#B6D3EC</color>
+    <color name="gray_btn">#D4D4D4</color>
+    <color name="gray_tv">#A5A5A5</color>
 </resources>
