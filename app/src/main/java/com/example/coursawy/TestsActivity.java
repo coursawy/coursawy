@@ -1,17 +1,25 @@
 package com.example.coursawy;
 
 import android.Manifest;
+import android.annotation.TargetApi;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
 import android.hardware.Camera;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.os.Handler;
+import android.os.Looper;
+import android.provider.MediaStore;
 import android.view.SurfaceView;
 import android.view.View;
 import android.widget.Button;
@@ -28,24 +36,42 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
+import com.bumptech.glide.Glide;
+import com.example.coursawy.TakePhoto.APictureCapturingService;
+import com.example.coursawy.TakePhoto.PictureCapturingListener;
+import com.example.coursawy.TakePhoto.PictureCapturingServiceImpl;
 import com.example.coursawy.cam.FaceDetectionCamera;
 import com.example.coursawy.cam.FrontCameraRetriever;
 import com.example.coursawy.model.Exam;
+import com.example.coursawy.model.User;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 
+import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
+import java.util.TreeMap;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class TestsActivity extends AppCompatActivity implements FrontCameraRetriever.Listener, FaceDetectionCamera.Listener {
+public class TestsActivity extends AppCompatActivity implements FrontCameraRetriever.Listener, FaceDetectionCamera.Listener, PictureCapturingListener, ActivityCompat.OnRequestPermissionsResultCallback {
     @BindView(R.id.timer_tv)
     TextView timerTv;
     @BindView(R.id.exam_title_tv)
@@ -81,13 +107,19 @@ public class TestsActivity extends AppCompatActivity implements FrontCameraRetri
     Button backBtn;
     @BindView(R.id.next_btn)
     Button nextBtn;
+//    @BindView(R.id.imgSecret)
+//    ImageView uploadFrontPhoto;
+//    @BindView(R.id.imgProfile)
+//    ImageView imgProfile;
+    //    @BindView(R.id.textWarning)
+//    TextView textWarning;
     @BindView(R.id.questions_progress)
     SeekBar questionsProgress;
     private String testId = "";
 
     @BindView(R.id.frame_layout)
     FrameLayout frameLayout;
-    Camera camera;
+    //Camera camera;
     private String testName;
     private ArrayList<Exam> examList;
     String answersString = "";
@@ -99,9 +131,11 @@ public class TestsActivity extends AppCompatActivity implements FrontCameraRetri
     private int x = MR + 1;
     ArrayList<String> stuAnswersList;
 
+    boolean photo=false,sendImage=false,store1=false,store2=false,store2_start=false;
 
-    DatabaseReference examRef;
+    DatabaseReference examRef,imageRef, queRef,messageRef;
     FirebaseDatabase database;
+    private StorageReference storageReference;
 
     CountDownTimer countDownTimer;
     private long timeLiftInMilliSeconds = 60000 * 60;
@@ -110,24 +144,111 @@ public class TestsActivity extends AppCompatActivity implements FrontCameraRetri
     ShowCamera showCamera;
     private static final int MY_CAMERA_REQUEST_CODE = 100;
 
+    int count=11;
+
+    private FirebaseUser user;
+    DatabaseReference reference;
+    //photo
+    private static final String[] requiredPermissions = {
+            Manifest.permission.WRITE_EXTERNAL_STORAGE,
+            Manifest.permission.CAMERA,
+    };
+    private static final int MY_PERMISSIONS_REQUEST_ACCESS_CODE = 1;
+    //private ImageView uploadBackPhoto;
+    //The capture service
+    private APictureCapturingService pictureService;
+    ValueEventListener imageListener;
+
     private static final String TAG = "FDT" + MainActivity.class.getSimpleName();
     private TextView detectionTv;
     AlertDialog.Builder dialog;
     View warningView;
+    TextView textWarning;
     AlertDialog warningDialog;
-
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tests);
         ButterKnife.bind(this);
+        checkPermissions();
+        user = FirebaseAuth.getInstance().getCurrentUser();
+        messageRef = FirebaseDatabase.getInstance().getReference().child("Users").child(user.getUid());
+        messageRef.child("message").setValue("");
+        reference = FirebaseDatabase.getInstance().getReference("Users").child(user.getUid());
+        queRef = FirebaseDatabase.getInstance().getReference("queue");
+
+        reference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                User user = dataSnapshot.getValue(User.class);
+                if(user.getMessage().length()>1 && sendImage==true ){
+                    Toast.makeText(TestsActivity.this, ""+user.getMessage(), Toast.LENGTH_SHORT).show();
+                    if(user.getMessage().equals("noface")){
+                        secondTakePhote();
+                    }
+                    if(user.getMessage().equals("false")){
+                        Toast.makeText(TestsActivity.this, "غشاش", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(TestsActivity.this,TestsListActivity.class);
+                        startActivity(intent);
+                        finish();
+                    }
+                    if (user.getMessage().equals("true")){
+                        store1=true;
+                        photo=true;
+                        if(store2_start=true){
+                            store2=true;
+                        }
+                    }
+                    sendImage=false;
+                }
+                if (user.getProfileImage().equals("default")){
+//                    imgProfile.setImageResource(R.mipmap.ic_launcher);
+                } else {
+
+                    //change this
+//                    Glide.with(getApplicationContext()).load(user.getProfileImage()).into(imgProfile);
+                }
+                if (user.getType().equals("student")){
+                    storageReference= FirebaseStorage.getInstance().getReference().child("exams");
+                }
+                else {
+
+                }
+            }
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+        Random rand = new Random();
+        int rand_time = rand.nextInt(6*60000)+120000;
+
+        final Handler handler_randomtime = new Handler(Looper.getMainLooper());
+        handler_randomtime.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                //Do something after rand_time
+                if(sendImage==false){
+                    messageRef.child("message").setValue("");
+                    store2_start=true;
+                    secondTakePhote();
+                }
+            }
+        }, rand_time);
+
+        if(photo==false){
+            new Handler().postDelayed(this::checkTakePhoto, 500);
+        }
 
         detectionTv = findViewById(R.id.detection_tv);
         FrontCameraRetriever.retrieveFor(this);
 
+
         dialog = new AlertDialog.Builder(this);
         warningView = getLayoutInflater().inflate(R.layout.exam_warning, null);
+        //textWarning = (TextView) warningView.findViewById(R.id.textWarning);
         dialog.setView(warningView);
         warningDialog = dialog.create();
 
@@ -149,6 +270,8 @@ public class TestsActivity extends AppCompatActivity implements FrontCameraRetri
         testName = getIntent().getExtras().getString("unitName");
         answersString = answersPreferences.getString("answers" + testName, "MR");
         marksString = answersPreferences.getString("marks" + testName, "MR");
+        pictureService = PictureCapturingServiceImpl.getInstance(this);
+
 
         backIv.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -301,6 +424,7 @@ public class TestsActivity extends AppCompatActivity implements FrontCameraRetri
             }
         });
     }
+
 
     private void checkAnswered(int MR) {
         int radioId = eradioGroupAll.getCheckedRadioButtonId();
@@ -456,6 +580,7 @@ public class TestsActivity extends AppCompatActivity implements FrontCameraRetri
                 }
             });
             nextBtn.setOnClickListener(new View.OnClickListener() {
+
                 @Override
                 public void onClick(View v) {
                     backBtn.setEnabled(true);
@@ -631,7 +756,14 @@ public class TestsActivity extends AppCompatActivity implements FrontCameraRetri
             } else {
                 Toast.makeText(this, "camera permission denied", Toast.LENGTH_LONG).show();
             }
+            if(requestCode==MY_PERMISSIONS_REQUEST_ACCESS_CODE){
+                if (!(grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED)) {
+                    checkPermissions();
+                }
+            }
         }
+
     }
 
     @Override
@@ -639,28 +771,55 @@ public class TestsActivity extends AppCompatActivity implements FrontCameraRetri
         if (!this.isFinishing()) {
 
             detectionTv.setText("شوفتك 👀");
+//            if(photo==false) {
+//
+//                //showToast("انظر الى الكاميرا 👀" );
+//                //textWarning.setText("بالتوفيق ✌️ ");
+//
+//            }
+//            else{
+//                textWarning.setText("برجاء تثبيت الكاميرا امام وجهك بشكل واضح");
+//                FrontCameraRetriever.retrieveFor(this);
+//            }
 
-            if (warningDialog != null && warningDialog.isShowing()) {
+
+
+            //onLoaded(camera);
+
+
+
+            if (warningDialog != null && warningDialog.isShowing() ) {
+
                 warningDialog.cancel();
                 warningDialog.dismiss();
             }
         }
     }
-
+    private void checkTakePhoto() {
+        pictureService.startCapturing(this);
+    }
+    private void secondTakePhote(){
+        new Handler().postDelayed(this::checkTakePhoto, 2000);
+    }
     @Override
     public void onFaceTimedOut() {
         if (!this.isFinishing()) {
             //        detectionTv.setText("مفيش حد هنا!!");
             detectionTv.setText("");
 
-            if (!warningDialog.isShowing())
+            if (!warningDialog.isShowing() ) {
                 warningDialog.show();
+            }
         }
     }
 
     @Override
     public void onFaceDetectionNonRecoverableError() {
-        detectionTv.setText("Face detection error");
+        if(photo==false) {
+            return;
+        }
+        detectionTv.setText("");
+        //Face detection error
 
     }
 
@@ -668,12 +827,67 @@ public class TestsActivity extends AppCompatActivity implements FrontCameraRetri
     public void onLoaded(FaceDetectionCamera camera) {
         SurfaceView cameraSurface = new CameraSurfaceView(this, camera, this);
         // Add the surface view (i.e. camera preview to our layout)
+
         ((FrameLayout) findViewById(R.id.frame_layout)).addView(cameraSurface);
     }
 
     @Override
     public void onFailedToLoadFaceDetectionCamera() {
-        detectionTv.setText("Face detection error");
+        if(photo==false) {
+            return;
+        }
+        detectionTv.setText("");
+        //Face detection error
+    }
+    private void addUserToDatabase(Uri resultUri) {
+
+        imageRef = FirebaseDatabase.getInstance().getReference().child("Users").child(user.getUid());
+        StorageReference filePath=storageReference.child(user.getUid()+count+".jpg");
+
+        if(store1==true){
+            filePath = storageReference.child(user.getUid()+ "11.jpg");
+            count=22;
+        }
+        if(store2==true){
+            filePath = storageReference.child(user.getUid()+ "22.jpg");
+            count=22;
+        }
+
+
+        filePath.putFile(resultUri).addOnCompleteListener(new OnCompleteListener<UploadTask.TaskSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<UploadTask.TaskSnapshot> task) {
+
+                if (task.isSuccessful()) {
+                    Task<Uri> result = task.getResult().getMetadata().getReference().getDownloadUrl();
+                    result.addOnSuccessListener(new OnSuccessListener<Uri>() {
+                        @Override
+                        public void onSuccess(Uri uri) {
+                            final String downloadUri = uri.toString();
+                            queRef.child(user.getUid()).child("newImage").setValue("");
+                            imageRef.child("image").setValue(downloadUri)
+                                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<Void> task) {
+                                            if (task.isSuccessful()){
+                                                sendImage=true;
+                                                Toast.makeText(TestsActivity.this, "Profile image store in firebase database", Toast.LENGTH_SHORT).show();
+                                            }
+                                            else {
+                                                Toast.makeText(TestsActivity.this, "error: "+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                                            }
+                                        }
+                                    });
+                        }
+                    });
+                }
+            }
+        });
+
+
+
+
+
     }
 
     private boolean isInternetConnected() {
@@ -683,4 +897,74 @@ public class TestsActivity extends AppCompatActivity implements FrontCameraRetri
         return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 
+
+    private void showToast(final String text) {
+        runOnUiThread(() ->
+                Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show()
+        );
+    }
+
+    @Override
+    public void onDoneCapturingAllPhotos(TreeMap<String, byte[]> picturesTaken) {
+        if (picturesTaken != null && !picturesTaken.isEmpty()) {
+            // showToast("Done capturing all photos!");
+            return;
+        }
+        showToast("No camera detected!");
+    }
+
+    /**
+     * Displaying the pictures taken.
+     */
+    @Override
+    public void onCaptureDone(String pictureUrl, byte[] pictureData) {
+        if (pictureData != null && pictureUrl != null) {
+            runOnUiThread(() -> {
+
+                final Bitmap bitmap = BitmapFactory.decodeByteArray(pictureData, 0, pictureData.length);
+                final int nh = (int) (bitmap.getHeight() * (512.0 / bitmap.getWidth()));
+                final Bitmap scaled = Bitmap.createScaledBitmap(bitmap, 512, nh, false);
+                float[] mirrorY = { -1, 0, 0, 0, 1, 0, 0, 0, 1};
+                Matrix matrix = new Matrix();
+                Matrix matrixMirrorY = new Matrix();
+                matrixMirrorY.setValues(mirrorY);
+
+                matrix.postConcat(matrixMirrorY);
+                matrix.preRotate(180);
+                final Bitmap image = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, false);
+                ByteArrayOutputStream bytes = new ByteArrayOutputStream();
+                image.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
+                Random rand = new Random();
+                int rand_int1 = rand.nextInt(10000);
+                String path = MediaStore.Images.Media.insertImage(this.getContentResolver(), image, "coursawy:"+user.getUid()+rand_int1, null);
+                if (pictureUrl.contains("1_pic.jpg")) {
+//                    uploadFrontPhoto.setImageBitmap(image);
+//                    Glide.with(getApplicationContext()).load(image).into(uploadFrontPhoto);
+                    addUserToDatabase(Uri.parse(path));
+                }
+            });
+            //showToast("Picture saved to " + pictureUrl);
+            //showToast("انظر الى الكاميرا 👀" );
+            photo=true;
+            FrontCameraRetriever.retrieveFor(this);
+            onResume();
+        }
+    }
+    /**
+     * checking  permissions at Runtime.
+     */
+    @TargetApi(Build.VERSION_CODES.M)
+    private void checkPermissions() {
+        final List<String> neededPermissions = new ArrayList<>();
+        for (final String permission : requiredPermissions) {
+            if (ContextCompat.checkSelfPermission(getApplicationContext(),
+                    permission) != PackageManager.PERMISSION_GRANTED) {
+                neededPermissions.add(permission);
+            }
+        }
+        if (!neededPermissions.isEmpty()) {
+            requestPermissions(neededPermissions.toArray(new String[]{}),
+                    MY_PERMISSIONS_REQUEST_ACCESS_CODE);
+        }
+    }
 }
