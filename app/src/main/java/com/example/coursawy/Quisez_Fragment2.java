@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.example.coursawy.adapter.MyAdapter2;
 import com.example.coursawy.model.Item_Tabs;
@@ -64,6 +65,7 @@ public class Quisez_Fragment2 extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
     }
 
     @Override
@@ -72,6 +74,7 @@ public class Quisez_Fragment2 extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_quisez_2, container, false);
         simpleList = (RecyclerView) view.findViewById(R.id.recyclerView);
+
         fillOrders();
         return view;    }
 
@@ -87,8 +90,7 @@ public class Quisez_Fragment2 extends Fragment {
         list_items.add(new Item_Tabs("25 questions","MATH II","dr.mohamed gamal","new"));
         list_items.add(new Item_Tabs("5 questions","MATH II","dr.mohamed gamal","new"));
 
-        LinearLayoutManager layoutManager =new LinearLayoutManager(getActivity(),
-                LinearLayoutManager.VERTICAL,false);
+        LinearLayoutManager layoutManager =new LinearLayoutManager(requireContext());
         list_adapter=new MyAdapter2 (getActivity(),list_items);
 
         simpleList.setItemAnimator(new DefaultItemAnimator());

@@ -17,9 +17,9 @@
         android:label="@string/menu_online_exams"
         tools:layout="@layout/fragment_online_exams" />
 
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.coursawy.ui.fragments.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+    <activity
+        android:id="@+id/nav_add_new_exam"
+        android:name="com.example.coursawy.ui.activities.AddNewExamActivity"
+        android:label="@string/add_new_exam"
+        tools:layout="@layout/activity_add_new_exam" />
 </navigation>

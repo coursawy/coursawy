@@ -2,9 +2,10 @@ package com.example.coursawy.model;
 
 
 public class Course {
-    private int id;
+    private String id;
     private int courseImage;
-    private String courseName;
+    private String courseCategory , courseName , courseDescription;
+
 
     public Course() {
     }
@@ -18,16 +19,46 @@ public class Course {
         this.courseName = courseName;
     }
 
-    public int getId() {
+    public Course(String courseCategory, String courseName, String courseDescription) {
+        this.courseCategory = courseCategory;
+        this.courseName = courseName;
+        this.courseDescription = courseDescription;
+    }
+
+    public Course(String id, int courseImage, String courseCategory, String courseName, String courseDescription) {
+        this.id = id;
+        this.courseImage = courseImage;
+        this.courseCategory = courseCategory;
+        this.courseName = courseName;
+        this.courseDescription = courseDescription;
+    }
+
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
     public int getCourseImage() {
         return courseImage;
+    }
+
+    public String getCourseCategory() {
+        return courseCategory;
+    }
+
+    public void setCourseCategory(String courseCategory) {
+        this.courseCategory = courseCategory;
+    }
+
+    public String getCourseDescription() {
+        return courseDescription;
+    }
+
+    public void setCourseDescription(String courseDescription) {
+        this.courseDescription = courseDescription;
     }
 
     public void setCourseImage(int courseImage) {

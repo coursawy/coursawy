@@ -8,10 +8,11 @@
         android:minSdkVersion="22"
         android:targetSdkVersion="30" />
 
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CAMERA" />
+
     <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14" /> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -29,6 +30,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.coursawy.ui.activities.CreateNewRoom" >
+        </activity>
+        <activity android:name="com.example.coursawy.ui.activities.AddNewExamActivity" >
+        </activity>
         <activity android:name="com.example.coursawy.AnswersActivity" />
         <activity android:name="com.example.coursawy.ExamCodeActivity" />
         <activity android:name="com.example.coursawy.DoctorInfoActivity" />
@@ -48,7 +53,8 @@
         <activity
             android:name="com.example.coursawy.ui.activities.HomeActivity"
             android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme" >
+        </activity>
         <activity android:name="com.example.coursawy.ContinueSignupActivity" />
         <activity android:name="com.example.coursawy.SignActivity" />
         <activity android:name="com.example.coursawy.MainActivity" />

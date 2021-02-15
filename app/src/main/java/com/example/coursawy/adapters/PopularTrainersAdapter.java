@@ -60,7 +60,8 @@ public class PopularTrainersAdapter extends RecyclerView.Adapter<PopularTrainers
         }
         public void bind(User user){
             binding.doctorName.setText(user.getUsername());
-            binding.getRoot().setOnClickListener(view -> listener2.onClick2(user.getFullname()));
+            binding.getRoot().setOnClickListener(view -> listener2.
+                    onClick2(user.getId(), user.getFullname()));
         }
     }
 }

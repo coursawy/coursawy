@@ -270,7 +270,7 @@ public class SignActivity extends AppCompatActivity implements View.OnClickListe
 
     private void sendUserToHomeActivity() {
         Intent testIntent=new Intent(SignActivity.this, HomeActivity.class);
-        testIntent.putExtra("isStudentLogin",isStudent);
+        testIntent.putExtra("isStudent",isStudent);
         startActivity(testIntent);
         finish();
     }

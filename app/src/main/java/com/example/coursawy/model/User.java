@@ -1,6 +1,7 @@
 package com.example.coursawy.model;
 
 public class User {
+    String id;
     String username;
     String profileImage;
     String fullname;
@@ -13,7 +14,8 @@ public class User {
     String code;
     String type;
 
-    public User(String username, String profileImage, String fullname, String email, String password, String dateOfBirth, String phoneNumber, String faculty, String grade, String code,String type) {
+    public User(String id,String username, String profileImage, String fullname, String email, String password, String dateOfBirth, String phoneNumber, String faculty, String grade, String code,String type) {
+        this.id = id;
         this.username = username;
         this.profileImage = profileImage;
         this.fullname = fullname;
@@ -32,6 +34,14 @@ public class User {
     }
 
     public User() {
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getUsername() {

@@ -16,7 +16,6 @@
     <string name="action_search">Search</string>
     <string name="menu_home">Home</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="menu_slideshow">Slideshow</string>
     <string name="action_notification">Notifications</string>
     <string name="menu_courses">My Courses</string>
     <string name="menu_online_exams">Online Exams</string>
@@ -33,6 +32,19 @@
     <string name="notifications">Notifications</string>
     <string name="popular_trainers">Popular Trainers</string>
     <string name="home">Home</string>
+    <string name="add_new_exam">Add New Exam</string>
+    <string name="create_new_room">Create New Room</string>
+    <string name="cancel">Cancel</string>
+    <string name="course_quiz">Course Quiz</string>
+    <string name="secure_exam">Secure Exam</string>
+    <string name="_private">private</string>
+    <string name="_public">public</string>
+    <string name="quiz_title">Quiz Title</string>
+    <string name="description">Description</string>
+    <string name="upload_quiz">upload quiz</string>
+    <string name="_ok">ok</string>
+    <string name="download_example_file">download example file</string>
+    <string name="instructions">Notes: \nyou have to upload exam as excel file \nin below format. \n \nrewrite the correct answer in column 6 ( f ).</string>
 
     <string-array name="faculties">
         <item>Select</item>
@@ -64,6 +76,26 @@
         <item>Professor</item>
         <item>Professor Emeritus</item>
     </string-array>
+    
+    <string-array name="CoursesCategory">
+        <item>\t \tChoose Catogory</item>
+        <item>IT</item>
+        <item>Languages</item>
+        <item>Science</item>
+        <item>Health</item>
+        <item>Software Development</item>
+        <item>Software Engineering</item>
+        <item>Finance</item>
+        <item>Marketing</item>
+    </string-array>
 
+    <string-array name="Courses">
+        <item>My Courses</item>
+        <item>Android</item>
+        <item>Web Development</item>
+        <item>Flutter</item>
+        <item>Machine Learning</item>
+        <item>Algorithms</item>
+    </string-array>
 
 </resources>

@@ -13,6 +13,7 @@ import com.example.coursawy.adapters.CoursesClickListner;
 import com.example.coursawy.adapters.PopularTrainersClickLisner;
 import com.example.coursawy.adapters.QuizClickLisner;
 import com.example.coursawy.databinding.FragmentHomeBinding;
+import com.example.coursawy.ui.activities.CreateNewRoom;
 import com.example.coursawy.ui.activities.PopularCoursesActivity;
 import com.example.coursawy.R;
 import com.example.coursawy.adapters.CoursesAdapter;
@@ -39,6 +40,8 @@ public class HomeFragment extends Fragment implements PopularCourseClickListener
     private List<Course> popularCourseList;
     private List<Course> quizList;
     private List<User> userList;
+    public static final String COURSE_NAME = "courseName";
+    public static final String DOCTOR_NAME = "doctorName";
     CoursesAdapter coursesAdapter;
     PopularCoursesAdapter popularCoursesAdapter;
     QuizsAdapter quizsAdapter;
@@ -79,10 +82,11 @@ public class HomeFragment extends Fragment implements PopularCourseClickListener
     private void setCourseList(){
         courseList = new ArrayList<>();
         courseList.add(new Course(R.drawable.course_image , "Android Course"));
-        courseList.add(new Course(R.drawable.course_image , "Web Course"));
+        courseList.add(new Course(R.drawable.course_image , "Web Development Course"));
         courseList.add(new Course(R.drawable.course_image , "Flutter Course"));
         courseList.add(new Course(R.drawable.course_image , "ML Course"));
         courseList.add(new Course(R.drawable.course_image , "Algorithms Course"));
+        courseList.add(courseList.size() , new Course(R.drawable.add_new_course_recycler_btn , "Add New Course"));
     }
     private void setPopularCourseList(){
         popularCourseList = new ArrayList<>();
@@ -118,7 +122,7 @@ public class HomeFragment extends Fragment implements PopularCourseClickListener
         recyclerView.setLayoutManager(new LinearLayoutManager(requireContext(),
                 RecyclerView.HORIZONTAL , false));
         recyclerView.setHasFixedSize(true);
-        coursesAdapter = new CoursesAdapter(this);
+        coursesAdapter = new CoursesAdapter(this,requireContext());
         coursesAdapter.setCourseList(courseList);
         recyclerView.setAdapter(coursesAdapter);
     }
@@ -151,7 +155,7 @@ public class HomeFragment extends Fragment implements PopularCourseClickListener
         startActivity(new Intent(requireContext() , PopularCoursesActivity.class));
     }
     @Override
-    public void onClick2(String courseName) {
+    public void onClick2(String id , String doctorName) {
         //We have Course Name
         startActivity(new Intent(requireContext() , DoctorInfoActivity.class));
     }
@@ -162,8 +166,16 @@ public class HomeFragment extends Fragment implements PopularCourseClickListener
     }
 
     @Override
-    public void onClick4(String courseName) {
-        Intent i = new Intent(requireContext(), CourseProfile.class);
-        startActivity(i);
+    public void onClick4(String courseName , int position) {
+        if (position == courseList.size() - 1){
+            startCreateNewRoomActivity();
+        }else {
+            Intent i = new Intent(requireContext(), CourseProfile.class);
+            i.putExtra(COURSE_NAME , courseName);
+            startActivity(i);
+        }
+    }
+    private void startCreateNewRoomActivity() {
+        startActivity(new Intent(requireContext(), CreateNewRoom.class));
     }
 }

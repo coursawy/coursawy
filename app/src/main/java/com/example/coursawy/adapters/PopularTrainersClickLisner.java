@@ -1,5 +1,5 @@
 package com.example.coursawy.adapters;
 
 public interface PopularTrainersClickLisner {
-    void onClick2(String courseName);
+    void onClick2(String id ,String doctorName);
 }

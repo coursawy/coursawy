@@ -1,1290 +1,1514 @@
 [
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_java_svgrepo_com.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\java_svgrepo_com.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_background_doctor_profile.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\background_doctor_profile.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_home.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\home.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_elon_mask.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\elon_mask.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_line.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\line.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_color_spinner_layout.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\color_spinner_layout.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_forward.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\arrow_forward.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon_material_location_city.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_icon_material_location_city.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_app_bar.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\app_bar.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_quisez_2.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\fragment_quisez_2.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_add_circle_outline_24.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_add_circle_outline_24.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_test.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\list_item_test.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_codebg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\codebg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_background_doctor_name.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\background_doctor_name.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_undraw_questions_re.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\undraw_questions_re.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_java_svgrepo_com.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\java_svgrepo_com.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_header.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\header.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_button_offline.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\button_offline.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_upload_file_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\upload_file_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_online_exams.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\fragment_online_exams.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logout.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\logout.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_book.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\book.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_slideshow.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backbutton.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\backbutton.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_quiz_exam_blue.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\item_quiz_exam_blue.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_signs_bg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\signs_bg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_undraw_choice.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\undraw_choice.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_home_background.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\home_background.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_logo.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\main_logo.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_course_item.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\course_item.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\help.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_signs_bg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\signs_bg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_public_exam.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\public_exam.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_course_image.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\course_image.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logout.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\logout.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_google_plus.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\google_plus.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon_download.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\icon_download.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_examtitlebg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\examtitlebg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_user.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\user.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon_material_date_range.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_icon_material_date_range.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_blue_logo.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\blue_logo.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_app_bar.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\app_bar.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_home_background.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\home_background.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_person.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\person.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\color_radio_flat_text_selector.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\color\\radio_flat_text_selector.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_rectangle216.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\rectangle216.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_course_image.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\course_image.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_backgroud_cardview_course.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\backgroud_cardview_course.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_arrow_forward.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\arrow_forward.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_background.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\main_background.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_arrow_forward.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\arrow_forward.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_elon_mask.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\elon_mask.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon_awesome_book.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_icon_awesome_book.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_background_doctor_profile.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\background_doctor_profile.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_settings.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\settings.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_warning_bg.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\warning_bg.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_sign_radio_bg.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\sign_radio_bg.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_line.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\line.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_person.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\person.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_bar_image.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\app_bar_image.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_blue_logo.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\blue_logo.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logout.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\logout.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon_feather.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\icon_feather.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_backgroud_cardview_course.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\backgroud_cardview_course.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_signinnn.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\signinnn.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_settings.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\settings.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_button_online.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\button_online.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_google_plus.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\google_plus.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_signs_bg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\signs_bg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_24.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_person_24.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cancel.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\cancel.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_background.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\splash_background.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_facebook.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\facebook.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_download.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\icon_download.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_arrow_back_blue.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\arrow_back_blue.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_codebg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\codebg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_popular_trainers_item.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\popular_trainers_item.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_signinnn.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\signinnn.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon_ionic_ios_paper.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_icon_ionic_ios_paper.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_undraw_questions_re.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\undraw_questions_re.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_header.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\header.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_quiz__exam.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_quiz__exam.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_app_bar.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\app_bar.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_background.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\background.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_btn_background.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\btn_background.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_exam.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\exam.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_person.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\person.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_java_svgrepo_com.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\java_svgrepo_com.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_app_bar.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\app_bar.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_exam.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\exam.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_person.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\person.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_user.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\user.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_undraw_choice.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\undraw_choice.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_examtitlebg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\examtitlebg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_open_button_course.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\open_button_course.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_faill_button.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\faill_button.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_undraw_choice.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\undraw_choice.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_add_course_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\add_course_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_home_background.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\home_background.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_wifi_24.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_baseline_wifi_24.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_blue_logo.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\blue_logo.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sign_bgg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\sign_bgg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_home.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\home.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_button_selector.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\button_selector.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_group_quizs.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\group_quizs.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_facebook.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\facebook.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_button_selector.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\button_selector.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_facebook.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\facebook.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_group_quizs.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\group_quizs.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_header.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\header.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_header.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\header.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\help.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon_feather.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\icon_feather.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_flat_selected.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\radio_flat_selected.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_public_exam.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\public_exam.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_background.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\background.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_blue_logo.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\blue_logo.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_elon_mask.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\elon_mask.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_examtitlebg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\examtitlebg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_online_exams.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\fragment_online_exams.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_book.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\book.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_arrow_back_ios_24.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_baseline_arrow_back_ios_24.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_blue_logo.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\blue_logo.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_course_image.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\course_image.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_java_svgrepo_main.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\java_svgrepo_main.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_book.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\book.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_group_quizs.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\group_quizs.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_background_item_doctor_profile_bottom.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\background_item_doctor_profile_bottom.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_elon_mask.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\elon_mask.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tests.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_tests.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_user.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\user.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\user.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_down_arrow_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\down_arrow_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_google_plus.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\google_plus.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_upload_file_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\upload_file_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_left_arrow.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\left_arrow.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logo.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\logo.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_java_svgrepo_main.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\java_svgrepo_main.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_star_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\star_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_forward.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\arrow_forward.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_text_color.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\text_color.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_submit.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\button_submit.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\content_main.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_codebg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\codebg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_quiz__exam.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_quiz__exam.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_add_new_course_recycler_btn.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\add_new_course_recycler_btn.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_undraw_choice.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\undraw_choice.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_java_svgrepo_com.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\java_svgrepo_com.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_undraw_questions_re.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\undraw_questions_re.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_bar.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\app_bar.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_java_svgrepo_com.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\java_svgrepo_com.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_home_background.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\home_background.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_bar_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\app_bar_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_codebg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\codebg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_text_color2.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\text_color2.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_shadow_signup.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\shadow_signup.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_course_type.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\background_course_type.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thumb.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\thumb.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_google_plus.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\google_plus.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_arrow_forward.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\arrow_forward.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_settings.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\settings.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_sign_radio_bg.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\sign_radio_bg.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_start_button.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\start_button.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_exams_2.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\fragment_exams_2.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cancel.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\cancel.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_undraw_questions_re.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\undraw_questions_re.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_header.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\header.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_settings.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\settings.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_doctor_info.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_doctor_info.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_start_button.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\start_button.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_background_item_doctor_profile_bottom.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\background_item_doctor_profile_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logout.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\logout.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_rectangle216.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\rectangle216.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_facebook.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\facebook.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\help.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_download.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\icon_download.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_home.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_background.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\background.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_blue_logo.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\blue_logo.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_group_icon.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\notification_group_icon.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon_awesome_business_time.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_icon_awesome_business_time.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_backk.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\backk.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_corsawy.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\corsawy.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_teacher_icon.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\teacher_icon.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_home.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\home.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_person.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\person.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_wifi_24.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_baseline_wifi_24.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_segoeui.ttf.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\font\\segoeui.ttf"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_codebg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\codebg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_app_bar_icon.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\app_bar_icon.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_star_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\star_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_public_exam.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\public_exam.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_item.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\notification_item.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_email_24.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_email_24.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_quizs.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\group_quizs.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_google_plus.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\google_plus.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_answers.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_answers.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_backk.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\backk.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logo.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\logo.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_rectangle216.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\rectangle216.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_doctor_photo.jpg.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\doctor_photo.jpg"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\logo.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_person_pin_24.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_baseline_person_pin_24.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_settings.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\settings.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_examtitlebg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\examtitlebg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_background.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\background.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_date_range_24.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_date_range_24.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_signs_bg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\signs_bg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon_map_location_arrow.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_icon_map_location_arrow.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\help.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_new_members_count.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\new_members_count.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_24.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_person_24.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_app_bar_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\app_bar_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\help.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black_left_arrow.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\black_left_arrow.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_email_24.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_email_24.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_user.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\user.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_blue_logo.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\blue_logo.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_rect.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\rect.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_elon_mask.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\elon_mask.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_group_quizs.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\group_quizs.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_background.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\background.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_course_image.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\course_image.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_oswaldregular.ttf.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\font\\oswaldregular.ttf"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon_ionic_ios_paper.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_icon_ionic_ios_paper.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_blue_logo.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\blue_logo.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_app_bar.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\app_bar.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_course_image.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\course_image.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_codebg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\codebg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logout.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\logout.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_popular_course_item.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\popular_course_item.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_book.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\book.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_signs_bg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\signs_bg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_popular_course_item.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\popular_course_item.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_book.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\book.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_bg.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\radio_bg.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_exam.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\exam.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_exam.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\exam.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_java_svgrepo_main.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\java_svgrepo_main.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_book.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\book.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_signin_up_design.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\signin_up_design.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_continue_signup.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_continue_signup.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_elon_mask.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\elon_mask.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_java_svgrepo_com.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\java_svgrepo_com.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_undraw_questions_re.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\undraw_questions_re.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_java_svgrepo_main.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\java_svgrepo_main.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_account_box_24.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_account_box_24.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_signs_bg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\signs_bg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_button_offline.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\button_offline.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_group_quizs.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\group_quizs.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_header.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\header.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_app_bar_icon.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\app_bar_icon.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_google_plus.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\google_plus.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_facebook.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\facebook.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_bg.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\radio_bg.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_app_bar_icon.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\app_bar_icon.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_download.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_download.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_undraw_questions_re.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\undraw_questions_re.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_bar.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\app_bar.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_course_image.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\course_image.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_rectangle216.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\rectangle216.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_course_item.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\course_item.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_group_quizs.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\group_quizs.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_public__exams_.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\fragment_public__exams_.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\help.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_exam_exit_alert.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\exam_exit_alert.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_public_exam.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\public_exam.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_google_plus.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\google_plus.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_background_item_dactor_profile.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\background_item_dactor_profile.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_course_image.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\course_image.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_person.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\person.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_app_bar_icon.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\app_bar_icon.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\add.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black_left_arrow.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\black_left_arrow.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_test_item_bg.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\test_item_bg.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_rectangle216.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\rectangle216.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_shadow_signup.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\shadow_signup.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_lecture.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\item_lecture.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_home_background.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\home_background.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_signs_bg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\signs_bg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_wifi_off_24.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_baseline_wifi_off_24.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_rectangle216.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\rectangle216.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\help.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_perm_identity_24.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_perm_identity_24.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_user.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\user.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_exam.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\exam.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_settings.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\settings.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_add_course_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\add_course_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_rectangle216.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\rectangle216.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_lecture.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\item_lecture.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_answers.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_answers.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_background_doctor_name.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\background_doctor_name.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_public_exam.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\public_exam.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_arrow_forward.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\arrow_forward.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_elon_mask.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\elon_mask.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_header.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\header.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_header.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\header.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logout.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\logout.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_arrow_forward.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\arrow_forward.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_app_bar.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\app_bar.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_create_new_room.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_create_new_room.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_codebg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\codebg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_facebook.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\facebook.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_book.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\book.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_app_bar_icon.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\app_bar_icon.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_add_new_course_recycler_btn.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\add_new_course_recycler_btn.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logout.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\logout.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon_awesome_business_time.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_icon_awesome_business_time.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_java_svgrepo_main.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\java_svgrepo_main.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_header.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\header.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_popular_courses.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_popular_courses.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_book.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\book.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_google_plus.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\google_plus.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logout.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\logout.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_background.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\background.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_course_image.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\course_image.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_materials_2.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\fragment_materials_2.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\help.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_codebg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\codebg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_star_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\star_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_settings.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\settings.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_materials_2.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\fragment_materials_2.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_elon_mask.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\elon_mask.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_background.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\background.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_book.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\book.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_upload_file_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\upload_file_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_add_new_course_recycler_btn.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\add_new_course_recycler_btn.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_arrow_forward.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\arrow_forward.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\help.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_public_exam.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\public_exam.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon_ionic_md_settings.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_icon_ionic_md_settings.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_design_background.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\design_background.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_undraw_choice.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\undraw_choice.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\menu_home.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\menu\\home.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_group_quizs.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\group_quizs.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_home.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\home.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_app_bar_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\app_bar_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_exam.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\exam.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_public_exam.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\public_exam.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_course_image.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\course_image.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_java_svgrepo_main.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\java_svgrepo_main.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_rectangle216.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\rectangle216.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_notifications_24.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_notifications_24.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_exam_exit_alert.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\exam_exit_alert.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_facebook.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\facebook.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_pass_or_fail_button.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\pass_or_fail_button.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_doctor_photo.jpg.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\doctor_photo.jpg"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_undraw_questions_re.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\undraw_questions_re.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cancel.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\cancel.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon_material_date_range.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_icon_material_date_range.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\help.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_quiz_exam_white.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\item_quiz_exam_white.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_group_quizs.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\group_quizs.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_settings.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\settings.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notifications.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_notifications.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_lock_24.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_lock_24.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_sign.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_public__quizes_.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\fragment_public__quizes_.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_signs_bg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\signs_bg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_rectangle216.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\rectangle216.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_arrow_back_blue.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\arrow_back_blue.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_warning_header.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\warning_header.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_java_svgrepo_main.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\java_svgrepo_main.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_java_course.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\java_course.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_perm_identity_24.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_perm_identity_24.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_codebg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\codebg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_quiz_exam_white.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\item_quiz_exam_white.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_public_exam.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\public_exam.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_notifications_24.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_notifications_24.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_exams_2.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\fragment_exams_2.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_slideshow.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_public__exams_.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\fragment_public__exams_.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_codebg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\codebg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_blue_logo.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\blue_logo.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_header.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\header.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cancel.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\cancel.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_examtitlebg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\examtitlebg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_test.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\list_item_test.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_group_quizs.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\group_quizs.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_text_color.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\text_color.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_java_svgrepo_main.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\java_svgrepo_main.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_undraw_choice.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\undraw_choice.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_button_online.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\button_online.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_add_circle_outline_24.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_add_circle_outline_24.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_examtitlebg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\examtitlebg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_app_bar.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\app_bar.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_continuebackground.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\continuebackground.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_open.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_open.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_arrow_forward.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\arrow_forward.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_app_bar_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\app_bar_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_exam.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\exam.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_instructions.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\instructions.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_sign.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_java_svgrepo_main.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\java_svgrepo_main.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_item.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\notification_item.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_arrow_forward.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\arrow_forward.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_person.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\person.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_java_svgrepo_com.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\java_svgrepo_com.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_add_new_course_recycler_btn.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\add_new_course_recycler_btn.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_quiz_exam_blue.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\item_quiz_exam_blue.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_java_course.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\java_course.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_quize_item.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\quize_item.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_background.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\background.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_course_image.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\course_image.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_design_background.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\design_background.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_home_background.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\home_background.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bg_otp_item.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\bg_otp_item.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_course_image.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\course_image.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_lock_open_24.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_lock_open_24.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_exam.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\exam.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_segoeui.ttf.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\font\\segoeui.ttf"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_user.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\user.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_background.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\background.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_submit.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\button_submit.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_undraw_choice.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\undraw_choice.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_exam.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\exam.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_background.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\background.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_signs_bg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\signs_bg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_faill_button.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\faill_button.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_add_new_course_recycler_btn.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\add_new_course_recycler_btn.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_signin_up_design.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\signin_up_design.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_home.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\home.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logo.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\logo.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_app_bar_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\app_bar_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tests_list.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_tests_list.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_add_new_course_recycler_btn.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\add_new_course_recycler_btn.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_home.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\home.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_instructions.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\instructions.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_rectangle216.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\rectangle216.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_left_arrow.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\left_arrow.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_user.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\user.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_book.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\book.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_blue_logo.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\blue_logo.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_undraw_choice.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\undraw_choice.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_signs_bg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\signs_bg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_upload_file_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\upload_file_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_exam_type.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_exam_type.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon_material_location_city.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_icon_material_location_city.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_google_plus.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\google_plus.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_warning_bg.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\warning_bg.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_examtitlebg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\examtitlebg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_start.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\start.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_person.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\person.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_exam.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\exam.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progress_drawable.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\progress_drawable.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon_ionic_md_settings.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_icon_ionic_md_settings.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_course_type.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\background_course_type.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_add_course_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\add_course_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_account_box_24.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_account_box_24.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_test_item_bg.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\test_item_bg.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_background_item_dactor_profile.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\background_item_dactor_profile.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_java_svgrepo_com.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\java_svgrepo_com.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_person_pin_24.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_baseline_person_pin_24.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_oswaldregular.ttf.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\font\\oswaldregular.ttf"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_codebg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\codebg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_star_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\star_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_down_arrow_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\down_arrow_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_examtitlebg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\examtitlebg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bg_otp_item.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\bg_otp_item.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logo.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\logo.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_blue_logo.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\blue_logo.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_user.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\user.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_facebook.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\facebook.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon_awesome_book.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_icon_awesome_book.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_java_svgrepo_com.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\java_svgrepo_com.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backbutton.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\backbutton.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_person.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\person.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_undraw_questions_re.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\undraw_questions_re.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_bar_image.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\app_bar_image.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_public_exam.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\public_exam.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sign_bgg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\sign_bgg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_exam.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\exam.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_book.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\book.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_exam_code.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_exam_code.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_quize_item.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\quize_item.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_wifi_off_24.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_baseline_wifi_off_24.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_java_svgrepo_com.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\java_svgrepo_com.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_home_background.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\home_background.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_facebook.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\facebook.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_elon_mask.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\elon_mask.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_group_quizs.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\group_quizs.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_arafont.ttf.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\font\\arafont.ttf"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_spinner.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\bg_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_user.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\user.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\user.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_exam_warning.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\exam_warning.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_course_profile.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_course_profile.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_settings.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\settings.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_down_arrow_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\down_arrow_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notifications.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_notifications.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_instructions.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\instructions.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_java_svgrepo_com.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\java_svgrepo_com.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_logo.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\main_logo.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_app_bar.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\app_bar.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_new_exam.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\fragment_add_new_exam.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_signuppp.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\signuppp.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_app_bar.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\app_bar.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_rect.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\rect.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_java_svgrepo_main.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\java_svgrepo_main.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_arrow_forward.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\arrow_forward.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logout.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\logout.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_header.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\header.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_popular_courses.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_popular_courses.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_arrow_back_ios_24.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_baseline_arrow_back_ios_24.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_home_background.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\home_background.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_elon_mask.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\elon_mask.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_java_svgrepo_main.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\java_svgrepo_main.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_java_svgrepo_com.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\java_svgrepo_com.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_course_quiz_and_secure_exam_btn.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\course_quiz_and_secure_exam_btn.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_background.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\background.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_settings.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\settings.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_app_bar_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\app_bar_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_undraw_choice.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\undraw_choice.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_instructions.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\instructions.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_home_background.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\home_background.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_app_bar.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-nodpi\\app_bar.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_person.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\person.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_button.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\rounded_button.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_examtitlebg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\examtitlebg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_continue_signup.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_continue_signup.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_background.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\background.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_blue_logo.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\blue_logo.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_signs_bg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\signs_bg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_teacher_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\teacher_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_facebook.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\facebook.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_home.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\home.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_undraw_questions_re.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\undraw_questions_re.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logout.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\logout.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_icon_map_location_arrow.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_icon_map_location_arrow.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_exam_code.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_exam_code.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_blue.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\blue.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_java_svgrepo_main.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\java_svgrepo_main.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_home_background.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\home_background.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_app_bar.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\app_bar.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_doctor_info.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_doctor_info.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_add_course_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\add_course_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logout.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\logout.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_public_exam.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\public_exam.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_date_range_24.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_date_range_24.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tests.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_tests.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_pass_or_fail_button.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\pass_or_fail_button.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_changeicon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\changeicon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_google_plus.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\google_plus.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_examtitlebg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\examtitlebg.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_lock_open_24.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_lock_open_24.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_book.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\book.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_bar_icon.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\app_bar_icon.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_arrow_forward.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\arrow_forward.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_home.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\home.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thumb.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\thumb.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_header.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\header.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_upload_file_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\upload_file_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_course_image.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\course_image.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_group_quizs.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\group_quizs.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bcak_splacsh.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\bcak_splacsh.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_star_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\star_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_google_plus.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\google_plus.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_home.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\home.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_quisez_2.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\fragment_quisez_2.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_pass_button.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\pass_button.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_exam_type.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_exam_type.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logo.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\logo.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\font_arafont.ttf.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\font\\arafont.ttf"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_background.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\splash_background.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_open_button_course.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\open_button_course.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_course_profile.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\layout\\activity_course_profile.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_app_bar_tint.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-nodpi\\app_bar_tint.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_text_color2.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\text_color2.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_signuppp.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\signuppp.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_home_background.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\home_background.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_person.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\person.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_changeicon.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable\\changeicon.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_down_arrow_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\down_arrow_icon.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_start.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\start.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_instructions.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\instructions.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_person.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\person.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tests_list.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_tests_list.xml"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_open.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\ic_open.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_continuebackground.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\continuebackground.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_settings.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\settings.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_home.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\home.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_undraw_questions_re.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\undraw_questions_re.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_facebook.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\facebook.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_instructions.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\instructions.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_student_icon.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-v24\\student_icon.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\help.png"
     },
     {
-        "merged": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_codebg.png.flat",
-        "source": "C:\\Users\\youss\\AndroidStudioProjects\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\codebg.png"
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_user.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\user.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_btn_background.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\btn_background.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_examtitlebg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\examtitlebg.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_undraw_questions_re.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\undraw_questions_re.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_down_arrow_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\down_arrow_icon.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bcak_splacsh.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\bcak_splacsh.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_public__quizes_.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\fragment_public__quizes_.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_home.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\home.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_add_course_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\add_course_icon.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progress_drawable.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\progress_drawable.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_public_exam.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\public_exam.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_settings.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\settings.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_background.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\main_background.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_student_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\student_icon.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_popular_trainers_item.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\popular_trainers_item.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_flat_regular.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\radio_flat_regular.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_corsawy.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\corsawy.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_exam_warning.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\exam_warning.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_new_exam.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\activity_add_new_exam.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\help.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_warning_header.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\warning_header.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_rectangle216.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\rectangle216.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_rectangle216.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\rectangle216.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_signs_bg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\signs_bg.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_public_exam.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\public_exam.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_pass_button.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\pass_button.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_download.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\icon_download.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_elon_mask.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\elon_mask.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_upload_file_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\upload_file_icon.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_undraw_choice.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\undraw_choice.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\menu_home.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\menu\\home.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_facebook.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\facebook.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_exam.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\exam.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logout.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\logout.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_lock_24.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_star_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\star_icon.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_home.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\home.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_flat_selector.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable\\radio_flat_selector.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\layout_color_spinner_layout.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\layout\\color_spinner_layout.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_google_plus.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\google_plus.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon_download.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-ldpi\\icon_download.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_examtitlebg.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\examtitlebg.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_blue.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-v24\\blue.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_undraw_choice.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxhdpi\\undraw_choice.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logo.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_home_background.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\home_background.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_undraw_choice.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\undraw_choice.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_down_arrow_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-mdpi\\down_arrow_icon.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_add_course_icon.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xhdpi\\add_course_icon.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_undraw_questions_re.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-hdpi\\undraw_questions_re.png"
+    },
+    {
+        "merged": "D:\\HF\\Android\\coursawy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_elon_mask.png.flat",
+        "source": "D:\\HF\\Android\\coursawy\\app\\src\\main\\res\\drawable-xxxhdpi\\elon_mask.png"
     }
 ]

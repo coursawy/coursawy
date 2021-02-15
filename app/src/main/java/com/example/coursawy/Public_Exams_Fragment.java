@@ -73,6 +73,7 @@ public class Public_Exams_Fragment extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_public__exams_, container, false);
         simpleList = (RecyclerView) view.findViewById(R.id.recyclerView);
+
         fillOrders ();
         return view;
     }
