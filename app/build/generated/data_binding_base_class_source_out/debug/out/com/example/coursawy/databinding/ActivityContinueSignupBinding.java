@@ -6,14 +6,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatImageButton;
+import androidx.appcompat.widget.AppCompatImageView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.example.coursawy.R;
@@ -33,10 +33,10 @@ public final class ActivityContinueSignupBinding implements ViewBinding {
   public final TextView codeLable;
 
   @NonNull
-  public final ImageView continueBackBtn;
+  public final AppCompatImageView continueBackBtn;
 
   @NonNull
-  public final ImageView continueBackToMainBtn;
+  public final AppCompatImageView continueBackToMainBtn;
 
   @NonNull
   public final EditText continueCode;
@@ -63,7 +63,7 @@ public final class ActivityContinueSignupBinding implements ViewBinding {
   public final CircleImageView continueProfilePic;
 
   @NonNull
-  public final ImageView continueSignupLogo;
+  public final AppCompatImageView continueSignupLogo;
 
   @NonNull
   public final TextView departmentLable;
@@ -78,7 +78,7 @@ public final class ActivityContinueSignupBinding implements ViewBinding {
   public final ProgressBar progressBar;
 
   @NonNull
-  public final ImageButton selectImageBtn;
+  public final AppCompatImageButton selectImageBtn;
 
   @NonNull
   public final Button signinBtn;
@@ -90,15 +90,15 @@ public final class ActivityContinueSignupBinding implements ViewBinding {
   public final Spinner studentSpinnerGrade;
 
   private ActivityContinueSignupBinding(@NonNull ConstraintLayout rootView, @NonNull TextView Date,
-      @NonNull TextView codeLable, @NonNull ImageView continueBackBtn,
-      @NonNull ImageView continueBackToMainBtn, @NonNull EditText continueCode,
+      @NonNull TextView codeLable, @NonNull AppCompatImageView continueBackBtn,
+      @NonNull AppCompatImageView continueBackToMainBtn, @NonNull EditText continueCode,
       @NonNull TextView continueDateLabel, @NonNull EditText continueDepartment,
       @NonNull TextView continueFacultyLabel, @NonNull LinearLayout continueLayout,
       @NonNull TextView continuePhoneLabel, @NonNull EditText continueProfilePhone,
-      @NonNull CircleImageView continueProfilePic, @NonNull ImageView continueSignupLogo,
+      @NonNull CircleImageView continueProfilePic, @NonNull AppCompatImageView continueSignupLogo,
       @NonNull TextView departmentLable, @NonNull Spinner doctorSpinnerGrade,
       @NonNull LinearLayout gradeLayout, @NonNull ProgressBar progressBar,
-      @NonNull ImageButton selectImageBtn, @NonNull Button signinBtn,
+      @NonNull AppCompatImageButton selectImageBtn, @NonNull Button signinBtn,
       @NonNull Spinner spinnerFaculty, @NonNull Spinner studentSpinnerGrade) {
     this.rootView = rootView;
     this.Date = Date;
@@ -164,13 +164,13 @@ public final class ActivityContinueSignupBinding implements ViewBinding {
       }
 
       id = R.id.continue_back_btn;
-      ImageView continueBackBtn = rootView.findViewById(id);
+      AppCompatImageView continueBackBtn = rootView.findViewById(id);
       if (continueBackBtn == null) {
         break missingId;
       }
 
       id = R.id.continue_back_to_main_btn;
-      ImageView continueBackToMainBtn = rootView.findViewById(id);
+      AppCompatImageView continueBackToMainBtn = rootView.findViewById(id);
       if (continueBackToMainBtn == null) {
         break missingId;
       }
@@ -224,7 +224,7 @@ public final class ActivityContinueSignupBinding implements ViewBinding {
       }
 
       id = R.id.continue_signup_logo;
-      ImageView continueSignupLogo = rootView.findViewById(id);
+      AppCompatImageView continueSignupLogo = rootView.findViewById(id);
       if (continueSignupLogo == null) {
         break missingId;
       }
@@ -254,7 +254,7 @@ public final class ActivityContinueSignupBinding implements ViewBinding {
       }
 
       id = R.id.select_image_btn;
-      ImageButton selectImageBtn = rootView.findViewById(id);
+      AppCompatImageButton selectImageBtn = rootView.findViewById(id);
       if (selectImageBtn == null) {
         break missingId;
       }

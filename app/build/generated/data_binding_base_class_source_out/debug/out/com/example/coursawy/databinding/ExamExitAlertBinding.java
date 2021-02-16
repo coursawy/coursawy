@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.viewbinding.ViewBinding;
 import com.example.coursawy.R;
 import java.lang.NullPointerException;
@@ -19,12 +20,12 @@ public final class ExamExitAlertBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final Button cancelBtn;
+  public final AppCompatButton cancelBtn;
 
   @NonNull
   public final Button exitBtn;
 
-  private ExamExitAlertBinding(@NonNull LinearLayout rootView, @NonNull Button cancelBtn,
+  private ExamExitAlertBinding(@NonNull LinearLayout rootView, @NonNull AppCompatButton cancelBtn,
       @NonNull Button exitBtn) {
     this.rootView = rootView;
     this.cancelBtn = cancelBtn;
@@ -59,7 +60,7 @@ public final class ExamExitAlertBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.cancel_btn;
-      Button cancelBtn = rootView.findViewById(id);
+      AppCompatButton cancelBtn = rootView.findViewById(id);
       if (cancelBtn == null) {
         break missingId;
       }

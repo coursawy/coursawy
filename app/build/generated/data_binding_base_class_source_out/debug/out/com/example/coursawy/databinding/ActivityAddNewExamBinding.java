@@ -14,6 +14,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatImageView;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
@@ -92,7 +93,7 @@ public final class ActivityAddNewExamBinding implements ViewBinding {
   public final ConstraintLayout secureExamLayout;
 
   @NonNull
-  public final ImageView star;
+  public final AppCompatImageView star;
 
   @NonNull
   public final ImageView star2;
@@ -126,7 +127,7 @@ public final class ActivityAddNewExamBinding implements ViewBinding {
       @NonNull RadioGroup privatePublicBtnView, @NonNull RadioButton publicBtn,
       @NonNull TextInputEditText quizNameEt, @NonNull CardView secureExamBtn,
       @NonNull Spinner secureExamCoursesSpinner, @NonNull ConstraintLayout secureExamLayout,
-      @NonNull ImageView star, @NonNull ImageView star2, @NonNull TextView textView2,
+      @NonNull AppCompatImageView star, @NonNull ImageView star2, @NonNull TextView textView2,
       @NonNull TextView textView3, @NonNull TextView textView5, @NonNull TextView uploadExamTv,
       @NonNull LinearLayout uploadQuizBtn, @NonNull View view) {
     this.rootView = rootView;
@@ -315,7 +316,7 @@ public final class ActivityAddNewExamBinding implements ViewBinding {
       }
 
       id = R.id.star;
-      ImageView star = rootView.findViewById(id);
+      AppCompatImageView star = rootView.findViewById(id);
       if (star == null) {
         break missingId;
       }

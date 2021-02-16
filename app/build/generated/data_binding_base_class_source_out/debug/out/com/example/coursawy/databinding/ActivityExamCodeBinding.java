@@ -5,12 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatImageView;
 import androidx.viewbinding.ViewBinding;
 import com.example.coursawy.R;
 import in.aabhasjindal.otptextview.OtpTextView;
@@ -23,7 +23,7 @@ public final class ActivityExamCodeBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ImageView backIv;
+  public final AppCompatImageView backIv;
 
   @NonNull
   public final Button confirmBtn;
@@ -37,9 +37,9 @@ public final class ActivityExamCodeBinding implements ViewBinding {
   @NonNull
   public final OtpTextView otpView;
 
-  private ActivityExamCodeBinding(@NonNull RelativeLayout rootView, @NonNull ImageView backIv,
-      @NonNull Button confirmBtn, @NonNull LinearLayout examLl, @NonNull TextView examTitleTv,
-      @NonNull OtpTextView otpView) {
+  private ActivityExamCodeBinding(@NonNull RelativeLayout rootView,
+      @NonNull AppCompatImageView backIv, @NonNull Button confirmBtn, @NonNull LinearLayout examLl,
+      @NonNull TextView examTitleTv, @NonNull OtpTextView otpView) {
     this.rootView = rootView;
     this.backIv = backIv;
     this.confirmBtn = confirmBtn;
@@ -76,7 +76,7 @@ public final class ActivityExamCodeBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.back_iv;
-      ImageView backIv = rootView.findViewById(id);
+      AppCompatImageView backIv = rootView.findViewById(id);
       if (backIv == null) {
         break missingId;
       }

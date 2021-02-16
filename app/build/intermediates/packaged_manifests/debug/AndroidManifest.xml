@@ -31,13 +31,14 @@
         android:label="@string/app_name"
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
+        android:supportsRtl="false"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.coursawy.ui.activities.CreateNewRoom" >
-        </activity>
-        <activity android:name="com.example.coursawy.ui.activities.AddNewExamActivity" >
-        </activity>
+        <activity android:name="com.example.coursawy.SettingsActivity" />
+        <activity android:name="com.example.coursawy.ProfileActivity" />
+        <activity android:name="com.example.coursawy.ChangePasswordActivity" />
+        <activity android:name="com.example.coursawy.ui.activities.CreateNewRoom" />
+        <activity android:name="com.example.coursawy.ui.activities.AddNewExamActivity" />
         <activity android:name="com.example.coursawy.AnswersActivity" />
         <activity android:name="com.example.coursawy.ExamCodeActivity" />
         <activity android:name="com.example.coursawy.DoctorInfoActivity" />
@@ -57,8 +58,7 @@
         <activity
             android:name="com.example.coursawy.ui.activities.HomeActivity"
             android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme" >
-        </activity>
+            android:theme="@style/AppTheme" />
         <activity android:name="com.example.coursawy.ContinueSignupActivity" />
         <activity android:name="com.example.coursawy.SignActivity" />
         <activity android:name="com.example.coursawy.MainActivity" />

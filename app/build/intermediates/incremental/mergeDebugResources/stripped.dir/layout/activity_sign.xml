@@ -42,6 +42,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_input_email"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
@@ -63,6 +64,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_input_password"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
@@ -112,6 +114,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_input_name"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
@@ -135,6 +138,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_input_fullname"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
@@ -157,6 +161,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_input_email2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
@@ -180,6 +185,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_input_password2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
@@ -204,6 +210,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_input_conf_password2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
@@ -239,11 +246,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sign_back_btn">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/signin_design_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="35dp"
             android:background="@drawable/signin_up_design"
             android:backgroundTint="@color/colorParper"
             android:onClick="onClick"
@@ -252,7 +259,7 @@
             android:textColor="@android:color/white"
             android:textSize="20sp" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/signup_design_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -281,7 +288,7 @@
             android:src="@drawable/google_plus" />
     </LinearLayout>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/signin_btn"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
@@ -298,7 +305,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/signin_layout"
         app:layout_constraintEnd_toEndOf="@+id/signin_layout" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/sign_continue_btn"
         android:layout_width="150dp"
         android:layout_height="wrap_content"

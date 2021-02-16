@@ -4,12 +4,12 @@ package com.example.coursawy.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.example.coursawy.R;
@@ -55,7 +55,7 @@ public final class ActivitySignBinding implements ViewBinding {
   public final ImageView signBackBtn;
 
   @NonNull
-  public final Button signContinueBtn;
+  public final AppCompatButton signContinueBtn;
 
   @NonNull
   public final LoginButton signFacbookBtn;
@@ -67,16 +67,16 @@ public final class ActivitySignBinding implements ViewBinding {
   public final ImageView signLogo;
 
   @NonNull
-  public final Button signinBtn;
+  public final AppCompatButton signinBtn;
 
   @NonNull
-  public final Button signinDesignBtn;
+  public final AppCompatButton signinDesignBtn;
 
   @NonNull
   public final LinearLayout signinLayout;
 
   @NonNull
-  public final Button signupDesignBtn;
+  public final AppCompatButton signupDesignBtn;
 
   @NonNull
   public final LinearLayout signupLayout;
@@ -108,14 +108,14 @@ public final class ActivitySignBinding implements ViewBinding {
       @NonNull LinearLayout leftLayout, @NonNull TextInputEditText nameSignUp,
       @NonNull TextInputEditText passwordConfSignUp, @NonNull TextInputEditText passwordSignIn,
       @NonNull TextInputEditText passwordSignUp, @NonNull ImageView signBackBtn,
-      @NonNull Button signContinueBtn, @NonNull LoginButton signFacbookBtn,
-      @NonNull ImageView signGmailBtn, @NonNull ImageView signLogo, @NonNull Button signinBtn,
-      @NonNull Button signinDesignBtn, @NonNull LinearLayout signinLayout,
-      @NonNull Button signupDesignBtn, @NonNull LinearLayout signupLayout,
-      @NonNull TextInputLayout textInputConfPassword2, @NonNull TextInputLayout textInputEmail,
-      @NonNull TextInputLayout textInputEmail2, @NonNull TextInputLayout textInputFullname,
-      @NonNull TextInputLayout textInputName, @NonNull TextInputLayout textInputPassword,
-      @NonNull TextInputLayout textInputPassword2) {
+      @NonNull AppCompatButton signContinueBtn, @NonNull LoginButton signFacbookBtn,
+      @NonNull ImageView signGmailBtn, @NonNull ImageView signLogo,
+      @NonNull AppCompatButton signinBtn, @NonNull AppCompatButton signinDesignBtn,
+      @NonNull LinearLayout signinLayout, @NonNull AppCompatButton signupDesignBtn,
+      @NonNull LinearLayout signupLayout, @NonNull TextInputLayout textInputConfPassword2,
+      @NonNull TextInputLayout textInputEmail, @NonNull TextInputLayout textInputEmail2,
+      @NonNull TextInputLayout textInputFullname, @NonNull TextInputLayout textInputName,
+      @NonNull TextInputLayout textInputPassword, @NonNull TextInputLayout textInputPassword2) {
     this.rootView = rootView;
     this.emailSignIn = emailSignIn;
     this.emailSignUp = emailSignUp;
@@ -233,7 +233,7 @@ public final class ActivitySignBinding implements ViewBinding {
       }
 
       id = R.id.sign_continue_btn;
-      Button signContinueBtn = rootView.findViewById(id);
+      AppCompatButton signContinueBtn = rootView.findViewById(id);
       if (signContinueBtn == null) {
         break missingId;
       }
@@ -257,13 +257,13 @@ public final class ActivitySignBinding implements ViewBinding {
       }
 
       id = R.id.signin_btn;
-      Button signinBtn = rootView.findViewById(id);
+      AppCompatButton signinBtn = rootView.findViewById(id);
       if (signinBtn == null) {
         break missingId;
       }
 
       id = R.id.signin_design_btn;
-      Button signinDesignBtn = rootView.findViewById(id);
+      AppCompatButton signinDesignBtn = rootView.findViewById(id);
       if (signinDesignBtn == null) {
         break missingId;
       }
@@ -275,7 +275,7 @@ public final class ActivitySignBinding implements ViewBinding {
       }
 
       id = R.id.signup_design_btn;
-      Button signupDesignBtn = rootView.findViewById(id);
+      AppCompatButton signupDesignBtn = rootView.findViewById(id);
       if (signupDesignBtn == null) {
         break missingId;
       }

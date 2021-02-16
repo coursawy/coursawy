@@ -4,11 +4,11 @@ package com.example.coursawy.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
@@ -22,7 +22,7 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button mainContinueBtn;
+  public final AppCompatButton mainContinueBtn;
 
   @NonNull
   public final CardView mainDoctorCardview;
@@ -36,9 +36,10 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView mainTitle;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button mainContinueBtn,
-      @NonNull CardView mainDoctorCardview, @NonNull ImageView mainLogo,
-      @NonNull CardView mainStudentCardview, @NonNull TextView mainTitle) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
+      @NonNull AppCompatButton mainContinueBtn, @NonNull CardView mainDoctorCardview,
+      @NonNull ImageView mainLogo, @NonNull CardView mainStudentCardview,
+      @NonNull TextView mainTitle) {
     this.rootView = rootView;
     this.mainContinueBtn = mainContinueBtn;
     this.mainDoctorCardview = mainDoctorCardview;
@@ -75,7 +76,7 @@ public final class ActivityMainBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.main_continue_btn;
-      Button mainContinueBtn = rootView.findViewById(id);
+      AppCompatButton mainContinueBtn = rootView.findViewById(id);
       if (mainContinueBtn == null) {
         break missingId;
       }

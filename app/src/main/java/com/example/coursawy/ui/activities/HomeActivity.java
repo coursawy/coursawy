@@ -16,6 +16,7 @@ import com.example.coursawy.ExamTypeActivity;
 import com.example.coursawy.MainActivity;
 import com.example.coursawy.Quiz_ExamActivity;
 import com.example.coursawy.R;
+import com.example.coursawy.SettingsActivity;
 import com.example.coursawy.databinding.ActivityHomeBinding;
 import com.example.coursawy.model.User;
 import com.google.android.material.navigation.NavigationView;
@@ -115,6 +116,10 @@ public class HomeActivity extends AppCompatActivity  {
         });
         navigationView.getMenu().findItem(R.id.nav_add_new_exam).setOnMenuItemClickListener(menuItem -> {
             startActivity(new Intent(this , AddNewExamActivity.class));
+            return true;
+        });
+        navigationView.getMenu().findItem(R.id.nav_settings).setOnMenuItemClickListener(menuItem -> {
+            startActivity(new Intent(this, SettingsActivity.class));
             return true;
         });
 

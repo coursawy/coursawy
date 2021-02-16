@@ -65,7 +65,7 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/exam_submit_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
                 android:enabled="false"
                 android:paddingLeft="22dp"
                 android:paddingRight="22dp"
-                android:text="Submit"
+                android:text="@string/submit"
                 android:textAllCaps="false"
                 android:textColor="@android:color/white"
                 android:textSize="21sp"

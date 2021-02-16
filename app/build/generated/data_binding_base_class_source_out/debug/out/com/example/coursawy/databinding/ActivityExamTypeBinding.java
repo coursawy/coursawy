@@ -4,10 +4,10 @@ package com.example.coursawy.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.viewbinding.ViewBinding;
 import com.example.coursawy.R;
 import java.lang.NullPointerException;
@@ -19,16 +19,17 @@ public final class ActivityExamTypeBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final Button addTestBtn;
+  public final AppCompatButton addTestBtn;
 
   @NonNull
-  public final Button offlineBtn;
+  public final AppCompatButton offlineBtn;
 
   @NonNull
-  public final Button onlineBtn;
+  public final AppCompatButton onlineBtn;
 
-  private ActivityExamTypeBinding(@NonNull RelativeLayout rootView, @NonNull Button addTestBtn,
-      @NonNull Button offlineBtn, @NonNull Button onlineBtn) {
+  private ActivityExamTypeBinding(@NonNull RelativeLayout rootView,
+      @NonNull AppCompatButton addTestBtn, @NonNull AppCompatButton offlineBtn,
+      @NonNull AppCompatButton onlineBtn) {
     this.rootView = rootView;
     this.addTestBtn = addTestBtn;
     this.offlineBtn = offlineBtn;
@@ -63,19 +64,19 @@ public final class ActivityExamTypeBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.add_test_btn;
-      Button addTestBtn = rootView.findViewById(id);
+      AppCompatButton addTestBtn = rootView.findViewById(id);
       if (addTestBtn == null) {
         break missingId;
       }
 
       id = R.id.offline_btn;
-      Button offlineBtn = rootView.findViewById(id);
+      AppCompatButton offlineBtn = rootView.findViewById(id);
       if (offlineBtn == null) {
         break missingId;
       }
 
       id = R.id.online_btn;
-      Button onlineBtn = rootView.findViewById(id);
+      AppCompatButton onlineBtn = rootView.findViewById(id);
       if (onlineBtn == null) {
         break missingId;
       }

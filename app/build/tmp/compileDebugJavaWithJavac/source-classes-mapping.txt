@@ -6,12 +6,15 @@ com/example/coursawy/databinding/ActivityQuizExamBinding.java
  com.example.coursawy.databinding.ActivityQuizExamBinding
 com/example/coursawy/databinding/ColorSpinnerLayoutBinding.java
  com.example.coursawy.databinding.ColorSpinnerLayoutBinding
-com/example/coursawy/Public_Quizes_Fragment.java
- com.example.coursawy.Public_Quizes_Fragment
+com/example/coursawy/databinding/ActivityCreateNewRoomBinding.java
+ com.example.coursawy.databinding.ActivityCreateNewRoomBinding
 com/example/coursawy/databinding/CourseItemBinding.java
  com.example.coursawy.databinding.CourseItemBinding
 com/example/coursawy/databinding/ActivityCourseProfileBinding.java
  com.example.coursawy.databinding.ActivityCourseProfileBinding
+com/example/coursawy/ProfileActivity.java
+ com.example.coursawy.ProfileActivity
+ com.example.coursawy.ProfileActivity$1
 com/example/coursawy/databinding/FragmentHomeBinding.java
  com.example.coursawy.databinding.FragmentHomeBinding
 com/example/coursawy/databinding/FragmentPublicExamsBinding.java
@@ -59,12 +62,14 @@ com/example/coursawy/adapter/MyAdapter2.java
 com/example/coursawy/cam/RestartingCountDownTimer.java
  com.example.coursawy.cam.RestartingCountDownTimer
  com.example.coursawy.cam.RestartingCountDownTimer$1
+com/example/coursawy/databinding/ActivityProfileBinding.java
+ com.example.coursawy.databinding.ActivityProfileBinding
 com/example/coursawy/model/Item_Tabs.java
  com.example.coursawy.model.Item_Tabs
-com/example/coursawy/ui/activities/PopularCoursesActivity.java
- com.example.coursawy.ui.activities.PopularCoursesActivity
-com/example/coursawy/databinding/ListItemTestBinding.java
- com.example.coursawy.databinding.ListItemTestBinding
+com/example/coursawy/Public_Quizes_Fragment.java
+ com.example.coursawy.Public_Quizes_Fragment
+com/example/coursawy/MainActivity.java
+ com.example.coursawy.MainActivity
 com/example/coursawy/ExamTypeActivity.java
  com.example.coursawy.ExamTypeActivity
  com.example.coursawy.ExamTypeActivity$1
@@ -93,8 +98,21 @@ com/example/coursawy/model/Item_Courses.java
 com/example/coursawy/adapters/PopularTrainersAdapter.java
  com.example.coursawy.adapters.PopularTrainersAdapter
  com.example.coursawy.adapters.PopularTrainersAdapter$PopularTrainersViewHolder
-com/example/coursawy/Quisez_Fragment2.java
- com.example.coursawy.Quisez_Fragment2
+com/example/coursawy/TestsActivity.java
+ com.example.coursawy.TestsActivity
+ com.example.coursawy.TestsActivity$1
+ com.example.coursawy.TestsActivity$10
+ com.example.coursawy.TestsActivity$11
+ com.example.coursawy.TestsActivity$11$1
+ com.example.coursawy.TestsActivity$11$1$1
+ com.example.coursawy.TestsActivity$2
+ com.example.coursawy.TestsActivity$3
+ com.example.coursawy.TestsActivity$4
+ com.example.coursawy.TestsActivity$5
+ com.example.coursawy.TestsActivity$6
+ com.example.coursawy.TestsActivity$7
+ com.example.coursawy.TestsActivity$8
+ com.example.coursawy.TestsActivity$9
 com/example/coursawy/databinding/FragmentQuisez2Binding.java
  com.example.coursawy.databinding.FragmentQuisez2Binding
 com/example/coursawy/adapters/CoursesAdapter.java
@@ -119,6 +137,8 @@ com/example/coursawy/databinding/FragmentExams2Binding.java
  com.example.coursawy.databinding.FragmentExams2Binding
 com/example/coursawy/AnswersActivity.java
  com.example.coursawy.AnswersActivity
+com/example/coursawy/ProfileInfoItem.java
+ com.example.coursawy.ProfileInfoItem
 com/example/coursawy/ui/fragments/OnlineExamsFragment.java
  com.example.coursawy.ui.fragments.OnlineExamsFragment
 com/example/coursawy/Exams_Fragment2.java
@@ -147,11 +167,13 @@ com/example/coursawy/TakePhoto/PictureCapturingServiceImpl.java
  com.example.coursawy.TakePhoto.PictureCapturingServiceImpl$1
  com.example.coursawy.TakePhoto.PictureCapturingServiceImpl$2
  com.example.coursawy.TakePhoto.PictureCapturingServiceImpl$3
-com/example/coursawy/databinding/ActivityCreateNewRoomBinding.java
- com.example.coursawy.databinding.ActivityCreateNewRoomBinding
+com/example/coursawy/Quisez_Fragment2.java
+ com.example.coursawy.Quisez_Fragment2
 com/example/coursawy/cam/LoadFrontCameraAsyncTask.java
  com.example.coursawy.cam.LoadFrontCameraAsyncTask
  com.example.coursawy.cam.LoadFrontCameraAsyncTask$Listener
+com/example/coursawy/databinding/ActivityChangePasswordBinding.java
+ com.example.coursawy.databinding.ActivityChangePasswordBinding
 com/example/coursawy/ui/activities/NotificationsActivity.java
  com.example.coursawy.ui.activities.NotificationsActivity
 com/example/coursawy/adapter/PageAdapter.java
@@ -171,6 +193,8 @@ com/example/coursawy/adapter/MyAdapter.java
  com.example.coursawy.adapter.MyAdapter$ViewHolder
 com/example/coursawy/TestListAdapter.java
  com.example.coursawy.TestListAdapter
+com/example/coursawy/databinding/ProfileItemLayoutBinding.java
+ com.example.coursawy.databinding.ProfileItemLayoutBinding
 com/example/coursawy/databinding/ActivityHomeBinding.java
  com.example.coursawy.databinding.ActivityHomeBinding
 com/example/coursawy/databinding/FragmentOnlineExamsBinding.java
@@ -181,10 +205,14 @@ com/example/coursawy/Quiz_ExamActivity.java
  com.example.coursawy.Quiz_ExamActivity
  com.example.coursawy.Quiz_ExamActivity$1
  com.example.coursawy.Quiz_ExamActivity$2
+com/example/coursawy/databinding/ActivitySettingsBinding.java
+ com.example.coursawy.databinding.ActivitySettingsBinding
 com/example/coursawy/databinding/ActivityDoctorInfoBinding.java
  com.example.coursawy.databinding.ActivityDoctorInfoBinding
 com/example/coursawy/adapters/PopularCourseClickListener.java
  com.example.coursawy.adapters.PopularCourseClickListener
+com/example/coursawy/ProfileInfoAdapter.java
+ com.example.coursawy.ProfileInfoAdapter
 com/example/coursawy/databinding/ActivityAddNewExamBinding.java
  com.example.coursawy.databinding.ActivityAddNewExamBinding
 com/example/coursawy/databinding/ActivityMainBinding.java
@@ -198,6 +226,13 @@ com/example/coursawy/databinding/FragmentPublicQuizesBinding.java
  com.example.coursawy.databinding.FragmentPublicQuizesBinding
 com/example/coursawy/databinding/ActivitySplashBinding.java
  com.example.coursawy.databinding.ActivitySplashBinding
+com/example/coursawy/ChangePasswordActivity.java
+ com.example.coursawy.ChangePasswordActivity
+com/example/coursawy/SettingsActivity.java
+ com.example.coursawy.SettingsActivity
+ com.example.coursawy.SettingsActivity$1
+ com.example.coursawy.SettingsActivity$2
+ com.example.coursawy.SettingsActivity$3
 com/example/coursawy/databinding/FragmentAddNewExamBinding.java
  com.example.coursawy.databinding.FragmentAddNewExamBinding
 com/example/coursawy/BuildConfig.java
@@ -215,34 +250,6 @@ com/example/coursawy/databinding/ActivityExamTypeBinding.java
  com.example.coursawy.databinding.ActivityExamTypeBinding
 com/example/coursawy/databinding/NotificationItemBinding.java
  com.example.coursawy.databinding.NotificationItemBinding
-com/example/coursawy/cam/OneShotFaceDetectionListener.java
- com.example.coursawy.cam.OneShotFaceDetectionListener
- com.example.coursawy.cam.OneShotFaceDetectionListener$1
- com.example.coursawy.cam.OneShotFaceDetectionListener$Listener
-com/example/coursawy/TestsActivity.java
- com.example.coursawy.TestsActivity
- com.example.coursawy.TestsActivity$1
- com.example.coursawy.TestsActivity$10
- com.example.coursawy.TestsActivity$11
- com.example.coursawy.TestsActivity$11$1
- com.example.coursawy.TestsActivity$11$1$1
- com.example.coursawy.TestsActivity$2
- com.example.coursawy.TestsActivity$3
- com.example.coursawy.TestsActivity$4
- com.example.coursawy.TestsActivity$5
- com.example.coursawy.TestsActivity$6
- com.example.coursawy.TestsActivity$7
- com.example.coursawy.TestsActivity$8
- com.example.coursawy.TestsActivity$9
-com/example/coursawy/SignActivity.java
- com.example.coursawy.SignActivity
- com.example.coursawy.SignActivity$1
- com.example.coursawy.SignActivity$2
- com.example.coursawy.SignActivity$3
- com.example.coursawy.SignActivity$4
- com.example.coursawy.SignActivity$5
-com/example/coursawy/SplashActivity.java
- com.example.coursawy.SplashActivity
 com/example/coursawy/ContinueSignupActivity.java
  com.example.coursawy.ContinueSignupActivity
  com.example.coursawy.ContinueSignupActivity$1
@@ -256,8 +263,23 @@ com/example/coursawy/ContinueSignupActivity.java
  com.example.coursawy.ContinueSignupActivity$7$1$1
  com.example.coursawy.ContinueSignupActivity$8
  com.example.coursawy.ContinueSignupActivity$9
+com/example/coursawy/databinding/ListItemTestBinding.java
+ com.example.coursawy.databinding.ListItemTestBinding
+com/example/coursawy/ui/activities/PopularCoursesActivity.java
+ com.example.coursawy.ui.activities.PopularCoursesActivity
+com/example/coursawy/cam/OneShotFaceDetectionListener.java
+ com.example.coursawy.cam.OneShotFaceDetectionListener
+ com.example.coursawy.cam.OneShotFaceDetectionListener$1
+ com.example.coursawy.cam.OneShotFaceDetectionListener$Listener
+com/example/coursawy/SignActivity.java
+ com.example.coursawy.SignActivity
+ com.example.coursawy.SignActivity$1
+ com.example.coursawy.SignActivity$2
+ com.example.coursawy.SignActivity$3
+ com.example.coursawy.SignActivity$4
+ com.example.coursawy.SignActivity$5
+com/example/coursawy/SplashActivity.java
+ com.example.coursawy.SplashActivity
 com/example/coursawy/ui/activities/HomeActivity.java
  com.example.coursawy.ui.activities.HomeActivity
  com.example.coursawy.ui.activities.HomeActivity$1
-com/example/coursawy/MainActivity.java
- com.example.coursawy.MainActivity

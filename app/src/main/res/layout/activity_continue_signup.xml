@@ -7,7 +7,7 @@
     android:background="@drawable/main_background"
     tools:context=".ContinueSignupActivity">
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/continue_back_btn"
         android:layout_width="70dp"
         android:layout_height="30dp"
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/continue_back_to_main_btn"
         android:layout_width="35dp"
         android:layout_height="25dp"
@@ -27,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/continue_signup_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/user" />
 
-        <ImageButton
+        <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/select_image_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
                 android:id="@+id/continue_date_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Date Of Birth"
+                android:text="@string/date_of_birth"
                 android:textColor="@android:color/black"
                 android:textSize="22sp" />
 
@@ -245,7 +245,6 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
-        android:background="@drawable/backbutton"
         android:backgroundTint="@color/colorParper"
         android:onClick="onClick"
         android:padding="10dp"

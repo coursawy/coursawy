@@ -19,13 +19,13 @@
     <string name="action_notification">Notifications</string>
     <string name="menu_courses">My Courses</string>
     <string name="menu_online_exams">Online Exams</string>
-    <string name="menu_public_exam"><![CDATA[public exams & quizes]]></string>
+    <string name="menu_public_exam"><![CDATA[public exams & quizzes]]></string>
     <string name="menu_settings">Settings</string>
     <string name="menu_help">Help</string>
     <string name="menu_log_out">Log out</string>
     <string name="my_courses">My Courses</string>
     <string name="popular_courses">Popular Courses</string>
-    <string name="quizes">Quizes</string>
+    <string name="quizes">Quizzes</string>
     <string name="log_out">Are you sure you want to log out?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
@@ -45,6 +45,23 @@
     <string name="_ok">ok</string>
     <string name="download_example_file">download example file</string>
     <string name="instructions">Notes: \nyou have to upload exam as excel file \nin below format. \n \nrewrite the correct answer in column 6 ( f ).</string>
+    <string name="submit">Submit</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="connect_social_accounts">Connect Social Accounts</string>
+    <string name="account">Account</string>
+    <string name="solved">SOLVED</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="enter_exam_code">Enter Exam Code</string>
+    <string name="online_exam">Online Exam</string>
+    <string name="confirm">Confirm</string>
+    <string name="are_you_sure_you_want_to_exit">Are you sure you want to exit?</string>
+    <string name="exit">exit</string>
 
     <string-array name="faculties">
         <item>Select</item>
@@ -76,7 +93,7 @@
         <item>Professor</item>
         <item>Professor Emeritus</item>
     </string-array>
-    
+
     <string-array name="CoursesCategory">
         <item>\t \tChoose Catogory</item>
         <item>IT</item>

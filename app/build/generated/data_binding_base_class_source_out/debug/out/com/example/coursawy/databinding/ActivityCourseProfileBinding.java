@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatImageView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewpager.widget.ViewPager;
@@ -30,7 +31,7 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
   public final ImageView backIv;
 
   @NonNull
-  public final ImageView badgeIcon;
+  public final AppCompatImageView badgeIcon;
 
   @NonNull
   public final TextView courseOnPhoto;
@@ -66,7 +67,7 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
   public final ViewPager viewPager2;
 
   private ActivityCourseProfileBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView addBtn, @NonNull ImageView backIv, @NonNull ImageView badgeIcon,
+      @NonNull ImageView addBtn, @NonNull ImageView backIv, @NonNull AppCompatImageView badgeIcon,
       @NonNull TextView courseOnPhoto, @NonNull TextView doctorNameOnPhoto,
       @NonNull TabItem examsCourse, @NonNull LinearLayout linear1, @NonNull TabItem materialsCourse,
       @NonNull TextView nameCourse, @NonNull TextView newMembersCount,
@@ -129,7 +130,7 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
       }
 
       id = R.id.badge_icon;
-      ImageView badgeIcon = rootView.findViewById(id);
+      AppCompatImageView badgeIcon = rootView.findViewById(id);
       if (badgeIcon == null) {
         break missingId;
       }

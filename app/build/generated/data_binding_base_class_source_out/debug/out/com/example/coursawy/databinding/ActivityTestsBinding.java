@@ -15,6 +15,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.viewbinding.ViewBinding;
 import com.example.coursawy.R;
 import java.lang.NullPointerException;
@@ -59,7 +60,7 @@ public final class ActivityTestsBinding implements ViewBinding {
   public final LinearLayout examLl;
 
   @NonNull
-  public final Button examSubmitBtn;
+  public final AppCompatButton examSubmitBtn;
 
   @NonNull
   public final TextView examTitleTv;
@@ -93,9 +94,9 @@ public final class ActivityTestsBinding implements ViewBinding {
       @NonNull TextView equestionTv, @NonNull RadioButton eradioFour,
       @NonNull RadioGroup eradioGroupAll, @NonNull RadioButton eradioOne,
       @NonNull RadioButton eradioThree, @NonNull RadioButton eradioTwo,
-      @NonNull LinearLayout examLl, @NonNull Button examSubmitBtn, @NonNull TextView examTitleTv,
-      @NonNull FrameLayout frameLayout, @NonNull View infoV, @NonNull TextView markTv,
-      @NonNull Button nextBtn, @NonNull LinearLayout questionsLl,
+      @NonNull LinearLayout examLl, @NonNull AppCompatButton examSubmitBtn,
+      @NonNull TextView examTitleTv, @NonNull FrameLayout frameLayout, @NonNull View infoV,
+      @NonNull TextView markTv, @NonNull Button nextBtn, @NonNull LinearLayout questionsLl,
       @NonNull SeekBar questionsProgress, @NonNull Button showMarksBtn, @NonNull TextView timerTv) {
     this.rootView = rootView;
     this.backBtn = backBtn;
@@ -215,7 +216,7 @@ public final class ActivityTestsBinding implements ViewBinding {
       }
 
       id = R.id.exam_submit_btn;
-      Button examSubmitBtn = rootView.findViewById(id);
+      AppCompatButton examSubmitBtn = rootView.findViewById(id);
       if (examSubmitBtn == null) {
         break missingId;
       }
