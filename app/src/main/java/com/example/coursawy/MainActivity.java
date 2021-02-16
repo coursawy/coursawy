@@ -73,5 +73,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void startSignActivity(boolean isStudent) {
         startActivity(new Intent(this, SignActivity.class).putExtra("isStudent" , isStudent));
+        finish();
     }
 }

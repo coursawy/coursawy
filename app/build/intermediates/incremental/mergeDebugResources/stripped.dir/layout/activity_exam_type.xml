@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical"
+    tools:context=".ExamTypeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/undraw_choice" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="18dp"
+        android:orientation="vertical">
+
+
+
+
+        <Button
+            android:id="@+id/online_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="22dp"
+            android:background="@drawable/button_online"
+            android:drawableStart="@drawable/ic_baseline_wifi_24"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:textColor="@android:color/white"
+            android:text="@string/online_tests"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/offline_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="22dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/button_offline"
+            android:drawableStart="@drawable/ic_baseline_wifi_off_24"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:text="@string/offline_tests"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/add_test_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/ic_baseline_add_circle_outline_24"
+            android:layout_marginEnd="22dp"
+            android:background="@drawable/button_offline"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:textColor="#1A0035"
+            android:visibility="visible"
+            android:text="@string/add_tests"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

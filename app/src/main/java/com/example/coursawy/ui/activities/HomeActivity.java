@@ -75,7 +75,7 @@ public class HomeActivity extends AppCompatActivity  {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 User user = dataSnapshot.getValue(User.class);
-                navUsername.setText(user.getUsername());
+                navUsername.setText(user.getFullname());
                 navUsertype.setText(user.getType());
 
                 if (user.getProfileImage().equals("default")){

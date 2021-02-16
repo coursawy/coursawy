@@ -107,7 +107,7 @@ public class TestsActivity extends AppCompatActivity implements FrontCameraRetri
     Button backBtn;
     @BindView(R.id.next_btn)
     Button nextBtn;
-//    @BindView(R.id.imgSecret)
+    //    @BindView(R.id.imgSecret)
 //    ImageView uploadFrontPhoto;
 //    @BindView(R.id.imgProfile)
 //    ImageView imgProfile;
