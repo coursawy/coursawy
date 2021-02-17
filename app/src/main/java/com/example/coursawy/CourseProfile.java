@@ -13,23 +13,26 @@ import com.example.coursawy.model.Course;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 
+import static com.example.coursawy.ui.fragments.HomeFragment.COURSE_IMAGE;
 import static com.example.coursawy.ui.fragments.HomeFragment.COURSE_NAME;
 
 public class CourseProfile extends AppCompatActivity {
     private TabLayout tabLayout_course;
     private ViewPager viewPager;
     private TabItem materials, quizes, exams;
-    ImageView back_iv , addBtn;
+    ImageView back_iv , addBtn,imageCourse;
     TextView nameCourse;
     TextView courseOnPhoto;
     public PageAdapter2 pagerAdapter;
     String courseName;
+    int image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_course_profile);
         courseName = getIntent().getStringExtra(COURSE_NAME);
+        image = getIntent().getIntExtra(COURSE_IMAGE,1);
         tabLayout_course = (TabLayout) findViewById(R.id.tablayout_courses);
         materials = (TabItem) findViewById(R.id.materials_course);
         quizes = (TabItem) findViewById(R.id.quizes_course);
@@ -38,6 +41,8 @@ public class CourseProfile extends AppCompatActivity {
         courseOnPhoto = (TextView) findViewById(R.id.course_on_photo);
         Course course = new Course();
         nameCourse.setText(courseName);
+        imageCourse=findViewById(R.id.course_profile_image);
+        imageCourse.setImageResource(image);
         courseOnPhoto.setText(courseName);
         back_iv = findViewById(R.id.back_iv);
         addBtn = findViewById(R.id.add_btn);

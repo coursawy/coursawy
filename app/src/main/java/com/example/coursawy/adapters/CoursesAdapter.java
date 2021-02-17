@@ -67,7 +67,7 @@ public class CoursesAdapter extends RecyclerView.Adapter<CoursesAdapter.CoursesV
         public void bind(Course course, int position) {
             binding.courseImage.setImageResource(course.getCourseImage());
             binding.courseName.setText(course.getCourseName());
-            binding.getRoot().setOnClickListener(view -> listener4.onClick4(course.getCourseName() , position));
+            binding.getRoot().setOnClickListener(view -> listener4.onClick4(course.getCourseName(), position,course.getCourseImage()));
 
         }
 

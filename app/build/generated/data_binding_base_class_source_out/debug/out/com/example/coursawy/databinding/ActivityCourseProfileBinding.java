@@ -37,6 +37,9 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
   public final TextView courseOnPhoto;
 
   @NonNull
+  public final ImageView courseProfileImage;
+
+  @NonNull
   public final TextView doctorNameOnPhoto;
 
   @NonNull
@@ -68,16 +71,17 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
 
   private ActivityCourseProfileBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView addBtn, @NonNull ImageView backIv, @NonNull AppCompatImageView badgeIcon,
-      @NonNull TextView courseOnPhoto, @NonNull TextView doctorNameOnPhoto,
-      @NonNull TabItem examsCourse, @NonNull LinearLayout linear1, @NonNull TabItem materialsCourse,
-      @NonNull TextView nameCourse, @NonNull TextView newMembersCount,
-      @NonNull TabItem quizesCourse, @NonNull ImageView rect, @NonNull TabLayout tablayoutCourses,
-      @NonNull ViewPager viewPager2) {
+      @NonNull TextView courseOnPhoto, @NonNull ImageView courseProfileImage,
+      @NonNull TextView doctorNameOnPhoto, @NonNull TabItem examsCourse,
+      @NonNull LinearLayout linear1, @NonNull TabItem materialsCourse, @NonNull TextView nameCourse,
+      @NonNull TextView newMembersCount, @NonNull TabItem quizesCourse, @NonNull ImageView rect,
+      @NonNull TabLayout tablayoutCourses, @NonNull ViewPager viewPager2) {
     this.rootView = rootView;
     this.addBtn = addBtn;
     this.backIv = backIv;
     this.badgeIcon = badgeIcon;
     this.courseOnPhoto = courseOnPhoto;
+    this.courseProfileImage = courseProfileImage;
     this.doctorNameOnPhoto = doctorNameOnPhoto;
     this.examsCourse = examsCourse;
     this.linear1 = linear1;
@@ -138,6 +142,12 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
       id = R.id.course_on_photo;
       TextView courseOnPhoto = rootView.findViewById(id);
       if (courseOnPhoto == null) {
+        break missingId;
+      }
+
+      id = R.id.course_profile_image;
+      ImageView courseProfileImage = rootView.findViewById(id);
+      if (courseProfileImage == null) {
         break missingId;
       }
 
@@ -202,8 +212,9 @@ public final class ActivityCourseProfileBinding implements ViewBinding {
       }
 
       return new ActivityCourseProfileBinding((ConstraintLayout) rootView, addBtn, backIv,
-          badgeIcon, courseOnPhoto, doctorNameOnPhoto, examsCourse, linear1, materialsCourse,
-          nameCourse, newMembersCount, quizesCourse, rect, tablayoutCourses, viewPager2);
+          badgeIcon, courseOnPhoto, courseProfileImage, doctorNameOnPhoto, examsCourse, linear1,
+          materialsCourse, nameCourse, newMembersCount, quizesCourse, rect, tablayoutCourses,
+          viewPager2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

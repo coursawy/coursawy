@@ -41,6 +41,7 @@ public class HomeFragment extends Fragment implements PopularCourseClickListener
     private List<Course> quizList;
     private List<User> userList;
     public static final String COURSE_NAME = "courseName";
+    public static final String COURSE_IMAGE = "courseImage";
     public static final String DOCTOR_NAME = "doctorName";
     CoursesAdapter coursesAdapter;
     PopularCoursesAdapter popularCoursesAdapter;
@@ -81,20 +82,20 @@ public class HomeFragment extends Fragment implements PopularCourseClickListener
 
     private void setCourseList(){
         courseList = new ArrayList<>();
-        courseList.add(new Course(R.drawable.course_image , "Android Course"));
-        courseList.add(new Course(R.drawable.course_image , "Web Development Course"));
-        courseList.add(new Course(R.drawable.course_image , "Flutter Course"));
-        courseList.add(new Course(R.drawable.course_image , "ML Course"));
-        courseList.add(new Course(R.drawable.course_image , "Algorithms Course"));
+        courseList.add(new Course(R.drawable.android_logo , "Android Course"));
+        courseList.add(new Course(R.drawable.web_icon , "Web Development Course"));
+        courseList.add(new Course(R.drawable.ic_flutter_icon , "Flutter Course"));
+        courseList.add(new Course(R.drawable.ml_icon , "ML Course"));
+        courseList.add(new Course(R.drawable.algorithm_icon , "Algorithms Course"));
         courseList.add(courseList.size() , new Course(R.drawable.add_new_course_recycler_btn , "Add New Course"));
     }
     private void setPopularCourseList(){
         popularCourseList = new ArrayList<>();
-        popularCourseList.add(new Course(R.drawable.java_svgrepo_com , "Android Course"));
-        popularCourseList.add(new Course(R.drawable.java_svgrepo_com , "Web Course"));
-        popularCourseList.add(new Course(R.drawable.java_svgrepo_com , "Flutter Course"));
-        popularCourseList.add(new Course(R.drawable.java_svgrepo_com , "ML Course"));
-        popularCourseList.add(new Course(R.drawable.java_svgrepo_com , "Algorithms Course"));
+        popularCourseList.add(new Course(R.drawable.android_logo , "Android Course"));
+        popularCourseList.add(new Course(R.drawable.web_icon , "Web Course"));
+        popularCourseList.add(new Course(R.drawable.ic_flutter_icon , "Flutter Course"));
+        popularCourseList.add(new Course(R.drawable.ml_icon , "ML Course"));
+        popularCourseList.add(new Course(R.drawable.android_logo , "Algorithms Course"));
     }
     private void setQuizList(){
         quizList = new ArrayList<>();
@@ -150,10 +151,13 @@ public class HomeFragment extends Fragment implements PopularCourseClickListener
     }
 
     @Override
-    public void onClick(String courseName) {
+    public void onClick(String courseName,int image) {
         //We have Course Name
-        startActivity(new Intent(requireContext() , PopularCoursesActivity.class));
-    }
+        Intent intent=new Intent(requireContext() , PopularCoursesActivity.class);
+
+        intent.putExtra("name",courseName);
+        intent.putExtra("image",image);
+        startActivity(intent);    }
     @Override
     public void onClick2(String id , String doctorName) {
         //We have Course Name
@@ -166,12 +170,13 @@ public class HomeFragment extends Fragment implements PopularCourseClickListener
     }
 
     @Override
-    public void onClick4(String courseName , int position) {
+    public void onClick4(String courseName , int position,int courseImage) {
         if (position == courseList.size() - 1){
             startCreateNewRoomActivity();
         }else {
             Intent i = new Intent(requireContext(), CourseProfile.class);
             i.putExtra(COURSE_NAME , courseName);
+            i.putExtra(COURSE_IMAGE,courseImage);
             startActivity(i);
         }
     }

@@ -58,7 +58,7 @@ public class PopularCoursesAdapter extends RecyclerView.Adapter<PopularCoursesAd
         public void bind(Course course){
             binding.courseImage.setImageResource(course.getCourseImage());
             binding.courseName.setText(course.getCourseName());
-            binding.getRoot().setOnClickListener(view -> listener.onClick(course.getCourseName()));
+            binding.getRoot().setOnClickListener(view -> listener.onClick(course.getCourseName(),course.getCourseImage()));
         }
     }
 }

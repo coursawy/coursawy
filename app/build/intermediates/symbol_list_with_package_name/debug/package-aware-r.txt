@@ -1745,6 +1745,8 @@ drawable abc_vector_test
 drawable add
 drawable add_course_icon
 drawable add_new_course_recycler_btn
+drawable algorithm_icon
+drawable android_logo
 drawable app_bar
 drawable app_bar_icon
 drawable app_bar_image
@@ -1762,6 +1764,7 @@ drawable background_doctor_profile
 drawable background_item_dactor_profile
 drawable background_item_doctor_profile_bottom
 drawable backk
+drawable backrectangle
 drawable bcak_splacsh
 drawable bg_otp_item
 drawable bg_pin
@@ -1871,6 +1874,7 @@ drawable ic_baseline_person_24
 drawable ic_baseline_person_pin_24
 drawable ic_baseline_wifi_24
 drawable ic_baseline_wifi_off_24
+drawable ic_flutter_icon
 drawable ic_icon_awesome_book
 drawable ic_icon_awesome_business_time
 drawable ic_icon_ionic_ios_paper
@@ -1914,6 +1918,7 @@ drawable messenger_button_blue_bg_selector
 drawable messenger_button_send_round_shadow
 drawable messenger_button_white_bg_round
 drawable messenger_button_white_bg_selector
+drawable ml_icon
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1942,6 +1947,7 @@ drawable open_button_course
 drawable pass_button
 drawable pass_or_fail_button
 drawable person
+drawable popular_courses_back
 drawable profile_bg
 drawable progress_drawable
 drawable public_exam
@@ -1980,6 +1986,7 @@ drawable upload_file_icon
 drawable user
 drawable warning_bg
 drawable warning_header
+drawable web_icon
 font arafont
 font oswaldregular
 font segoeui
@@ -2166,6 +2173,7 @@ id course_image
 id course_name
 id course_name_et
 id course_on_photo
+id course_profile_image
 id course_quiz_btn
 id course_quiz_layout
 id course_type
@@ -2423,6 +2431,8 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id popcourseImage
+id popcourseName
 id popular_courses_recycler_view
 id popular_trainers_recycler_view
 id position

@@ -27,12 +27,6 @@ public final class ActivityPopularCoursesBinding implements ViewBinding {
   public final LinearLayout btnSendRequest;
 
   @NonNull
-  public final ImageView courseImage;
-
-  @NonNull
-  public final TextView courseName;
-
-  @NonNull
   public final TextView courseType;
 
   @NonNull
@@ -41,18 +35,24 @@ public final class ActivityPopularCoursesBinding implements ViewBinding {
   @NonNull
   public final ImageView next;
 
+  @NonNull
+  public final ImageView popcourseImage;
+
+  @NonNull
+  public final TextView popcourseName;
+
   private ActivityPopularCoursesBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView backIv, @NonNull LinearLayout btnSendRequest,
-      @NonNull ImageView courseImage, @NonNull TextView courseName, @NonNull TextView courseType,
-      @NonNull TextView doctorName, @NonNull ImageView next) {
+      @NonNull ImageView backIv, @NonNull LinearLayout btnSendRequest, @NonNull TextView courseType,
+      @NonNull TextView doctorName, @NonNull ImageView next, @NonNull ImageView popcourseImage,
+      @NonNull TextView popcourseName) {
     this.rootView = rootView;
     this.backIv = backIv;
     this.btnSendRequest = btnSendRequest;
-    this.courseImage = courseImage;
-    this.courseName = courseName;
     this.courseType = courseType;
     this.doctorName = doctorName;
     this.next = next;
+    this.popcourseImage = popcourseImage;
+    this.popcourseName = popcourseName;
   }
 
   @Override
@@ -94,18 +94,6 @@ public final class ActivityPopularCoursesBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.course_image;
-      ImageView courseImage = rootView.findViewById(id);
-      if (courseImage == null) {
-        break missingId;
-      }
-
-      id = R.id.course_name;
-      TextView courseName = rootView.findViewById(id);
-      if (courseName == null) {
-        break missingId;
-      }
-
       id = R.id.course_type;
       TextView courseType = rootView.findViewById(id);
       if (courseType == null) {
@@ -124,8 +112,20 @@ public final class ActivityPopularCoursesBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.popcourseImage;
+      ImageView popcourseImage = rootView.findViewById(id);
+      if (popcourseImage == null) {
+        break missingId;
+      }
+
+      id = R.id.popcourseName;
+      TextView popcourseName = rootView.findViewById(id);
+      if (popcourseName == null) {
+        break missingId;
+      }
+
       return new ActivityPopularCoursesBinding((ConstraintLayout) rootView, backIv, btnSendRequest,
-          courseImage, courseName, courseType, doctorName, next);
+          courseType, doctorName, next, popcourseImage, popcourseName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
